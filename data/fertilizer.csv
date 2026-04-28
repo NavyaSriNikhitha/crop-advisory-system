@@ -1,0 +1,2201 @@
+Temperature,Humidity,Rainfall,pH,N,P,K,Soil,Crop,Fertilizer
+34.61,88.65,21.22,6.79,102.6,11.6,47.6,sandy,muskmelon,Good NPK
+26.51,80.17,49.11,6.36,114.4,8.7,48.5,clay loam,watermelon,DAP
+36.74,93.65,148.25,6.05,50.9,44.9,54.5,Clayey,papaya,Urea and DAP
+33.99,92.4,148.5,6.89,51.4,45.0,46.0,alluvial,papaya,Urea and DAP
+21.97,93.7,115.18,6.79,22.5,135.9,206.6,laterite,apple,DAP and MOP
+27.88,46.86,107.82,6.8,15.0,21.0,34.2,laterite,mango,Urea and DAP
+21.69,90.88,111.01,5.98,17.6,141.3,200.3,laterite,apple,DAP and MOP
+32.81,56.87,50.23,5.31,19.9,43.9,21.5,laterite,mothbeans,DAP and MOP
+34.75,85.74,57.97,6.51,21.0,69.6,22.7,clay loam,mungbean,Urea and DAP
+25.62,72.14,50.69,6.42,16.9,71.5,20.6,alluvial,lentil,DAP and MOP
+25.84,69.85,67.85,6.5,22.1,63.4,20.2,alluvial,blackgram,Good NPK
+24.12,90.24,173.21,6.84,4.1,5.6,5.1,sandy,coconut,Urea
+23.42,90.37,103.42,6.84,22.1,55.4,35.4,laterite,pomegranate,Urea and MOP
+24.97,83.59,195.77,6.17,60.3,43.0,44.9,Clayey,jute,Urea and DAP
+24.03,95.0,167.08,5.26,5.3,4.7,4.6,laterite,coconut,MOP
+19.53,94.57,111.36,5.67,19.7,58.5,36.4,laterite,pomegranate,Urea and MOP
+22.77,91.38,121.62,5.76,20.3,122.7,200.9,laterite,apple,DAP and MOP
+21.93,56.46,97.79,6.31,80.3,49.1,40.7,clay loam,maize,Good NPK
+35.19,91.17,150.74,6.41,54.8,50.7,54.0,Clayey,papaya,Urea and DAP
+36.34,88.09,23.48,6.41,112.1,10.0,48.1,alluvial,muskmelon,Good NPK
+24.62,55.49,156.62,6.48,106.5,28.4,26.8,laterite,coffee,Good NPK
+36.3,94.17,151.85,6.73,45.6,46.8,50.6,alluvial,papaya,Urea and DAP
+26.9,85.29,108.07,6.1,24.1,20.8,13.9,alluvial,orange,Good NPK
+33.16,90.23,141.32,6.34,45.2,51.0,54.5,alluvial,papaya,Urea and DAP
+20.1,25.57,74.02,6.21,37.8,63.0,78.1,alluvial,chickpea,DAP and MOP
+25.94,79.27,172.4,6.32,64.9,54.0,37.5,silty clay,jute,Urea and DAP
+33.12,80.82,54.71,6.9,22.9,73.1,17.7,alluvial,mungbean,Urea and DAP
+29.75,88.37,100.75,6.95,22.7,16.5,11.7,coastal,orange,Good NPK
+34.29,45.93,142.44,5.18,24.4,58.7,18.7,clay loam,pigeonpeas,Good NPK
+26.81,83.93,236.8,6.84,67.4,37.7,37.4,silty clay,rice,Urea and DAP
+18.23,93.22,100.79,5.89,19.2,59.6,37.0,laterite,pomegranate,Urea and MOP
+33.94,54.87,58.86,3.52,22.8,48.0,19.4,sandy,mothbeans,DAP and MOP
+25.67,80.42,179.5,6.54,79.8,48.6,37.7,silty clay,jute,Urea and DAP
+25.1,69.82,54.75,7.04,17.4,73.7,23.6,clay loam,lentil,DAP and MOP
+26.59,89.7,196.67,6.65,69.3,41.5,37.3,silty clay,jute,Urea and DAP
+28.23,65.44,68.57,6.33,19.6,61.1,15.4,alluvial,blackgram,Good NPK
+25.24,84.43,170.27,6.93,81.0,54.5,39.4,Clayey,jute,Urea and DAP
+15.33,19.82,97.82,7.47,33.4,65.1,74.0,sandy,chickpea,DAP and MOP
+20.98,25.77,102.32,8.0,38.7,56.8,68.3,sandy,chickpea,DAP and MOP
+18.62,23.94,119.08,5.52,24.4,68.4,21.8,clay loam,kidneybeans,DAP and MOP
+34.58,94.71,152.66,6.85,48.7,52.8,49.5,Clayey,papaya,Urea and DAP
+27.51,48.98,112.01,6.36,19.0,21.4,30.5,alluvial,mango,Urea and DAP
+26.74,63.61,65.71,6.46,19.5,69.2,22.3,laterite,blackgram,Good NPK
+21.22,59.83,86.03,7.45,87.7,45.8,48.2,alluvial,maize,Good NPK
+25.96,84.19,48.44,6.17,17.0,60.3,16.7,alluvial,mungbean,Urea and DAP
+20.43,55.86,108.1,6.56,87.4,47.1,41.1,sandy,maize,Good NPK
+29.09,58.86,147.75,5.22,17.8,69.3,15.1,alluvial,pigeonpeas,Good NPK
+26.06,90.8,154.02,7.94,4.3,4.3,4.9,laterite,coconut,Urea
+34.36,88.94,26.58,6.3,100.9,14.7,45.1,sandy,muskmelon,Good NPK
+21.4,67.55,88.82,6.67,77.0,49.7,46.2,clay loam,maize,Good NPK
+31.83,65.94,68.09,6.63,21.5,59.7,16.6,clay loam,blackgram,Good NPK
+23.18,62.92,158.72,6.44,100.0,26.8,29.6,laterite,coffee,Good NPK
+13.18,89.85,65.8,5.87,21.5,128.5,206.7,laterite,grapes,DAP and MOP
+25.73,87.44,49.69,7.07,22.1,61.2,17.4,sandy,mungbean,Urea and DAP
+25.16,61.41,147.25,6.47,96.1,27.1,29.8,laterite,coffee,Good NPK
+21.42,23.71,119.89,6.35,18.4,69.8,17.2,alluvial,kidneybeans,DAP and MOP
+23.77,78.64,82.9,7.16,132.3,43.0,15.1,Clayey,cotton,Urea and MOP
+23.37,94.09,115.1,5.94,24.2,136.4,201.5,laterite,apple,DAP and MOP
+26.78,76.19,103.91,6.91,100.3,68.0,52.1,alluvial,banana,Good NPK
+26.41,61.3,66.97,6.47,16.0,63.5,23.0,alluvial,blackgram,Good NPK
+27.25,86.75,51.94,6.63,99.2,11.9,48.4,sandy,watermelon,Urea and MOP
+26.1,90.81,150.35,5.08,5.5,4.6,4.8,laterite,coconut,DAP
+18.97,68.03,48.5,7.28,23.4,65.0,24.8,alluvial,lentil,DAP and MOP
+31.82,88.76,106.21,6.3,20.1,25.0,9.4,coastal,orange,MOP
+34.07,94.53,141.53,6.9,48.1,39.6,48.2,alluvial,papaya,Urea and DAP
+31.07,55.09,154.27,5.16,15.6,64.2,22.3,laterite,pigeonpeas,Good NPK
+29.9,93.12,103.55,6.29,19.8,20.7,12.9,clay loam,orange,Good NPK
+23.78,84.39,211.98,6.37,74.3,44.0,41.2,laterite,rice,Urea and DAP
+36.35,87.94,20.52,6.06,98.6,8.3,47.8,alluvial,muskmelon,DAP
+27.44,49.01,151.24,5.67,17.1,61.2,16.7,clay loam,pigeonpeas,Good NPK
+34.47,86.83,23.39,6.75,106.2,13.2,46.5,sandy,muskmelon,Good NPK
+24.42,94.62,174.42,5.96,5.9,4.0,4.5,sandy,coconut,DAP
+24.23,76.53,173.95,6.06,60.6,52.1,39.9,silty clay,jute,Urea and DAP
+34.3,77.59,108.33,6.37,103.1,60.8,47.7,Clayey,banana,Good NPK
+25.15,69.21,67.22,6.96,21.2,56.0,19.8,clay loam,blackgram,Good NPK
+33.01,91.62,154.57,6.22,50.3,37.3,50.5,sandy,papaya,Urea and DAP
+25.24,81.18,110.04,6.0,93.8,69.2,51.8,alluvial,banana,Good NPK
+26.76,82.42,93.36,7.39,132.0,58.4,19.5,clay loam,cotton,Urea and MOP
+25.83,85.14,58.89,6.71,98.7,9.7,47.7,clay loam,watermelon,DAP
+25.74,87.72,112.45,6.13,21.8,18.5,9.7,clay loam,orange,MOP
+27.22,58.61,162.15,6.13,96.2,30.8,28.5,clay loam,coffee,Good NPK
+21.16,17.01,96.35,6.71,34.1,66.1,76.0,alluvial,chickpea,DAP and MOP
+22.45,85.9,219.37,6.09,64.3,36.4,35.1,laterite,rice,Urea and DAP
+30.56,50.38,40.42,6.23,19.7,43.8,22.0,sandy,mothbeans,DAP and MOP
+27.33,91.38,108.11,6.46,15.0,17.6,12.3,coastal,orange,Good NPK
+29.02,54.09,109.23,6.78,24.3,21.0,31.6,alluvial,mango,Urea and DAP
+23.47,60.99,150.75,6.14,108.7,25.8,29.5,clay loam,coffee,Good NPK
+25.61,52.49,42.28,3.82,19.7,41.5,16.7,sandy,mothbeans,DAP and MOP
+26.03,66.57,66.69,6.86,24.2,60.3,24.0,laterite,blackgram,Good NPK
+23.02,94.98,101.69,5.53,18.3,67.1,44.3,clay loam,pomegranate,Urea and MOP
+19.15,60.96,84.5,7.09,86.4,46.1,48.5,clay loam,maize,Good NPK
+31.3,51.05,50.63,5.76,24.3,58.3,21.4,sandy,mothbeans,DAP and MOP
+29.92,80.94,92.53,6.8,131.0,55.7,18.6,clay loam,cotton,Urea and MOP
+33.2,94.73,154.14,7.0,54.4,54.3,54.7,alluvial,papaya,Urea and DAP
+28.13,57.74,154.88,5.18,22.9,60.6,16.4,alluvial,pigeonpeas,Good NPK
+30.22,46.02,59.14,4.04,17.7,54.6,18.7,laterite,mothbeans,DAP and MOP
+16.0,24.88,127.33,5.86,23.2,70.6,20.4,clay loam,kidneybeans,DAP and MOP
+24.57,64.86,160.0,6.23,95.2,31.2,29.1,laterite,coffee,Good NPK
+26.64,63.04,68.02,6.43,20.5,61.0,19.6,laterite,blackgram,Good NPK
+19.99,75.0,51.39,6.0,17.6,56.9,16.0,alluvial,lentil,DAP and MOP
+25.84,91.64,173.87,7.96,5.8,4.5,5.7,sandy,coconut,DAP
+24.24,82.29,235.63,6.51,69.0,36.3,44.5,laterite,rice,Urea and DAP
+30.28,89.28,114.3,6.96,20.4,19.4,13.1,alluvial,orange,Good NPK
+32.86,85.86,27.18,6.84,105.7,8.5,47.1,coastal,muskmelon,DAP
+29.99,87.81,51.04,6.29,95.8,9.2,54.2,alluvial,watermelon,DAP
+22.18,27.54,125.89,6.58,17.6,68.5,18.0,clay loam,kidneybeans,DAP and MOP
+27.4,89.51,45.22,6.6,110.0,11.5,52.1,sandy,watermelon,Urea and MOP
+30.31,75.78,112.19,5.74,94.9,61.3,47.8,alluvial,banana,Good NPK
+30.32,56.84,148.12,5.59,19.3,69.8,23.6,laterite,pigeonpeas,Good NPK
+30.75,48.1,46.24,5.01,16.3,53.4,22.3,alluvial,mothbeans,DAP and MOP
+33.83,82.92,108.67,6.28,98.6,70.4,50.6,Clayey,banana,Good NPK
+23.03,89.85,193.92,6.36,69.4,47.0,41.1,silty clay,jute,Urea and DAP
+25.81,84.39,82.38,7.21,128.5,44.8,20.4,Clayey,cotton,Urea and MOP
+20.15,91.39,110.39,6.46,21.2,70.6,40.0,laterite,pomegranate,Urea and MOP
+30.93,45.8,150.12,5.91,21.5,71.1,22.2,clay loam,pigeonpeas,Good NPK
+18.01,23.57,77.0,6.59,34.8,55.2,72.0,alluvial,chickpea,DAP and MOP
+23.97,57.67,84.46,7.42,81.6,51.3,40.1,alluvial,maize,Good NPK
+27.19,91.26,151.29,6.64,5.8,5.9,4.6,coastal,coconut,MOP
+23.51,90.99,111.04,6.98,20.3,70.3,35.1,alluvial,pomegranate,Urea and MOP
+26.91,81.5,214.28,6.39,60.5,38.8,43.1,silty clay,rice,Urea and DAP
+33.53,58.93,151.94,6.99,16.2,67.5,17.8,clay loam,pigeonpeas,Good NPK
+15.11,88.15,71.23,5.63,19.1,140.6,205.2,laterite,grapes,DAP and MOP
+29.35,62.93,66.33,6.32,15.3,67.8,15.8,laterite,blackgram,Good NPK
+25.43,91.16,151.55,5.61,5.0,4.8,4.3,sandy,coconut,MOP
+22.4,17.06,82.42,7.23,44.4,63.4,78.6,alluvial,chickpea,DAP and MOP
+26.06,65.06,74.36,6.72,16.6,69.0,22.6,alluvial,blackgram,Good NPK
+26.35,91.34,162.22,7.54,5.3,4.8,5.3,coastal,coconut,DAP
+23.85,60.47,94.43,6.62,79.1,50.2,46.4,clay loam,maize,Good NPK
+25.14,84.86,109.17,6.05,109.0,55.4,53.2,Clayey,banana,Good NPK
+25.93,51.16,44.44,3.99,16.3,50.3,16.9,sandy,mothbeans,DAP and MOP
+33.66,75.5,101.78,6.87,107.0,71.8,47.3,clay loam,banana,Good NPK
+18.83,21.68,113.07,5.77,23.6,66.5,15.8,alluvial,kidneybeans,DAP and MOP
+18.77,94.74,104.76,6.21,18.2,56.9,39.3,laterite,pomegranate,Urea and MOP
+19.39,23.81,74.63,7.89,34.5,62.4,71.5,sandy,chickpea,DAP and MOP
+26.9,93.39,176.09,6.4,4.1,4.3,5.5,coastal,coconut,Urea
+30.71,93.27,109.0,6.54,21.8,24.4,13.3,alluvial,orange,Good NPK
+27.83,56.8,147.7,5.79,23.8,62.7,19.9,clay loam,pigeonpeas,Good NPK
+27.92,85.58,104.55,6.6,114.0,67.5,47.6,Clayey,banana,Good NPK
+27.26,75.38,112.16,6.58,93.5,67.2,46.8,Clayey,banana,Good NPK
+23.62,94.99,122.63,5.87,24.2,142.9,209.8,clay loam,apple,DAP and MOP
+15.89,22.88,112.23,5.62,22.7,71.9,21.1,clay loam,kidneybeans,DAP and MOP
+30.46,93.67,20.44,6.44,110.2,14.1,51.6,coastal,muskmelon,Good NPK
+33.15,88.77,58.43,7.16,19.5,69.8,21.9,clay loam,mungbean,Urea and DAP
+25.85,53.23,52.14,4.64,24.6,51.3,20.1,laterite,mothbeans,DAP and MOP
+25.49,91.78,149.83,5.46,6.0,5.8,4.8,laterite,coconut,MOP
+18.59,59.73,103.72,6.58,83.9,48.4,47.2,sandy,maize,Good NPK
+22.88,91.88,120.64,5.71,23.5,129.5,206.1,clay loam,apple,DAP and MOP
+24.01,90.59,169.67,5.3,5.1,5.0,4.0,sandy,coconut,MOP
+22.08,18.62,100.24,5.72,17.9,64.4,23.9,alluvial,kidneybeans,DAP and MOP
+34.0,56.88,53.59,5.53,17.9,50.5,22.0,alluvial,mothbeans,DAP and MOP
+32.76,83.93,45.21,6.21,17.5,73.8,18.0,alluvial,mungbean,Urea and DAP
+19.9,73.19,51.56,6.23,21.1,63.1,21.8,sandy,lentil,DAP and MOP
+27.72,82.32,56.36,6.0,99.5,12.5,52.6,sandy,watermelon,Urea and MOP
+27.04,87.69,56.31,6.64,24.8,59.2,16.3,alluvial,mungbean,Urea and DAP
+28.71,58.81,148.07,6.17,22.4,65.4,15.7,alluvial,pigeonpeas,Good NPK
+25.56,53.53,143.16,6.3,22.0,67.2,17.0,laterite,pigeonpeas,Good NPK
+32.25,46.67,144.22,6.22,19.5,59.7,15.5,laterite,pigeonpeas,Good NPK
+21.38,25.41,124.87,6.29,16.2,58.1,16.7,clay loam,kidneybeans,DAP and MOP
+24.34,63.97,82.28,6.42,76.9,48.5,44.1,alluvial,maize,Good NPK
+24.46,84.72,182.34,6.23,61.8,48.8,43.9,silty clay,jute,Urea and DAP
+19.5,17.5,67.73,6.24,42.6,65.7,74.5,sandy,chickpea,DAP and MOP
+21.5,90.17,123.55,6.08,18.8,139.7,200.3,alluvial,apple,DAP and MOP
+28.84,87.16,102.82,6.63,21.8,18.5,10.5,alluvial,orange,Good NPK
+23.94,83.48,93.97,7.19,115.9,48.5,23.6,clay loam,cotton,Urea and MOP
+26.01,84.29,247.91,6.63,75.5,38.4,44.3,Clayey,rice,Urea and DAP
+24.51,94.56,154.0,7.55,5.1,5.3,4.6,coastal,coconut,MOP
+10.81,86.38,65.33,5.51,21.0,137.2,195.3,clay loam,grapes,DAP and MOP
+18.79,73.81,52.07,6.16,19.2,66.2,15.1,alluvial,lentil,DAP and MOP
+29.3,85.77,57.31,6.35,108.4,8.5,51.6,clay loam,watermelon,DAP
+11.03,85.68,74.32,6.75,21.0,124.4,199.6,laterite,grapes,DAP and MOP
+11.61,89.49,67.85,6.67,24.2,133.7,203.7,alluvial,grapes,DAP and MOP
+32.51,67.46,73.78,5.72,19.4,65.5,17.0,alluvial,blackgram,Good NPK
+19.05,94.94,110.31,6.34,20.9,56.8,39.3,clay loam,pomegranate,Urea and MOP
+22.9,18.87,81.12,6.16,47.6,72.4,77.1,alluvial,chickpea,DAP and MOP
+24.12,92.49,161.35,6.3,4.2,5.3,4.6,coastal,coconut,Urea
+21.42,60.98,96.01,6.66,79.6,45.3,43.4,clay loam,maize,Good NPK
+27.97,69.3,54.07,6.64,15.6,66.0,23.4,sandy,lentil,DAP and MOP
+8.3,84.7,66.16,6.93,18.3,122.7,197.2,clay loam,grapes,DAP and MOP
+29.96,82.32,51.9,6.62,111.9,12.8,51.8,sandy,watermelon,Urea and MOP
+25.89,80.9,190.36,6.22,83.1,40.8,39.8,Clayey,jute,Urea and DAP
+26.54,56.36,159.72,6.41,111.1,34.8,33.0,laterite,coffee,Good NPK
+27.78,60.8,151.75,6.34,107.0,26.9,32.8,alluvial,coffee,Good NPK
+21.67,19.63,123.15,6.35,22.2,59.9,21.4,clay loam,kidneybeans,DAP and MOP
+26.49,82.76,184.89,6.14,74.9,50.8,39.5,silty clay,jute,Urea and DAP
+32.8,45.24,40.8,5.96,21.9,56.5,20.6,sandy,mothbeans,DAP and MOP
+19.63,27.81,125.91,6.23,23.8,73.9,16.5,sandy,kidneybeans,DAP and MOP
+26.54,88.83,110.98,6.64,94.0,73.1,50.2,Clayey,banana,Good NPK
+15.21,20.69,108.07,6.28,18.8,63.3,22.5,clay loam,kidneybeans,DAP and MOP
+24.83,95.67,178.79,5.06,4.5,5.5,4.5,coastal,coconut,Urea
+35.77,93.33,150.31,6.93,50.1,35.6,51.5,sandy,papaya,Urea and DAP
+36.27,93.28,141.49,6.59,52.2,47.2,47.9,Clayey,papaya,Urea and DAP
+30.46,82.04,59.97,6.44,21.3,58.7,22.5,alluvial,mungbean,Urea and DAP
+29.58,51.59,92.25,7.33,16.2,22.6,34.3,laterite,mango,Urea and DAP
+20.03,92.37,113.03,6.42,19.4,55.9,40.4,alluvial,pomegranate,Urea and MOP
+25.01,89.72,59.72,6.62,106.8,13.8,47.4,sandy,watermelon,Urea and MOP
+18.77,23.52,101.38,6.71,21.0,71.7,22.8,clay loam,kidneybeans,DAP and MOP
+19.41,58.52,87.66,7.43,73.2,46.9,47.3,sandy,maize,Good NPK
+21.87,93.14,119.18,6.35,15.5,125.3,196.1,alluvial,apple,DAP and MOP
+30.03,62.58,65.14,6.55,19.0,74.7,20.4,laterite,blackgram,Good NPK
+15.07,14.92,70.25,6.45,48.1,73.2,76.7,sandy,chickpea,DAP and MOP
+14.29,89.22,74.02,6.06,20.1,143.9,202.2,clay loam,grapes,DAP and MOP
+15.13,83.07,74.33,5.55,21.8,126.6,205.3,laterite,grapes,DAP and MOP
+33.01,84.07,107.42,5.8,114.7,62.8,45.5,clay loam,banana,Good NPK
+27.14,82.16,92.54,7.78,118.0,55.7,18.3,Clayey,cotton,Urea and MOP
+22.36,86.56,241.35,6.08,67.5,35.4,41.2,silty clay,rice,Urea and DAP
+21.56,92.69,101.09,5.51,18.8,70.1,38.1,laterite,pomegranate,Urea and MOP
+33.3,86.55,58.27,6.62,22.0,58.9,19.5,sandy,mungbean,Urea and DAP
+30.24,87.09,109.63,6.03,100.2,71.5,47.3,clay loam,banana,Good NPK
+26.49,86.54,198.89,6.82,84.0,41.0,39.3,Clayey,jute,Urea and DAP
+28.92,89.48,60.27,6.21,18.5,55.9,16.8,alluvial,mungbean,Urea and DAP
+18.2,59.03,99.0,6.58,87.9,53.0,44.3,clay loam,maize,Good NPK
+17.54,14.5,69.25,7.48,44.8,71.1,77.7,clay loam,chickpea,DAP and MOP
+22.31,21.44,87.49,6.12,49.9,68.2,73.4,sandy,chickpea,DAP and MOP
+22.87,19.05,82.5,7.38,45.7,72.8,79.3,sandy,chickpea,DAP and MOP
+22.32,90.3,118.48,6.62,20.8,141.4,209.6,laterite,apple,DAP and MOP
+20.59,87.01,253.97,5.61,75.2,41.2,36.0,silty clay,rice,Urea and DAP
+18.13,25.89,113.01,6.84,18.6,60.4,23.4,alluvial,kidneybeans,DAP and MOP
+36.65,91.38,145.76,6.71,49.8,41.2,47.9,Clayey,papaya,Urea and DAP
+27.93,58.02,148.31,6.02,108.0,34.7,30.1,laterite,coffee,Good NPK
+34.61,69.03,65.97,6.55,16.0,55.3,21.2,alluvial,blackgram,Good NPK
+20.3,20.42,120.39,6.25,19.5,57.7,24.6,alluvial,kidneybeans,DAP and MOP
+31.84,52.92,91.98,6.09,21.6,19.2,34.7,alluvial,mango,Urea and DAP
+27.53,50.05,93.3,5.56,18.9,20.0,29.6,laterite,mango,Urea and DAP
+27.63,95.75,179.65,5.08,4.1,4.6,5.4,sandy,coconut,Urea
+34.81,90.85,145.91,6.87,51.9,53.2,50.0,sandy,papaya,Urea and DAP
+22.45,90.45,113.59,5.69,22.9,130.4,196.4,clay loam,apple,DAP and MOP
+20.18,16.4,85.49,7.47,42.7,67.3,66.0,sandy,chickpea,DAP and MOP
+23.77,93.0,101.64,6.71,19.0,68.6,39.2,alluvial,pomegranate,Urea and MOP
+24.72,19.3,72.84,6.96,30.9,57.8,69.2,clay loam,chickpea,DAP and MOP
+33.84,91.71,20.91,6.99,109.5,15.2,53.0,alluvial,muskmelon,Good NPK
+23.34,91.45,120.01,5.92,15.7,136.8,210.0,clay loam,apple,DAP and MOP
+34.46,85.35,26.42,6.89,97.3,15.7,48.7,sandy,muskmelon,Good NPK
+31.92,87.79,26.83,6.93,97.9,12.5,48.2,sandy,muskmelon,Good NPK
+32.91,48.74,91.18,6.63,21.2,16.0,34.5,laterite,mango,Urea and DAP
+30.21,48.92,107.56,6.65,17.4,20.6,25.2,laterite,mango,Urea and DAP
+25.56,78.76,81.16,7.01,130.1,53.9,19.9,Clayey,cotton,Urea and MOP
+25.29,92.11,179.51,5.19,4.4,5.1,4.6,coastal,coconut,Urea
+23.01,90.22,113.35,5.85,16.3,62.1,40.9,laterite,pomegranate,Urea and MOP
+23.25,86.5,265.42,5.57,75.3,43.1,38.5,silty clay,rice,Urea and DAP
+32.72,91.98,22.02,6.43,102.1,11.9,51.0,alluvial,muskmelon,Good NPK
+23.77,57.43,148.02,6.49,102.5,32.4,29.9,clay loam,coffee,Good NPK
+36.53,91.92,148.66,6.25,48.3,37.8,48.7,Clayey,papaya,Urea and DAP
+27.71,47.91,40.15,4.92,23.5,59.0,23.8,laterite,mothbeans,DAP and MOP
+21.64,59.91,104.24,6.84,81.3,52.4,48.8,alluvial,maize,Good NPK
+34.68,52.03,100.42,5.77,17.4,21.3,28.0,alluvial,mango,Urea and DAP
+33.52,88.57,29.64,6.97,96.6,10.4,47.2,alluvial,muskmelon,Good NPK
+29.11,46.95,145.41,5.04,25.0,59.8,15.4,clay loam,pigeonpeas,Good NPK
+33.78,89.53,53.91,7.13,24.8,67.1,20.0,sandy,mungbean,Urea and DAP
+24.49,60.77,154.83,6.27,112.7,27.7,27.4,alluvial,coffee,Good NPK
+16.68,82.17,68.7,6.57,20.7,140.6,203.4,clay loam,grapes,DAP and MOP
+24.86,91.12,171.17,6.36,4.4,5.6,5.9,laterite,coconut,Urea
+24.88,78.75,94.26,7.76,119.9,55.0,15.2,alluvial,cotton,Urea and MOP
+33.04,56.59,141.0,6.1,21.6,64.7,15.1,alluvial,pigeonpeas,Good NPK
+24.1,87.26,214.01,6.64,70.7,42.5,44.1,Clayey,rice,Urea and DAP
+21.08,90.07,113.77,5.69,16.8,131.8,204.7,clay loam,apple,DAP and MOP
+21.05,92.64,111.03,6.72,21.3,64.0,36.9,clay loam,pomegranate,Urea and MOP
+26.5,63.28,162.65,6.4,95.9,34.0,30.4,laterite,coffee,Good NPK
+21.52,26.97,99.38,7.23,32.5,72.3,68.7,alluvial,chickpea,DAP and MOP
+23.07,81.74,87.66,6.85,118.5,55.5,20.1,clay loam,cotton,Urea and MOP
+23.73,89.61,161.77,6.51,71.0,52.0,35.9,Clayey,jute,Urea and DAP
+26.15,54.97,98.71,6.35,20.2,18.8,30.6,laterite,mango,Urea and DAP
+33.69,83.52,101.01,6.16,105.1,68.8,48.8,clay loam,banana,Good NPK
+33.85,92.9,150.93,6.48,52.3,48.5,48.4,sandy,papaya,Urea and DAP
+21.83,90.52,115.21,5.61,18.8,120.0,201.7,clay loam,apple,DAP and MOP
+21.16,16.51,69.43,6.09,39.7,73.4,72.8,alluvial,chickpea,DAP and MOP
+21.43,87.14,247.92,6.24,74.1,42.8,36.4,silty clay,rice,Urea and DAP
+25.67,54.72,145.63,5.15,18.9,65.8,24.7,alluvial,pigeonpeas,Good NPK
+26.2,53.77,47.56,6.41,19.1,58.7,17.5,alluvial,mothbeans,DAP and MOP
+33.46,81.83,52.53,7.43,18.7,70.0,24.0,sandy,mungbean,Urea and DAP
+23.85,76.21,196.74,6.98,65.1,54.2,35.8,alluvial,jute,Urea and DAP
+18.66,93.61,112.75,5.73,23.1,71.2,36.9,clay loam,pomegranate,Urea and MOP
+15.91,88.13,68.39,6.5,22.2,135.4,195.7,laterite,grapes,DAP and MOP
+33.98,46.26,42.0,4.68,16.7,48.4,22.6,sandy,mothbeans,DAP and MOP
+26.19,75.52,160.92,6.7,78.1,46.7,35.6,Clayey,jute,Urea and DAP
+21.45,62.78,84.99,5.59,73.5,54.1,44.2,clay loam,maize,Good NPK
+26.37,93.24,162.97,6.48,5.4,5.1,4.4,coastal,coconut,MOP
+18.8,56.55,100.65,6.67,82.8,47.2,41.8,sandy,maize,Good NPK
+19.07,28.26,66.59,6.01,39.5,74.7,69.0,alluvial,chickpea,DAP and MOP
+26.34,79.66,110.36,6.42,104.0,64.5,52.9,Clayey,banana,Good NPK
+25.7,86.85,261.98,5.74,74.0,40.4,38.1,Clayey,rice,Urea and DAP
+25.4,91.64,177.67,6.73,4.2,4.8,5.3,laterite,coconut,Urea
+26.37,85.8,168.02,6.83,72.2,40.6,41.6,alluvial,jute,Urea and DAP
+26.58,50.94,94.1,6.69,15.4,21.2,33.3,sandy,mango,Urea and DAP
+28.85,87.2,27.16,6.01,113.3,13.7,52.2,alluvial,muskmelon,Good NPK
+22.88,90.15,123.87,6.95,19.3,133.2,200.4,laterite,apple,DAP and MOP
+34.04,89.53,111.85,6.99,106.2,59.2,46.5,Clayey,banana,Good NPK
+33.57,55.1,153.28,5.82,24.5,70.5,21.1,clay loam,pigeonpeas,Good NPK
+34.75,64.11,70.77,6.17,18.2,58.8,18.1,laterite,blackgram,Good NPK
+31.45,85.06,100.37,6.7,24.2,18.4,15.3,clay loam,orange,Good NPK
+20.73,28.92,84.17,7.15,33.1,59.5,79.4,sandy,chickpea,DAP and MOP
+26.89,85.63,54.59,6.59,101.4,9.8,53.8,sandy,watermelon,DAP
+28.87,84.71,100.81,5.57,103.4,65.9,51.5,Clayey,banana,Good NPK
+21.31,92.07,120.83,6.78,25.0,138.3,198.4,clay loam,apple,DAP and MOP
+20.36,15.55,95.25,6.9,33.5,68.8,68.0,sandy,chickpea,DAP and MOP
+27.54,59.41,163.61,6.37,105.6,33.9,28.8,laterite,coffee,Good NPK
+25.45,50.25,145.69,6.86,22.1,62.5,18.7,laterite,pigeonpeas,Good NPK
+24.18,91.03,105.7,6.84,23.6,16.6,11.9,clay loam,orange,Good NPK
+23.41,93.56,115.05,6.05,19.0,137.7,202.6,laterite,apple,DAP and MOP
+26.74,90.16,156.83,7.7,4.4,5.3,5.4,sandy,coconut,Urea
+36.58,92.91,140.32,6.96,52.5,41.5,51.7,alluvial,papaya,Urea and DAP
+26.24,83.33,54.11,6.18,113.9,11.2,47.2,clay loam,watermelon,Urea and MOP
+32.62,52.61,59.7,5.41,16.2,43.4,18.5,alluvial,mothbeans,DAP and MOP
+33.96,92.87,152.31,6.33,47.8,40.0,47.3,Clayey,papaya,Urea and DAP
+21.8,17.69,72.61,6.91,42.8,60.4,73.9,alluvial,chickpea,DAP and MOP
+23.22,92.56,107.46,6.1,18.3,71.4,35.4,alluvial,pomegranate,Urea and MOP
+20.37,27.67,98.33,6.1,38.9,64.5,73.9,sandy,chickpea,DAP and MOP
+33.04,94.94,145.48,6.66,50.5,44.6,45.5,sandy,papaya,Urea and DAP
+24.74,65.65,47.4,6.93,20.4,64.2,24.5,alluvial,lentil,DAP and MOP
+21.93,90.98,116.8,6.32,24.1,144.2,207.7,laterite,apple,DAP and MOP
+23.29,90.1,107.11,6.63,22.6,57.7,37.3,clay loam,pomegranate,Urea and MOP
+22.65,16.8,80.95,7.01,48.5,64.7,74.1,sandy,chickpea,DAP and MOP
+32.34,49.11,100.18,6.21,17.0,24.6,30.1,alluvial,mango,Urea and DAP
+21.67,14.17,75.43,6.51,45.6,59.6,79.6,sandy,chickpea,DAP and MOP
+20.36,91.71,104.12,6.75,21.3,62.0,37.9,alluvial,pomegranate,Urea and MOP
+29.09,89.93,59.05,6.68,99.3,8.6,53.9,clay loam,watermelon,DAP
+19.93,22.04,117.85,6.3,15.2,57.5,19.1,alluvial,kidneybeans,DAP and MOP
+31.43,86.01,52.25,7.04,17.0,59.7,18.0,sandy,mungbean,Urea and DAP
+35.4,87.52,26.46,6.26,98.7,15.5,54.8,sandy,muskmelon,Good NPK
+25.96,84.42,52.41,6.65,100.5,9.0,50.6,sandy,watermelon,DAP
+18.0,21.26,113.84,6.69,17.1,70.6,22.3,sandy,kidneybeans,DAP and MOP
+35.77,87.28,23.84,6.02,110.1,15.2,54.2,sandy,muskmelon,Good NPK
+31.08,48.94,94.21,6.03,19.3,20.5,31.8,laterite,mango,Urea and DAP
+23.94,86.96,234.4,5.71,64.0,44.0,39.8,laterite,rice,Urea and DAP
+29.43,63.21,71.88,6.29,18.5,72.9,24.7,clay loam,blackgram,Good NPK
+18.85,21.8,103.02,7.3,34.7,65.2,66.6,alluvial,chickpea,DAP and MOP
+34.75,86.42,100.07,6.14,98.5,58.4,50.8,alluvial,banana,Good NPK
+34.62,69.64,69.8,5.93,22.1,63.6,18.1,alluvial,blackgram,Good NPK
+28.71,56.78,154.08,5.51,21.0,66.5,20.6,clay loam,pigeonpeas,Good NPK
+35.25,94.3,144.89,6.13,54.4,47.8,48.6,Clayey,papaya,Urea and DAP
+28.83,57.33,151.94,6.32,16.9,56.5,22.0,laterite,pigeonpeas,Good NPK
+29.83,89.87,49.97,7.13,22.8,64.2,24.9,alluvial,mungbean,Urea and DAP
+27.64,93.02,165.95,5.81,5.1,4.4,4.6,coastal,coconut,DAP
+23.1,82.33,85.16,7.19,119.0,56.4,19.1,alluvial,cotton,Urea and MOP
+10.31,83.8,71.63,6.81,16.5,124.7,207.9,clay loam,grapes,DAP and MOP
+21.23,90.14,121.22,6.83,18.1,137.4,209.3,clay loam,apple,DAP and MOP
+21.32,72.44,46.3,6.3,22.5,72.9,22.6,alluvial,lentil,DAP and MOP
+28.64,86.35,110.4,5.89,92.4,73.5,50.7,Clayey,banana,Good NPK
+24.19,83.54,178.49,6.66,75.4,46.4,36.3,silty clay,jute,Urea and DAP
+21.38,90.02,118.25,6.52,20.2,141.5,202.4,alluvial,apple,DAP and MOP
+18.74,90.74,101.08,5.54,19.5,72.9,36.3,laterite,pomegranate,Urea and MOP
+22.01,91.47,121.95,6.81,21.8,131.8,208.5,alluvial,apple,DAP and MOP
+31.03,80.8,63.65,7.02,15.2,74.3,18.8,sandy,mungbean,Urea and DAP
+36.77,94.28,27.54,6.53,95.6,11.5,50.7,sandy,muskmelon,Good NPK
+27.69,62.89,157.17,6.48,114.1,27.4,29.7,alluvial,coffee,Good NPK
+26.76,56.71,156.03,6.41,111.3,30.0,34.6,clay loam,coffee,Good NPK
+31.13,54.57,150.71,5.48,22.2,55.2,20.9,clay loam,pigeonpeas,Good NPK
+23.67,83.63,186.41,6.46,74.3,53.2,37.0,Clayey,jute,Urea and DAP
+19.88,19.3,111.11,6.75,19.0,61.3,16.5,alluvial,kidneybeans,DAP and MOP
+25.92,79.9,104.19,6.16,90.2,64.6,45.2,clay loam,banana,Good NPK
+19.49,57.79,89.96,7.17,88.2,46.2,42.4,alluvial,maize,Good NPK
+26.84,86.98,167.99,6.46,66.3,45.0,38.4,silty clay,jute,Urea and DAP
+19.19,68.51,100.5,6.88,74.4,51.5,44.2,alluvial,maize,Good NPK
+32.23,53.03,152.32,6.67,21.9,60.1,15.1,alluvial,pigeonpeas,Good NPK
+32.11,47.96,113.61,6.66,17.9,18.6,34.4,sandy,mango,Urea and DAP
+22.01,25.27,128.41,6.34,18.4,74.6,23.6,alluvial,kidneybeans,DAP and MOP
+20.63,94.31,102.36,6.35,18.2,69.9,44.7,clay loam,pomegranate,Urea and MOP
+26.2,86.02,50.48,6.61,95.0,11.0,53.2,sandy,watermelon,Urea and MOP
+28.23,68.19,73.6,6.3,16.3,70.3,17.1,clay loam,blackgram,Good NPK
+20.14,56.49,101.67,5.99,86.0,46.8,46.5,alluvial,maize,Good NPK
+23.76,84.6,216.03,6.38,64.2,40.8,38.4,Clayey,rice,Urea and DAP
+28.78,47.15,49.28,3.56,22.7,40.1,15.0,alluvial,mothbeans,DAP and MOP
+24.85,25.54,117.72,6.09,18.7,73.0,23.1,alluvial,kidneybeans,DAP and MOP
+26.35,47.91,110.28,5.79,22.9,18.2,32.2,alluvial,mango,Urea and DAP
+24.34,77.73,87.02,7.28,115.7,50.3,21.1,clay loam,cotton,Urea and MOP
+37.36,91.36,149.85,6.08,54.1,51.6,46.6,alluvial,papaya,Urea and DAP
+33.5,47.94,59.27,3.88,17.8,48.9,21.2,laterite,mothbeans,DAP and MOP
+24.46,81.27,93.21,6.16,132.2,44.0,23.8,alluvial,cotton,Urea and MOP
+30.47,88.9,54.44,6.39,15.6,73.6,15.5,sandy,mungbean,Urea and DAP
+26.87,89.25,113.08,6.64,20.6,19.1,13.7,coastal,orange,Good NPK
+26.65,81.91,195.21,6.04,64.1,41.1,41.6,alluvial,jute,Urea and DAP
+30.14,65.39,72.68,5.88,15.9,68.6,23.8,clay loam,blackgram,Good NPK
+29.73,83.78,53.26,6.78,22.1,58.9,19.7,alluvial,mungbean,Urea and DAP
+27.99,57.82,154.01,6.29,108.1,33.5,34.4,alluvial,coffee,Good NPK
+32.04,84.76,112.94,6.95,99.0,55.2,51.3,Clayey,banana,Good NPK
+28.54,57.43,144.62,6.58,20.2,65.7,18.6,clay loam,pigeonpeas,Good NPK
+35.27,92.46,142.78,6.38,47.2,48.5,46.0,Clayey,papaya,Urea and DAP
+23.04,93.03,122.91,6.35,16.8,138.1,207.2,clay loam,apple,DAP and MOP
+18.13,93.0,112.38,6.54,22.5,74.4,42.8,alluvial,pomegranate,Urea and MOP
+24.44,68.64,87.13,5.86,82.6,52.3,41.3,alluvial,maize,Good NPK
+27.82,49.44,111.83,5.84,17.9,15.2,27.2,alluvial,mango,Urea and DAP
+27.02,91.33,179.29,5.08,4.9,4.2,4.2,sandy,coconut,DAP
+21.95,93.96,121.44,5.7,16.6,127.3,205.2,clay loam,apple,DAP and MOP
+19.98,69.38,49.29,6.82,16.9,72.8,19.3,clay loam,lentil,DAP and MOP
+25.73,78.79,185.84,6.39,60.8,55.0,36.0,alluvial,jute,Urea and DAP
+30.7,48.15,40.5,5.73,16.6,49.4,20.5,alluvial,mothbeans,DAP and MOP
+19.98,66.44,51.22,8.0,22.1,60.0,21.6,alluvial,lentil,DAP and MOP
+24.9,93.68,170.69,6.88,5.1,5.6,5.2,coastal,coconut,Urea
+25.04,69.99,72.87,6.7,21.7,56.0,16.1,laterite,blackgram,Good NPK
+26.17,89.9,179.58,6.97,65.2,48.2,44.9,Clayey,jute,Urea and DAP
+31.25,88.08,51.7,6.1,24.4,73.4,23.9,clay loam,mungbean,Urea and DAP
+25.06,82.53,87.47,6.44,134.9,47.7,24.1,alluvial,cotton,Urea and MOP
+29.07,89.11,46.92,6.82,112.5,10.9,45.5,alluvial,watermelon,Urea and MOP
+21.3,93.77,116.65,5.91,17.6,120.1,202.4,laterite,apple,DAP and MOP
+11.99,86.33,65.8,6.79,23.1,126.1,204.2,clay loam,grapes,DAP and MOP
+26.06,92.08,178.29,7.02,5.8,4.8,4.1,sandy,coconut,MOP
+11.64,81.62,74.27,6.55,16.3,141.9,202.7,clay loam,grapes,DAP and MOP
+27.12,88.58,58.33,6.39,107.5,14.2,52.8,clay loam,watermelon,Urea and MOP
+21.97,89.5,221.01,6.84,71.7,44.0,35.5,Clayey,rice,Urea and DAP
+25.64,47.21,103.65,6.52,16.7,21.5,25.3,sandy,mango,Urea and DAP
+34.81,52.59,106.1,6.52,20.7,24.0,28.9,alluvial,mango,Urea and DAP
+25.99,56.42,162.26,6.32,100.1,26.5,28.5,clay loam,coffee,Good NPK
+21.93,91.2,112.31,5.92,20.1,56.5,38.1,clay loam,pomegranate,Urea and MOP
+26.42,78.21,110.25,5.66,99.2,64.7,48.1,Clayey,banana,Good NPK
+11.6,83.66,71.66,6.34,19.8,128.4,197.3,alluvial,grapes,DAP and MOP
+25.23,82.41,170.09,6.41,60.8,44.2,40.3,silty clay,jute,Urea and DAP
+26.91,86.94,104.13,7.12,24.8,16.6,12.8,coastal,orange,Good NPK
+29.23,79.72,82.1,7.49,132.4,55.5,15.8,clay loam,cotton,Urea and MOP
+32.64,45.18,92.16,7.37,18.2,15.4,26.4,alluvial,mango,Urea and DAP
+35.84,92.79,154.94,6.85,53.4,42.3,45.7,Clayey,papaya,Urea and DAP
+32.4,89.7,21.05,6.77,103.8,12.1,48.8,coastal,muskmelon,Good NPK
+29.83,56.66,54.49,5.52,21.2,56.1,23.4,alluvial,mothbeans,DAP and MOP
+26.59,79.33,197.57,6.25,78.8,46.9,39.3,silty clay,jute,Urea and DAP
+23.69,21.57,72.14,7.07,38.5,58.1,68.5,sandy,chickpea,DAP and MOP
+31.65,52.51,40.47,5.43,19.3,48.9,21.2,laterite,mothbeans,DAP and MOP
+18.75,90.65,114.2,6.34,21.7,65.9,43.3,clay loam,pomegranate,Urea and MOP
+29.54,84.17,45.36,6.96,114.0,10.7,48.3,alluvial,watermelon,Urea and MOP
+25.97,47.65,48.88,6.46,17.4,41.9,18.1,sandy,mothbeans,DAP and MOP
+26.5,82.47,81.25,7.13,116.0,53.7,17.5,clay loam,cotton,Urea and MOP
+37.53,94.99,140.82,6.16,48.6,38.4,46.1,alluvial,papaya,Urea and DAP
+26.91,89.06,47.21,6.84,96.6,12.7,54.5,sandy,watermelon,Urea and MOP
+25.91,49.78,42.57,3.81,19.2,58.2,17.4,sandy,mothbeans,DAP and MOP
+20.96,83.41,263.22,5.67,73.8,38.9,44.4,silty clay,rice,Urea and DAP
+26.55,94.14,160.73,7.0,5.6,5.1,5.8,sandy,coconut,DAP
+29.03,52.79,42.7,6.49,16.4,48.3,20.5,laterite,mothbeans,DAP and MOP
+33.91,53.95,48.59,5.93,15.2,57.2,20.8,alluvial,mothbeans,DAP and MOP
+21.42,57.96,85.84,6.46,71.4,54.5,46.5,alluvial,maize,Good NPK
+24.88,86.29,246.16,6.82,76.3,37.8,36.2,Clayey,rice,Urea and DAP
+25.11,64.88,96.66,6.5,89.5,48.4,41.8,alluvial,maize,Good NPK
+25.9,93.92,151.48,5.44,5.3,4.2,4.4,coastal,coconut,DAP
+31.21,91.4,110.24,6.26,19.0,17.1,12.2,coastal,orange,Good NPK
+18.97,94.48,103.75,6.53,20.4,60.6,35.6,alluvial,pomegranate,Urea and MOP
+17.95,22.86,101.31,6.37,16.4,55.2,19.2,alluvial,kidneybeans,DAP and MOP
+24.03,89.85,58.43,6.88,112.9,13.2,51.7,sandy,watermelon,Urea and MOP
+26.2,80.68,63.58,7.09,23.4,69.8,16.7,alluvial,mungbean,Urea and DAP
+26.27,68.67,66.27,6.39,17.4,69.3,23.7,clay loam,blackgram,Good NPK
+22.84,85.71,249.05,6.61,66.6,39.3,37.5,laterite,rice,Urea and DAP
+25.41,85.2,229.67,6.78,62.3,41.7,40.2,Clayey,rice,Urea and DAP
+27.22,76.85,86.13,6.55,130.6,43.8,21.9,clay loam,cotton,Urea and MOP
+27.97,83.3,93.58,7.27,120.3,41.2,15.3,Clayey,cotton,Urea and MOP
+27.93,49.98,140.62,5.59,15.9,60.7,19.2,clay loam,pigeonpeas,Good NPK
+25.28,86.58,109.93,6.25,16.8,23.0,11.7,coastal,orange,Good NPK
+32.21,62.57,65.28,6.58,17.7,73.2,21.3,alluvial,blackgram,Good NPK
+25.19,72.45,48.31,7.03,17.9,66.7,20.9,sandy,lentil,DAP and MOP
+29.47,79.65,104.85,6.22,110.1,67.3,52.5,alluvial,banana,Good NPK
+29.25,49.17,102.25,6.83,24.8,16.4,29.3,alluvial,mango,Urea and DAP
+18.16,66.95,107.36,6.09,73.1,49.5,45.3,alluvial,maize,Good NPK
+21.85,94.06,121.34,5.68,23.9,125.0,206.2,clay loam,apple,DAP and MOP
+21.34,94.34,112.5,6.75,21.1,55.8,44.0,clay loam,pomegranate,Urea and MOP
+31.39,54.53,97.72,5.7,21.9,22.6,30.3,sandy,mango,Urea and DAP
+25.39,79.33,82.52,6.29,130.3,57.7,22.0,alluvial,cotton,Urea and MOP
+28.88,81.38,62.14,7.11,15.2,62.2,18.3,clay loam,mungbean,Urea and DAP
+25.76,50.42,148.78,5.18,17.5,70.6,16.0,alluvial,pigeonpeas,Good NPK
+18.62,19.35,65.97,6.05,41.4,66.8,67.8,alluvial,chickpea,DAP and MOP
+23.91,90.42,111.89,6.85,23.4,133.9,205.3,laterite,apple,DAP and MOP
+24.35,63.29,149.46,6.0,109.5,26.6,30.2,laterite,coffee,Good NPK
+25.63,56.65,146.92,6.64,17.8,68.1,23.2,clay loam,pigeonpeas,Good NPK
+23.08,76.55,161.74,6.35,63.1,40.7,40.6,Clayey,jute,Urea and DAP
+25.48,84.29,171.63,6.04,60.7,46.7,36.1,Clayey,jute,Urea and DAP
+24.91,85.11,199.48,6.57,75.6,47.7,40.3,silty clay,jute,Urea and DAP
+35.23,91.54,142.78,6.61,46.6,49.7,49.3,sandy,papaya,Urea and DAP
+20.5,68.56,51.95,6.35,18.4,69.4,17.9,sandy,lentil,DAP and MOP
+9.32,89.71,73.85,6.92,17.0,134.4,208.9,clay loam,grapes,DAP and MOP
+24.7,87.62,245.54,5.86,69.8,44.9,37.4,Clayey,rice,Urea and DAP
+26.12,92.46,110.18,6.61,17.2,22.2,14.5,alluvial,orange,Good NPK
+29.47,81.23,45.02,6.31,20.3,69.1,17.5,clay loam,mungbean,Urea and DAP
+30.27,48.25,98.46,5.82,20.0,15.5,34.4,laterite,mango,Urea and DAP
+23.96,26.18,108.14,5.88,19.2,70.2,21.1,alluvial,kidneybeans,DAP and MOP
+13.63,89.86,66.13,6.3,20.6,139.7,206.1,alluvial,grapes,DAP and MOP
+28.29,86.62,61.24,7.13,23.6,57.7,24.5,clay loam,mungbean,Urea and DAP
+29.62,89.81,113.46,7.02,19.2,16.8,15.4,coastal,orange,Good NPK
+25.32,54.88,141.55,6.06,15.7,66.9,22.4,laterite,pigeonpeas,Good NPK
+32.42,79.54,102.37,6.49,101.6,67.0,46.7,alluvial,banana,Good NPK
+20.62,85.35,210.86,5.85,63.6,40.6,43.4,Clayey,rice,Urea and DAP
+27.33,46.95,145.33,5.51,23.0,61.5,18.0,alluvial,pigeonpeas,Good NPK
+18.87,92.03,108.65,5.67,18.5,68.6,38.7,laterite,pomegranate,Urea and MOP
+23.14,60.73,159.45,6.42,97.1,30.5,30.9,laterite,coffee,Good NPK
+28.16,89.18,20.94,6.09,109.1,11.9,46.9,alluvial,muskmelon,Good NPK
+34.84,69.1,65.53,6.78,16.4,72.2,23.2,alluvial,blackgram,Good NPK
+37.14,90.12,153.99,6.68,47.7,35.9,49.3,alluvial,papaya,Urea and DAP
+34.53,91.24,140.83,6.38,54.4,50.6,54.2,alluvial,papaya,Urea and DAP
+19.59,94.67,111.31,6.58,24.5,57.7,42.7,alluvial,pomegranate,Urea and MOP
+19.28,21.26,104.31,6.76,19.3,69.4,20.6,sandy,kidneybeans,DAP and MOP
+21.6,16.59,102.87,6.51,45.1,55.4,66.9,alluvial,chickpea,DAP and MOP
+27.42,82.03,63.37,7.43,17.4,61.2,19.0,alluvial,mungbean,Urea and DAP
+34.99,80.55,46.65,6.87,17.8,60.6,19.0,sandy,mungbean,Urea and DAP
+34.07,52.4,103.24,6.59,23.5,15.1,29.0,alluvial,mango,Urea and DAP
+33.75,51.63,145.94,6.97,18.1,55.1,16.7,clay loam,pigeonpeas,Good NPK
+30.73,93.75,23.62,6.77,111.5,13.9,54.9,alluvial,muskmelon,Good NPK
+31.49,48.5,93.35,7.33,22.0,19.2,30.7,sandy,mango,Urea and DAP
+34.03,45.37,48.33,4.13,15.6,42.8,15.0,sandy,mothbeans,DAP and MOP
+25.16,49.21,140.63,5.42,15.1,63.2,21.5,laterite,pigeonpeas,Good NPK
+28.23,85.51,21.42,6.95,99.0,12.4,46.2,coastal,muskmelon,Good NPK
+22.37,83.49,260.74,6.59,77.9,44.0,41.3,silty clay,rice,Urea and DAP
+20.48,91.46,107.63,6.06,19.7,72.8,41.4,alluvial,pomegranate,Urea and MOP
+28.99,86.17,29.6,6.3,103.5,10.7,54.0,sandy,muskmelon,Good NPK
+26.28,50.21,145.94,5.87,21.2,73.8,22.8,alluvial,pigeonpeas,Good NPK
+23.64,94.17,116.88,6.89,24.0,140.1,199.1,laterite,apple,DAP and MOP
+31.08,84.45,49.57,7.11,18.3,70.1,18.9,alluvial,mungbean,Urea and DAP
+23.23,82.06,225.31,6.05,63.5,35.9,36.2,Clayey,rice,Urea and DAP
+24.53,27.67,125.63,6.09,18.6,69.0,19.0,clay loam,kidneybeans,DAP and MOP
+22.22,91.31,121.96,6.97,23.7,138.6,204.9,laterite,apple,DAP and MOP
+25.97,82.94,256.6,6.08,68.6,44.7,44.6,laterite,rice,Urea and DAP
+29.88,51.98,99.79,6.56,22.9,21.6,26.1,alluvial,mango,Urea and DAP
+33.67,91.02,144.43,6.77,54.7,48.4,46.5,alluvial,papaya,Urea and DAP
+34.4,56.33,56.57,5.26,19.3,51.9,15.8,alluvial,mothbeans,DAP and MOP
+23.16,80.17,86.64,6.97,133.0,54.5,15.3,alluvial,cotton,Urea and MOP
+18.79,93.0,107.46,5.55,20.2,68.5,42.8,clay loam,pomegranate,Urea and MOP
+28.91,47.38,149.08,5.52,18.9,68.2,18.5,alluvial,pigeonpeas,Good NPK
+34.49,92.35,140.69,6.09,52.3,50.1,49.2,alluvial,papaya,Urea and DAP
+27.04,66.57,51.19,6.73,15.9,65.2,24.2,alluvial,lentil,DAP and MOP
+19.06,56.88,92.91,6.87,82.3,53.0,44.8,alluvial,maize,Good NPK
+18.61,28.49,87.27,7.54,45.9,67.9,67.6,clay loam,chickpea,DAP and MOP
+37.47,91.03,22.32,6.58,107.0,11.6,48.6,sandy,muskmelon,Good NPK
+27.7,84.58,89.06,7.54,129.9,50.9,17.6,clay loam,cotton,Urea and MOP
+20.5,27.0,109.63,6.11,21.6,56.8,21.0,alluvial,kidneybeans,DAP and MOP
+21.17,21.08,91.78,7.66,38.0,62.3,70.2,clay loam,chickpea,DAP and MOP
+34.83,82.5,58.26,6.11,20.1,65.2,16.4,clay loam,mungbean,Urea and DAP
+26.24,57.9,154.87,6.42,96.5,28.5,33.2,laterite,coffee,Good NPK
+24.31,57.32,153.83,6.15,113.3,34.6,34.3,alluvial,coffee,Good NPK
+27.05,94.59,110.79,6.26,21.3,24.1,10.2,clay loam,orange,Good NPK
+26.42,89.35,53.82,6.01,109.0,10.0,45.4,alluvial,watermelon,Urea and MOP
+27.6,88.58,110.95,6.13,19.7,20.7,14.3,clay loam,orange,Good NPK
+11.19,86.62,67.63,7.0,15.6,126.8,208.9,alluvial,grapes,DAP and MOP
+24.35,55.43,152.6,6.18,102.5,33.5,26.6,laterite,coffee,Good NPK
+28.18,57.72,153.27,6.89,17.7,67.2,21.8,laterite,pigeonpeas,Good NPK
+30.57,52.87,98.1,6.58,21.4,24.1,25.2,alluvial,mango,Urea and DAP
+23.85,94.98,118.99,6.06,18.5,123.7,204.5,laterite,apple,DAP and MOP
+31.8,45.67,109.3,6.69,21.5,19.1,29.1,alluvial,mango,Urea and DAP
+20.23,93.6,110.58,6.51,19.9,67.6,42.3,laterite,pomegranate,Urea and MOP
+27.32,62.04,150.89,6.01,102.5,32.8,29.5,alluvial,coffee,Good NPK
+25.35,56.81,153.11,5.82,23.7,73.3,23.6,clay loam,pigeonpeas,Good NPK
+23.31,61.55,154.39,6.23,109.5,32.0,30.6,alluvial,coffee,Good NPK
+12.21,85.74,71.68,6.17,21.3,139.9,209.5,laterite,grapes,DAP and MOP
+28.66,77.61,84.07,7.6,134.1,43.1,16.9,clay loam,cotton,Urea and MOP
+20.09,93.61,102.75,5.62,17.8,72.9,35.2,alluvial,pomegranate,Urea and MOP
+36.84,94.48,154.27,6.35,49.6,46.3,51.9,Clayey,papaya,Urea and DAP
+22.89,94.93,114.98,6.1,15.8,120.5,204.4,clay loam,apple,DAP and MOP
+34.63,69.18,65.79,6.65,17.6,60.9,15.0,alluvial,blackgram,Good NPK
+31.2,53.45,152.97,6.25,22.6,55.8,23.4,laterite,pigeonpeas,Good NPK
+24.84,83.48,52.67,6.39,112.4,12.3,52.5,alluvial,watermelon,Urea and MOP
+36.05,90.24,146.27,6.87,53.7,50.8,51.7,alluvial,papaya,Urea and DAP
+27.13,67.82,67.61,5.81,15.6,69.7,20.2,alluvial,blackgram,Good NPK
+15.49,85.72,67.1,6.38,18.0,137.8,197.5,clay loam,grapes,DAP and MOP
+21.37,69.02,49.97,6.1,15.9,74.0,17.6,alluvial,lentil,DAP and MOP
+23.51,85.39,235.43,6.53,65.2,35.2,44.3,laterite,rice,Urea and DAP
+25.06,55.97,146.03,6.12,108.8,25.5,28.4,alluvial,coffee,Good NPK
+35.36,90.13,150.29,6.09,51.0,40.0,48.3,Clayey,papaya,Urea and DAP
+20.17,20.89,82.38,6.63,46.6,72.6,73.6,clay loam,chickpea,DAP and MOP
+25.15,64.95,146.86,6.1,110.6,27.0,32.9,alluvial,coffee,Good NPK
+26.06,86.36,184.99,6.53,83.1,42.3,40.7,alluvial,jute,Urea and DAP
+26.49,56.79,46.84,5.35,25.0,40.2,24.0,alluvial,mothbeans,DAP and MOP
+20.41,90.38,109.25,6.6,18.1,72.2,42.0,clay loam,pomegranate,Urea and MOP
+33.75,93.29,153.85,6.15,54.1,38.5,53.3,sandy,papaya,Urea and DAP
+31.32,47.35,150.75,5.95,21.5,72.8,20.8,laterite,pigeonpeas,Good NPK
+22.7,90.39,115.82,5.74,19.7,126.0,205.3,clay loam,apple,DAP and MOP
+15.2,21.91,112.35,5.79,17.5,58.3,16.9,clay loam,kidneybeans,DAP and MOP
+22.58,91.96,112.26,6.08,21.7,19.3,12.5,coastal,orange,Good NPK
+29.79,58.93,49.31,4.5,15.4,54.7,18.4,sandy,mothbeans,DAP and MOP
+26.05,82.3,231.48,6.25,67.0,41.5,41.7,Clayey,rice,Urea and DAP
+25.71,83.5,49.66,7.29,21.1,61.1,18.3,sandy,mungbean,Urea and DAP
+29.25,88.68,52.09,6.63,100.8,10.3,47.4,sandy,watermelon,Urea and MOP
+20.87,90.86,113.67,6.63,15.8,70.3,35.7,alluvial,pomegranate,Urea and MOP
+25.73,94.55,146.41,5.29,5.6,5.8,5.7,sandy,coconut,Urea
+26.33,90.9,175.91,7.51,4.6,4.7,5.5,sandy,coconut,Urea
+23.31,89.15,194.19,6.1,61.1,48.8,40.5,alluvial,jute,Urea and DAP
+21.64,92.85,102.11,5.58,18.0,56.9,42.6,laterite,pomegranate,Urea and MOP
+22.13,24.66,122.83,6.95,22.0,55.1,16.7,alluvial,kidneybeans,DAP and MOP
+25.0,54.21,49.15,5.35,23.7,49.0,24.9,alluvial,mothbeans,DAP and MOP
+23.01,78.02,166.5,6.59,67.6,44.2,43.6,Clayey,jute,Urea and DAP
+21.78,21.12,123.19,6.66,19.6,74.3,20.2,clay loam,kidneybeans,DAP and MOP
+20.94,80.63,209.01,6.98,70.7,35.5,38.4,silty clay,rice,Urea and DAP
+20.68,70.91,54.41,7.44,16.6,74.0,22.7,alluvial,lentil,DAP and MOP
+35.91,90.5,147.51,6.31,46.5,49.9,48.6,sandy,papaya,Urea and DAP
+20.01,93.83,107.26,6.15,21.4,66.1,42.4,clay loam,pomegranate,Urea and MOP
+24.64,87.09,114.22,7.15,22.6,23.2,9.7,coastal,orange,MOP
+18.71,20.86,75.73,7.69,35.5,70.7,79.6,sandy,chickpea,DAP and MOP
+23.43,84.47,195.61,6.57,72.8,52.3,44.5,silty clay,jute,Urea and DAP
+20.24,93.35,103.85,5.61,23.0,67.6,37.9,clay loam,pomegranate,Urea and MOP
+26.58,81.29,86.28,6.84,129.5,57.7,24.2,Clayey,cotton,Urea and MOP
+33.0,53.32,52.63,5.98,23.3,51.8,18.5,sandy,mothbeans,DAP and MOP
+31.4,88.51,55.85,7.11,19.1,59.8,21.3,alluvial,mungbean,Urea and DAP
+10.3,82.63,68.05,5.56,21.4,140.4,203.4,alluvial,grapes,DAP and MOP
+25.74,81.15,54.44,7.3,22.3,62.2,15.6,sandy,mungbean,Urea and DAP
+19.05,67.68,50.66,7.04,21.9,59.9,24.3,clay loam,lentil,DAP and MOP
+29.77,81.36,87.99,7.56,120.1,48.0,23.1,Clayey,cotton,Urea and MOP
+20.13,20.93,111.91,6.9,18.4,71.1,20.7,alluvial,kidneybeans,DAP and MOP
+29.36,49.52,92.93,5.53,23.1,18.2,26.6,sandy,mango,Urea and DAP
+36.34,88.61,21.53,6.61,96.6,14.8,45.9,sandy,muskmelon,Good NPK
+18.84,18.39,111.64,5.55,15.3,65.1,24.6,clay loam,kidneybeans,DAP and MOP
+26.56,87.06,106.77,7.13,20.7,20.0,11.9,alluvial,orange,Good NPK
+31.85,45.37,146.8,5.34,19.5,74.0,15.6,laterite,pigeonpeas,Good NPK
+25.81,65.91,92.76,6.99,70.6,47.6,44.6,alluvial,maize,Good NPK
+25.35,86.41,166.78,6.18,63.3,52.2,43.1,Clayey,jute,Urea and DAP
+24.71,56.95,146.16,6.08,106.5,26.3,27.3,clay loam,coffee,Good NPK
+29.55,84.89,94.86,6.79,126.1,49.7,23.4,clay loam,cotton,Urea and MOP
+20.4,65.98,98.99,6.0,72.1,46.4,42.6,sandy,maize,Good NPK
+18.55,71.67,50.09,7.62,20.6,58.6,16.0,alluvial,lentil,DAP and MOP
+15.68,25.84,112.98,5.93,18.3,69.7,19.0,sandy,kidneybeans,DAP and MOP
+18.24,92.02,110.47,6.47,17.1,66.3,41.2,alluvial,pomegranate,Urea and MOP
+34.64,90.54,144.37,6.94,48.5,50.5,47.6,alluvial,papaya,Urea and DAP
+24.46,87.26,226.47,6.96,61.0,40.3,40.4,silty clay,rice,Urea and DAP
+33.98,56.65,154.8,5.15,18.0,74.5,16.7,clay loam,pigeonpeas,Good NPK
+35.5,87.15,24.2,6.83,106.9,10.6,45.3,alluvial,muskmelon,Good NPK
+25.62,88.23,53.03,6.47,23.7,59.4,16.6,alluvial,mungbean,Urea and DAP
+15.69,18.06,124.66,6.91,15.4,61.8,21.3,alluvial,kidneybeans,DAP and MOP
+21.5,61.73,91.2,5.98,77.3,49.0,47.0,alluvial,maize,Good NPK
+26.58,75.53,174.4,6.86,74.6,45.9,36.1,silty clay,jute,Urea and DAP
+20.43,20.28,127.28,6.95,19.0,55.8,19.8,sandy,kidneybeans,DAP and MOP
+24.81,17.64,86.7,6.81,31.8,68.7,73.2,clay loam,chickpea,DAP and MOP
+27.22,85.0,83.13,6.99,123.6,46.6,19.1,Clayey,cotton,Urea and MOP
+33.44,49.87,59.23,5.56,19.4,52.6,21.5,sandy,mothbeans,DAP and MOP
+22.32,93.36,118.79,5.55,24.2,138.1,204.9,clay loam,apple,DAP and MOP
+37.69,92.65,145.08,6.01,47.7,42.7,52.3,Clayey,papaya,Urea and DAP
+23.47,94.73,101.97,5.87,20.7,69.3,44.4,laterite,pomegranate,Urea and MOP
+26.2,79.0,87.37,7.19,121.9,44.5,21.4,alluvial,cotton,Urea and MOP
+27.64,45.12,105.14,6.54,16.9,19.3,31.6,sandy,mango,Urea and DAP
+14.26,81.06,67.86,6.5,15.5,129.6,197.4,clay loam,grapes,DAP and MOP
+31.87,49.17,97.74,6.8,24.9,23.8,28.9,sandy,mango,Urea and DAP
+27.44,59.68,156.56,6.21,99.2,26.9,29.7,clay loam,coffee,Good NPK
+24.36,62.42,155.47,6.04,101.9,30.7,34.3,clay loam,coffee,Good NPK
+29.21,81.66,83.7,7.29,133.6,54.7,20.6,alluvial,cotton,Urea and MOP
+33.78,53.37,40.97,6.38,15.7,51.5,20.7,laterite,mothbeans,DAP and MOP
+26.07,94.15,169.85,5.14,5.4,4.9,5.0,sandy,coconut,DAP
+27.24,94.71,146.32,6.37,5.5,4.9,5.8,coastal,coconut,DAP
+25.38,92.71,176.58,7.25,4.8,5.5,4.9,sandy,coconut,Urea
+23.75,92.34,112.13,5.91,16.6,141.5,201.7,laterite,apple,DAP and MOP
+26.73,92.5,101.51,6.92,20.9,24.0,8.9,alluvial,orange,MOP
+29.83,47.64,94.07,6.21,15.5,16.5,29.1,laterite,mango,Urea and DAP
+31.59,47.73,102.12,7.24,16.0,23.1,25.4,sandy,mango,Urea and DAP
+23.4,93.53,110.95,6.6,24.3,24.7,14.2,alluvial,orange,Good NPK
+31.4,87.9,113.95,6.92,109.8,67.3,54.9,Clayey,banana,Good NPK
+22.92,93.32,110.67,6.12,17.5,142.4,205.7,laterite,apple,DAP and MOP
+8.11,82.49,71.04,6.58,20.7,130.0,200.5,alluvial,grapes,DAP and MOP
+30.03,67.95,74.77,5.7,21.6,74.3,24.2,alluvial,blackgram,Good NPK
+21.22,27.81,123.78,5.79,19.4,66.9,15.7,sandy,kidneybeans,DAP and MOP
+9.62,88.42,68.12,5.52,16.3,133.2,200.9,laterite,grapes,DAP and MOP
+29.8,77.55,87.52,6.97,120.8,56.6,21.7,Clayey,cotton,Urea and MOP
+23.2,69.75,53.19,6.52,20.5,73.9,17.1,sandy,lentil,DAP and MOP
+28.3,75.3,110.43,5.7,103.1,59.1,48.3,clay loam,banana,Good NPK
+34.49,58.19,59.83,6.22,19.0,42.7,16.6,sandy,mothbeans,DAP and MOP
+23.41,91.08,117.79,5.99,19.2,143.1,196.1,laterite,apple,DAP and MOP
+26.59,81.73,189.79,6.66,82.1,50.0,42.0,Clayey,jute,Urea and DAP
+26.46,72.99,47.33,7.02,21.8,56.0,22.8,alluvial,lentil,DAP and MOP
+26.96,63.08,148.62,6.23,98.5,31.3,27.9,laterite,coffee,Good NPK
+30.85,85.08,101.02,6.96,24.1,23.9,15.7,clay loam,orange,Good NPK
+23.03,69.93,50.01,6.01,24.6,56.4,18.5,sandy,lentil,DAP and MOP
+34.95,69.67,67.6,6.16,25.0,65.8,17.8,clay loam,blackgram,Good NPK
+32.86,81.94,107.3,6.91,105.5,71.1,49.3,clay loam,banana,Good NPK
+16.54,23.54,122.86,6.31,18.9,61.8,20.4,sandy,kidneybeans,DAP and MOP
+19.88,92.43,107.92,6.5,25.0,74.9,36.9,laterite,pomegranate,Urea and MOP
+24.71,76.87,175.26,6.53,72.2,51.1,42.4,silty clay,jute,Urea and DAP
+35.78,91.22,154.09,6.05,53.8,44.1,49.1,Clayey,papaya,Urea and DAP
+24.11,65.01,50.22,7.79,24.2,56.9,24.6,clay loam,lentil,DAP and MOP
+28.0,92.18,174.83,5.18,5.2,5.3,4.1,coastal,coconut,MOP
+16.16,18.42,127.91,6.35,18.8,73.7,21.8,alluvial,kidneybeans,DAP and MOP
+18.98,20.64,114.49,5.81,22.0,63.5,18.5,clay loam,kidneybeans,DAP and MOP
+32.01,53.84,47.0,6.32,18.5,46.1,22.3,laterite,mothbeans,DAP and MOP
+37.87,91.81,149.15,6.6,53.0,40.8,46.9,sandy,papaya,Urea and DAP
+15.35,23.32,99.23,7.99,31.6,59.8,76.9,clay loam,chickpea,DAP and MOP
+28.26,85.32,48.35,6.48,100.6,15.6,45.5,clay loam,watermelon,Urea and MOP
+27.42,47.78,105.91,7.29,17.6,24.8,28.1,sandy,mango,Urea and DAP
+28.2,53.1,108.12,6.88,20.9,19.4,25.3,alluvial,mango,Urea and DAP
+26.5,62.01,85.01,6.73,71.8,49.2,48.8,clay loam,maize,Good NPK
+31.45,80.33,100.47,5.57,96.9,74.9,52.5,Clayey,banana,Good NPK
+20.16,85.25,184.2,6.1,72.3,41.1,35.1,laterite,rice,Urea and DAP
+29.9,51.23,46.71,3.57,21.7,52.8,19.1,alluvial,mothbeans,DAP and MOP
+22.55,90.37,123.03,6.72,18.3,122.1,209.2,laterite,apple,DAP and MOP
+19.01,19.59,124.71,6.82,16.2,73.3,22.2,sandy,kidneybeans,DAP and MOP
+22.06,73.51,47.67,7.6,15.2,55.1,17.3,sandy,lentil,DAP and MOP
+18.5,15.83,74.01,6.3,39.3,74.4,74.1,alluvial,chickpea,DAP and MOP
+23.55,20.07,102.07,5.61,20.9,58.7,18.3,sandy,kidneybeans,DAP and MOP
+28.18,80.38,93.89,6.17,126.6,48.9,22.7,clay loam,cotton,Urea and MOP
+31.36,49.87,142.86,5.54,21.9,60.3,24.4,laterite,pigeonpeas,Good NPK
+15.94,19.5,80.63,6.56,45.0,66.2,73.3,clay loam,chickpea,DAP and MOP
+18.42,20.61,94.74,7.52,49.3,64.8,67.3,clay loam,chickpea,DAP and MOP
+32.6,90.66,24.69,6.15,95.8,15.3,49.8,alluvial,muskmelon,Good NPK
+10.4,84.77,67.71,6.73,23.2,121.1,206.3,laterite,grapes,DAP and MOP
+26.83,69.73,46.91,7.04,24.2,68.5,24.9,clay loam,lentil,DAP and MOP
+23.68,93.4,111.27,6.58,20.5,121.8,203.1,clay loam,apple,DAP and MOP
+27.18,80.88,61.41,6.29,18.1,72.2,24.6,clay loam,mungbean,Urea and DAP
+33.14,55.28,144.34,5.22,16.9,68.3,23.8,clay loam,pigeonpeas,Good NPK
+17.76,19.0,72.83,7.29,31.9,62.1,76.4,alluvial,chickpea,DAP and MOP
+23.25,75.6,81.16,6.75,116.6,53.8,17.3,alluvial,cotton,Urea and MOP
+21.96,14.05,79.22,7.24,41.9,62.8,71.2,sandy,chickpea,DAP and MOP
+30.9,51.11,140.42,5.94,22.9,67.0,17.0,clay loam,pigeonpeas,Good NPK
+12.06,89.38,67.12,5.68,24.1,122.4,204.1,clay loam,grapes,DAP and MOP
+21.04,94.05,121.84,6.91,22.9,139.0,208.7,laterite,apple,DAP and MOP
+20.9,20.26,113.5,6.08,15.8,65.9,23.6,sandy,kidneybeans,DAP and MOP
+30.42,64.6,65.72,6.25,21.7,71.5,15.1,laterite,blackgram,Good NPK
+27.11,62.37,73.3,6.44,17.3,71.3,20.9,laterite,blackgram,Good NPK
+27.06,50.88,143.06,6.79,18.4,57.9,21.9,alluvial,pigeonpeas,Good NPK
+27.36,58.94,145.07,6.09,110.0,34.5,28.8,clay loam,coffee,Good NPK
+23.53,66.15,50.3,6.25,20.2,70.5,20.6,clay loam,lentil,DAP and MOP
+25.84,84.26,86.88,6.71,126.4,57.7,15.2,clay loam,cotton,Urea and MOP
+26.1,94.88,103.85,6.7,15.8,15.1,11.4,clay loam,orange,Good NPK
+21.03,92.93,107.44,6.27,21.3,58.0,39.7,clay loam,pomegranate,Urea and MOP
+27.72,85.96,101.28,6.24,16.6,18.7,8.8,coastal,orange,MOP
+23.77,90.65,110.82,5.98,16.5,137.5,198.9,laterite,apple,DAP and MOP
+27.71,46.22,43.12,6.48,22.4,47.2,21.7,laterite,mothbeans,DAP and MOP
+23.89,60.28,149.31,6.4,105.1,25.6,34.2,laterite,coffee,Good NPK
+18.72,67.27,54.08,7.86,19.2,64.0,21.0,alluvial,lentil,DAP and MOP
+22.04,63.82,87.58,7.4,79.0,51.7,41.5,alluvial,maize,Good NPK
+26.42,69.21,103.5,6.75,82.3,51.1,43.0,clay loam,maize,Good NPK
+21.55,90.36,101.1,5.72,20.1,59.0,38.2,laterite,pomegranate,Urea and MOP
+33.47,90.06,25.45,6.22,112.8,12.7,54.2,alluvial,muskmelon,Good NPK
+18.27,59.62,86.06,6.91,79.8,51.7,41.4,clay loam,maize,Good NPK
+25.54,81.9,52.84,6.06,15.4,74.9,17.3,clay loam,mungbean,Urea and DAP
+25.34,88.54,188.67,6.83,77.7,53.8,42.1,Clayey,jute,Urea and DAP
+24.24,58.31,100.41,5.66,79.0,46.6,47.9,alluvial,maize,Good NPK
+24.39,73.53,53.82,7.47,16.4,70.3,22.9,alluvial,lentil,DAP and MOP
+18.8,26.41,73.15,7.93,32.1,68.1,77.3,alluvial,chickpea,DAP and MOP
+26.96,88.2,53.38,6.97,19.2,63.4,22.9,alluvial,mungbean,Urea and DAP
+24.58,95.35,164.24,6.35,5.3,4.3,5.7,laterite,coconut,DAP
+25.42,91.41,166.59,5.73,4.2,4.5,4.4,laterite,coconut,Urea
+24.44,81.95,83.89,7.48,115.8,51.2,20.4,alluvial,cotton,Urea and MOP
+24.18,27.51,110.71,6.37,18.7,62.8,22.5,clay loam,kidneybeans,DAP and MOP
+23.51,14.01,89.1,6.04,48.7,72.5,69.2,clay loam,chickpea,DAP and MOP
+33.12,45.21,53.38,5.45,17.1,45.7,19.0,sandy,mothbeans,DAP and MOP
+27.85,58.45,155.86,6.17,109.9,34.3,31.5,alluvial,coffee,Good NPK
+29.86,65.66,73.01,6.88,18.6,74.9,19.8,laterite,blackgram,Good NPK
+23.96,80.38,88.3,6.29,130.8,46.6,20.4,Clayey,cotton,Urea and MOP
+25.89,61.26,109.71,6.42,84.8,50.2,44.3,clay loam,maize,Good NPK
+30.44,49.13,45.43,5.63,20.9,48.0,24.7,laterite,mothbeans,DAP and MOP
+21.6,69.06,46.12,7.94,22.5,69.6,21.3,clay loam,lentil,DAP and MOP
+20.01,25.95,101.51,6.56,20.2,61.0,15.8,clay loam,kidneybeans,DAP and MOP
+33.02,81.62,112.73,6.24,100.0,58.0,50.0,alluvial,banana,Good NPK
+25.87,83.21,54.35,6.66,111.5,8.5,46.7,sandy,watermelon,DAP
+10.24,86.43,70.07,5.91,18.4,127.7,209.0,alluvial,grapes,DAP and MOP
+20.09,65.39,53.28,7.48,18.4,73.7,24.1,clay loam,lentil,DAP and MOP
+25.69,64.84,67.54,5.83,24.4,68.5,16.2,laterite,blackgram,Good NPK
+22.92,88.83,190.99,5.99,62.1,39.6,37.2,Clayey,rice,Urea and DAP
+21.28,92.85,108.42,6.01,24.7,60.1,43.6,laterite,pomegranate,Urea and MOP
+31.43,48.82,98.25,7.41,19.4,24.4,26.4,sandy,mango,Urea and DAP
+26.4,91.99,152.01,5.03,5.8,5.6,4.4,coastal,coconut,MOP
+29.52,83.5,94.9,6.14,128.1,41.5,21.0,clay loam,cotton,Urea and MOP
+26.43,56.13,51.96,4.23,18.7,52.5,15.1,laterite,mothbeans,DAP and MOP
+26.41,82.86,59.96,6.78,22.4,70.8,16.2,alluvial,mungbean,Urea and DAP
+26.57,68.96,49.25,6.4,24.4,56.0,18.5,alluvial,lentil,DAP and MOP
+9.78,89.11,67.86,5.76,21.9,120.1,201.4,alluvial,grapes,DAP and MOP
+32.25,53.61,151.66,6.33,15.6,63.4,19.6,clay loam,pigeonpeas,Good NPK
+26.13,85.59,109.79,6.87,101.8,69.2,49.4,alluvial,banana,Good NPK
+20.77,67.05,89.34,6.58,79.7,47.6,42.8,alluvial,maize,Good NPK
+31.03,75.86,107.95,6.84,97.0,74.0,45.6,clay loam,banana,Good NPK
+33.93,92.56,22.34,6.64,106.1,11.2,47.1,sandy,muskmelon,Good NPK
+8.62,85.11,72.67,6.18,15.1,123.8,201.3,laterite,grapes,DAP and MOP
+18.57,71.73,51.63,7.06,17.0,56.7,21.1,alluvial,lentil,DAP and MOP
+27.08,83.31,52.11,6.86,110.8,9.5,47.6,alluvial,watermelon,DAP
+32.86,75.27,104.97,6.22,105.7,68.7,46.3,clay loam,banana,Good NPK
+23.18,93.33,123.05,6.81,18.0,134.0,205.7,alluvial,apple,DAP and MOP
+26.56,48.92,92.76,6.48,21.8,20.2,32.8,sandy,mango,Urea and DAP
+27.69,47.98,46.13,4.24,24.1,51.4,16.8,sandy,mothbeans,DAP and MOP
+26.63,85.11,112.09,5.7,102.9,69.5,50.8,Clayey,banana,Good NPK
+22.56,90.25,112.56,6.13,15.9,24.2,14.2,alluvial,orange,Good NPK
+30.82,88.71,114.38,6.11,20.8,21.7,13.7,coastal,orange,Good NPK
+22.39,92.08,124.37,5.72,24.8,141.6,199.8,laterite,apple,DAP and MOP
+25.13,79.1,179.61,6.93,71.4,46.9,39.3,silty clay,jute,Urea and DAP
+32.27,46.07,93.69,5.91,18.6,16.1,29.2,alluvial,mango,Urea and DAP
+20.32,80.41,243.33,6.78,75.2,35.1,36.2,silty clay,rice,Urea and DAP
+9.79,85.08,71.71,5.74,19.1,125.8,203.0,laterite,grapes,DAP and MOP
+22.93,19.07,101.25,7.71,40.7,58.2,75.4,alluvial,chickpea,DAP and MOP
+35.11,94.27,140.97,6.77,48.2,45.8,51.9,Clayey,papaya,Urea and DAP
+23.39,63.48,97.97,6.93,78.2,52.7,40.1,clay loam,maize,Good NPK
+29.64,89.43,23.12,6.49,100.4,13.3,53.1,sandy,muskmelon,Good NPK
+37.77,91.41,141.37,6.38,45.0,52.7,45.7,sandy,papaya,Urea and DAP
+24.73,80.33,173.48,6.34,68.1,51.5,35.2,silty clay,jute,Urea and DAP
+26.31,61.99,107.55,6.46,72.3,49.1,48.6,clay loam,maize,Good NPK
+21.31,93.69,114.85,6.18,21.9,128.0,197.7,laterite,apple,DAP and MOP
+25.53,55.38,143.4,5.92,19.3,62.0,15.5,clay loam,pigeonpeas,Good NPK
+25.06,64.64,152.28,6.2,114.6,26.3,26.0,laterite,coffee,Good NPK
+23.3,94.18,122.34,5.68,15.2,141.4,205.4,laterite,apple,DAP and MOP
+24.43,90.56,147.44,7.14,5.2,5.7,4.0,laterite,coconut,MOP
+18.53,72.55,47.4,7.91,22.6,69.3,18.7,clay loam,lentil,DAP and MOP
+31.89,54.39,103.38,6.0,23.9,22.2,30.8,sandy,mango,Urea and DAP
+30.0,85.6,25.49,6.96,98.7,8.9,54.7,alluvial,muskmelon,DAP
+25.74,85.61,195.23,6.23,76.3,42.6,44.3,Clayey,jute,Urea and DAP
+27.49,84.24,82.71,7.57,125.3,43.9,22.6,alluvial,cotton,Urea and MOP
+30.54,90.72,102.24,6.68,19.0,16.9,10.2,alluvial,orange,Good NPK
+23.23,90.36,111.72,6.78,19.2,73.9,44.0,clay loam,pomegranate,Urea and MOP
+29.18,64.44,72.17,5.95,16.4,72.3,23.7,clay loam,blackgram,Good NPK
+23.36,84.21,237.54,6.68,61.8,42.9,40.9,laterite,rice,Urea and DAP
+32.62,56.72,44.08,4.33,16.8,42.8,20.8,alluvial,mothbeans,DAP and MOP
+35.44,93.97,23.79,6.93,111.6,13.3,48.9,alluvial,muskmelon,Good NPK
+26.41,85.76,56.25,6.58,100.9,9.3,49.4,clay loam,watermelon,DAP
+24.62,68.56,47.95,7.62,23.0,66.2,22.4,clay loam,lentil,DAP and MOP
+28.87,45.99,152.4,5.04,21.8,66.3,24.3,laterite,pigeonpeas,Good NPK
+11.95,83.93,69.27,6.77,18.8,140.9,209.5,clay loam,grapes,DAP and MOP
+34.69,48.94,56.73,4.44,22.1,41.9,18.2,laterite,mothbeans,DAP and MOP
+23.6,90.92,106.1,5.88,16.4,65.4,36.1,clay loam,pomegranate,Urea and MOP
+24.28,86.16,184.34,6.53,73.1,45.0,44.8,silty clay,jute,Urea and DAP
+25.62,85.91,47.31,6.61,98.9,15.8,46.5,clay loam,watermelon,Urea and MOP
+24.66,55.62,161.35,6.26,102.5,30.8,25.1,alluvial,coffee,Good NPK
+26.57,84.48,179.33,6.35,72.5,43.7,41.9,silty clay,jute,Urea and DAP
+23.53,91.65,120.57,5.63,15.2,122.9,207.7,laterite,apple,DAP and MOP
+24.59,84.51,199.35,6.86,72.5,43.8,44.1,alluvial,jute,Urea and DAP
+23.99,85.61,106.39,6.36,15.0,15.3,14.6,coastal,orange,Good NPK
+31.62,53.17,111.48,5.76,17.9,24.6,32.3,sandy,mango,Urea and DAP
+15.12,21.7,111.79,5.54,22.6,57.0,23.9,sandy,kidneybeans,DAP and MOP
+29.83,81.18,46.37,6.96,97.1,14.9,48.1,alluvial,watermelon,Urea and MOP
+25.84,57.11,152.26,6.72,22.4,61.5,23.9,clay loam,pigeonpeas,Good NPK
+28.67,79.28,86.52,7.4,131.1,49.0,20.2,clay loam,cotton,Urea and MOP
+24.71,85.39,112.96,7.27,23.9,15.1,15.1,alluvial,orange,Good NPK
+25.77,81.94,50.74,6.55,106.3,15.6,45.7,clay loam,watermelon,Urea and MOP
+32.0,85.34,25.46,6.82,106.4,10.9,53.3,coastal,muskmelon,Good NPK
+28.87,75.22,91.36,6.47,118.2,40.2,16.7,alluvial,cotton,Urea and MOP
+23.17,18.67,125.56,6.08,23.1,59.3,19.7,sandy,kidneybeans,DAP and MOP
+21.54,19.67,84.27,7.05,44.5,70.8,71.1,clay loam,chickpea,DAP and MOP
+34.84,69.06,73.33,5.58,24.3,58.3,15.0,clay loam,blackgram,Good NPK
+21.9,67.41,48.6,6.03,20.1,65.0,16.1,clay loam,lentil,DAP and MOP
+24.83,80.11,172.46,6.47,63.9,47.7,41.0,Clayey,jute,Urea and DAP
+20.25,91.16,104.57,6.6,25.0,72.7,43.1,clay loam,pomegranate,Urea and MOP
+32.16,93.32,29.43,6.31,95.4,12.9,48.7,sandy,muskmelon,Good NPK
+25.01,95.51,145.47,7.01,4.9,5.3,4.2,coastal,coconut,MOP
+28.33,83.93,109.09,5.64,96.4,64.8,54.8,clay loam,banana,Good NPK
+36.0,91.68,27.92,6.54,104.9,9.1,54.6,alluvial,muskmelon,DAP
+27.95,75.03,105.11,5.84,93.4,56.1,53.7,alluvial,banana,Good NPK
+23.33,67.37,100.34,6.2,87.0,50.0,44.8,clay loam,maize,Good NPK
+22.56,71.1,49.07,6.51,24.3,74.0,15.7,clay loam,lentil,DAP and MOP
+8.37,80.23,66.49,6.06,22.2,137.0,207.5,laterite,grapes,DAP and MOP
+24.92,61.1,159.37,6.25,98.3,28.5,33.2,clay loam,coffee,Good NPK
+23.77,19.29,104.56,6.68,42.0,56.3,78.2,clay loam,chickpea,DAP and MOP
+33.87,88.94,57.3,6.5,20.4,64.5,18.9,sandy,mungbean,Urea and DAP
+27.62,72.75,51.07,7.24,21.6,64.1,23.4,clay loam,lentil,DAP and MOP
+32.18,61.24,70.5,6.4,16.3,60.2,20.8,laterite,blackgram,Good NPK
+32.04,83.38,101.66,6.86,107.8,59.2,51.7,clay loam,banana,Good NPK
+23.11,75.87,198.42,6.86,69.8,52.1,39.1,alluvial,jute,Urea and DAP
+29.97,49.2,98.35,5.88,22.1,15.5,27.7,sandy,mango,Urea and DAP
+34.28,46.37,53.45,4.36,21.9,54.6,15.5,laterite,mothbeans,DAP and MOP
+31.49,59.32,49.55,3.95,15.6,56.3,24.4,laterite,mothbeans,DAP and MOP
+26.21,80.54,55.55,6.76,113.7,10.5,54.4,sandy,watermelon,Urea and MOP
+30.76,63.42,67.38,6.71,22.8,64.7,22.9,alluvial,blackgram,Good NPK
+29.23,89.2,100.6,6.14,22.2,21.4,12.5,clay loam,orange,Good NPK
+25.7,88.81,49.35,6.33,96.0,8.0,51.0,alluvial,watermelon,DAP
+22.84,90.22,122.98,5.68,15.7,131.6,199.5,laterite,apple,DAP and MOP
+22.46,93.92,115.03,6.23,15.8,121.8,197.9,clay loam,apple,DAP and MOP
+27.03,61.62,152.52,6.16,109.9,31.3,31.8,clay loam,coffee,Good NPK
+29.31,65.11,69.25,5.71,15.2,57.1,16.7,alluvial,blackgram,Good NPK
+27.54,82.98,45.56,6.04,107.2,9.3,50.3,clay loam,watermelon,DAP
+23.4,84.37,90.49,7.17,118.4,59.5,19.9,Clayey,cotton,Urea and MOP
+23.04,55.15,95.53,6.15,80.0,51.2,47.0,sandy,maize,Good NPK
+32.5,67.0,65.57,5.96,24.8,68.2,23.2,alluvial,blackgram,Good NPK
+8.84,85.89,67.66,6.3,24.1,141.2,196.9,alluvial,grapes,DAP and MOP
+19.6,27.83,80.22,7.09,41.2,57.2,71.7,alluvial,chickpea,DAP and MOP
+15.34,89.35,71.44,6.76,23.9,132.8,207.4,alluvial,grapes,DAP and MOP
+27.39,92.01,168.79,6.58,5.3,4.6,4.9,sandy,coconut,DAP
+25.15,83.62,105.62,6.1,112.0,63.2,47.9,clay loam,banana,Good NPK
+32.69,89.35,61.39,7.36,23.5,55.3,20.1,sandy,mungbean,Urea and DAP
+33.86,47.27,46.57,3.96,15.8,47.7,18.7,laterite,mothbeans,DAP and MOP
+26.79,80.74,87.59,7.83,127.9,59.9,15.1,Clayey,cotton,Urea and MOP
+23.27,18.48,123.22,6.59,23.8,64.2,16.0,clay loam,kidneybeans,DAP and MOP
+26.52,81.46,86.26,6.42,129.1,47.1,23.9,clay loam,cotton,Urea and MOP
+28.87,88.79,45.49,6.07,95.8,9.0,47.2,clay loam,watermelon,DAP
+27.93,91.46,155.63,6.94,4.2,4.2,5.2,coastal,coconut,Urea
+13.06,81.35,72.93,5.73,24.7,120.4,204.0,alluvial,grapes,DAP and MOP
+23.98,90.91,123.08,6.21,21.4,140.5,195.1,laterite,apple,DAP and MOP
+36.41,92.25,140.02,6.24,52.2,47.9,50.2,alluvial,papaya,Urea and DAP
+21.1,82.5,244.31,6.32,73.9,39.1,36.7,Clayey,rice,Urea and DAP
+27.02,84.92,49.18,6.17,109.9,12.0,51.5,clay loam,watermelon,Urea and MOP
+26.89,58.28,160.97,6.24,95.9,30.4,25.2,clay loam,coffee,Good NPK
+23.71,93.95,118.47,6.11,18.7,133.3,209.3,laterite,apple,DAP and MOP
+12.36,85.5,70.65,6.24,17.3,134.7,203.6,laterite,grapes,DAP and MOP
+31.34,53.18,97.76,6.78,23.3,22.8,26.9,alluvial,mango,Urea and DAP
+25.4,90.79,173.54,5.38,4.7,5.9,4.0,sandy,coconut,MOP
+27.98,66.88,45.99,6.3,21.9,60.2,17.5,clay loam,lentil,DAP and MOP
+31.71,86.97,62.59,6.54,22.1,57.1,23.4,sandy,mungbean,Urea and DAP
+29.99,89.25,26.05,6.76,109.9,11.7,47.3,coastal,muskmelon,Good NPK
+26.88,92.65,156.91,6.97,5.7,5.8,4.7,coastal,coconut,MOP
+27.75,86.89,100.47,6.91,16.1,23.3,13.6,alluvial,orange,Good NPK
+31.72,87.8,21.75,6.27,101.8,12.5,50.9,alluvial,muskmelon,Good NPK
+24.93,94.21,100.98,6.26,16.6,21.3,8.4,coastal,orange,MOP
+32.0,51.16,154.14,6.12,16.1,72.5,20.2,clay loam,pigeonpeas,Good NPK
+21.74,93.4,115.59,6.81,19.2,135.5,201.7,laterite,apple,DAP and MOP
+18.23,29.95,91.25,7.96,39.7,57.4,75.9,clay loam,chickpea,DAP and MOP
+29.16,61.67,73.21,6.98,18.4,74.6,21.3,alluvial,blackgram,Good NPK
+26.92,64.82,148.4,6.19,112.1,25.6,31.6,clay loam,coffee,Good NPK
+16.41,24.22,117.35,6.67,18.7,59.5,17.0,sandy,kidneybeans,DAP and MOP
+25.0,94.9,174.03,5.33,5.6,4.6,5.1,laterite,coconut,DAP
+17.65,14.34,103.71,6.16,32.0,68.2,76.5,clay loam,chickpea,DAP and MOP
+30.45,47.04,41.49,6.18,21.5,43.1,24.8,laterite,mothbeans,DAP and MOP
+25.95,51.75,57.41,4.51,17.3,56.3,24.3,alluvial,mothbeans,DAP and MOP
+16.53,80.69,68.29,6.26,16.6,130.0,203.7,clay loam,grapes,DAP and MOP
+17.74,15.27,100.77,6.17,32.1,69.5,73.7,clay loam,chickpea,DAP and MOP
+22.9,91.26,104.13,6.74,17.3,19.9,11.1,clay loam,orange,Good NPK
+27.15,69.65,50.98,6.13,24.6,58.5,16.8,clay loam,lentil,DAP and MOP
+30.0,67.65,73.07,5.9,21.3,63.8,15.4,alluvial,blackgram,Good NPK
+33.01,81.81,104.78,6.51,107.0,58.7,47.7,alluvial,banana,Good NPK
+25.46,92.75,172.74,7.26,6.0,5.2,6.0,sandy,coconut,DAP
+28.69,91.55,105.2,6.67,22.9,17.7,12.8,alluvial,orange,Good NPK
+20.58,87.77,218.18,6.34,79.7,42.5,38.8,silty clay,rice,Urea and DAP
+29.14,80.4,64.11,6.41,20.5,56.7,18.8,sandy,mungbean,Urea and DAP
+27.3,95.06,155.66,7.02,5.5,5.0,5.8,laterite,coconut,DAP
+10.8,88.72,67.06,5.73,19.4,141.1,202.3,alluvial,grapes,DAP and MOP
+33.32,47.66,55.45,5.67,20.9,51.8,15.7,sandy,mothbeans,DAP and MOP
+26.26,93.15,145.69,7.17,5.8,5.4,5.6,coastal,coconut,DAP
+23.44,27.81,125.61,6.69,19.5,59.2,15.5,clay loam,kidneybeans,DAP and MOP
+25.73,93.17,176.8,5.82,4.8,5.8,4.6,coastal,coconut,MOP
+26.57,57.41,48.38,3.63,15.7,47.9,16.8,sandy,mothbeans,DAP and MOP
+28.31,79.24,110.96,6.33,93.2,69.3,45.7,clay loam,banana,Good NPK
+22.67,91.5,100.08,6.18,23.5,24.5,14.9,alluvial,orange,Good NPK
+27.23,82.58,51.51,6.37,104.5,12.0,49.9,sandy,watermelon,Urea and MOP
+25.7,56.49,156.67,6.17,108.5,34.0,32.7,clay loam,coffee,Good NPK
+34.11,68.21,65.49,6.64,20.5,58.8,16.0,laterite,blackgram,Good NPK
+32.58,90.69,25.92,6.69,104.0,15.5,52.4,sandy,muskmelon,Good NPK
+23.88,61.1,149.62,6.13,100.4,26.2,30.6,alluvial,coffee,Good NPK
+36.81,89.21,25.9,6.84,105.9,9.2,49.5,sandy,muskmelon,DAP
+21.11,94.89,123.11,5.51,16.0,123.9,209.4,laterite,apple,DAP and MOP
+29.95,76.96,103.09,6.54,111.7,69.9,53.6,clay loam,banana,Good NPK
+23.31,59.02,92.28,6.75,76.8,47.6,43.8,alluvial,maize,Good NPK
+34.74,87.04,22.64,6.93,103.8,13.8,53.9,coastal,muskmelon,Good NPK
+33.22,61.39,65.48,6.62,16.2,59.6,16.1,laterite,blackgram,Good NPK
+22.0,92.59,118.69,5.84,18.0,140.6,197.3,laterite,apple,DAP and MOP
+29.69,60.71,68.36,6.73,21.8,58.8,20.2,clay loam,blackgram,Good NPK
+33.05,56.4,42.98,3.96,20.3,43.2,20.7,alluvial,mothbeans,DAP and MOP
+25.61,88.51,55.97,6.17,101.6,8.8,55.0,sandy,watermelon,DAP
+29.36,89.43,107.35,6.75,108.3,72.4,46.0,alluvial,banana,Good NPK
+26.26,82.97,59.99,6.89,101.9,14.0,53.5,alluvial,watermelon,Urea and MOP
+29.2,52.45,55.53,6.25,17.0,41.3,23.9,alluvial,mothbeans,DAP and MOP
+20.44,81.48,241.84,5.7,75.2,40.3,42.2,laterite,rice,Urea and DAP
+24.61,90.49,173.99,6.29,5.8,4.6,5.9,sandy,coconut,DAP
+32.1,50.34,90.23,5.79,15.6,18.3,26.4,alluvial,mango,Urea and DAP
+13.1,89.57,67.2,5.98,16.8,139.1,206.8,laterite,grapes,DAP and MOP
+19.25,91.25,104.2,6.71,20.3,55.0,37.4,alluvial,pomegranate,Urea and MOP
+15.52,19.91,121.95,5.97,15.1,63.7,23.8,sandy,kidneybeans,DAP and MOP
+11.77,81.94,70.05,5.93,21.9,133.0,207.5,clay loam,grapes,DAP and MOP
+26.34,80.93,169.11,6.56,66.8,40.1,42.2,Clayey,jute,Urea and DAP
+20.61,85.37,247.09,6.38,73.6,42.9,40.0,Clayey,rice,Urea and DAP
+26.69,80.39,81.46,7.72,125.7,57.2,15.6,Clayey,cotton,Urea and MOP
+31.7,84.02,57.51,6.45,18.2,71.9,19.8,alluvial,mungbean,Urea and DAP
+33.46,66.35,67.07,5.56,20.3,74.9,23.0,alluvial,blackgram,Good NPK
+21.33,24.44,110.0,6.73,15.3,72.4,20.3,sandy,kidneybeans,DAP and MOP
+26.79,87.75,260.53,6.91,70.4,40.5,36.8,silty clay,rice,Urea and DAP
+14.89,84.41,68.86,6.57,18.4,140.2,205.4,laterite,grapes,DAP and MOP
+22.06,91.16,117.64,6.43,15.1,142.5,203.7,laterite,apple,DAP and MOP
+21.46,93.21,104.39,6.77,19.1,57.2,35.8,laterite,pomegranate,Urea and MOP
+30.14,58.55,152.27,6.78,16.2,69.0,19.2,laterite,pigeonpeas,Good NPK
+20.13,58.52,93.26,7.27,81.8,51.0,44.0,alluvial,maize,Good NPK
+20.93,63.85,109.53,6.37,74.5,46.6,46.5,sandy,maize,Good NPK
+23.21,91.08,117.62,6.1,16.1,133.3,207.9,alluvial,apple,DAP and MOP
+31.32,45.82,154.61,6.29,23.6,57.2,24.3,laterite,pigeonpeas,Good NPK
+24.81,91.61,157.42,5.22,5.3,5.2,4.1,laterite,coconut,MOP
+32.3,59.1,152.95,6.21,18.0,57.1,19.4,laterite,pigeonpeas,Good NPK
+34.56,92.55,146.25,6.86,48.3,54.2,46.8,Clayey,papaya,Urea and DAP
+35.23,90.26,147.91,6.3,48.2,41.9,47.1,sandy,papaya,Urea and DAP
+19.21,14.43,70.1,7.93,46.0,64.6,65.3,sandy,chickpea,DAP and MOP
+22.36,94.84,105.39,6.68,17.5,20.4,14.4,clay loam,orange,Good NPK
+20.36,80.18,269.75,6.55,76.1,35.6,43.4,silty clay,rice,Urea and DAP
+31.71,94.79,113.2,6.98,15.7,15.4,9.7,clay loam,orange,MOP
+25.25,70.05,47.03,7.36,16.7,68.5,16.7,clay loam,lentil,DAP and MOP
+32.27,54.43,105.58,7.16,23.2,21.8,32.0,alluvial,mango,Urea and DAP
+29.02,86.75,101.9,6.94,94.5,69.2,48.8,Clayey,banana,Good NPK
+32.61,75.24,105.69,6.34,97.6,58.2,46.7,clay loam,banana,Good NPK
+24.46,84.16,191.64,6.91,79.7,51.3,44.7,alluvial,jute,Urea and DAP
+8.18,85.22,67.34,6.46,24.1,127.6,203.1,alluvial,grapes,DAP and MOP
+37.44,91.63,147.34,6.13,47.3,43.5,50.6,alluvial,papaya,Urea and DAP
+21.62,93.12,122.67,6.04,17.4,141.3,203.4,laterite,apple,DAP and MOP
+8.5,85.74,69.81,6.79,20.0,136.1,209.6,alluvial,grapes,DAP and MOP
+24.57,81.72,54.19,6.1,95.7,13.6,49.9,sandy,watermelon,Urea and MOP
+28.89,76.7,93.33,6.63,125.7,50.2,20.5,alluvial,cotton,Urea and MOP
+15.03,24.4,107.21,5.95,19.8,74.9,15.6,sandy,kidneybeans,DAP and MOP
+25.72,85.01,50.17,6.46,104.4,15.3,48.6,alluvial,watermelon,Urea and MOP
+31.3,57.87,146.43,6.57,19.2,72.8,23.2,laterite,pigeonpeas,Good NPK
+21.3,69.41,51.84,7.71,24.9,60.6,20.0,sandy,lentil,DAP and MOP
+31.08,93.84,23.41,6.68,103.0,10.2,55.0,alluvial,muskmelon,Good NPK
+33.84,87.94,108.79,6.16,113.8,69.6,45.5,clay loam,banana,Good NPK
+18.28,67.47,51.29,6.92,23.9,67.0,20.3,sandy,lentil,DAP and MOP
+23.91,92.76,124.77,6.2,16.7,122.9,197.7,alluvial,apple,DAP and MOP
+17.95,19.37,122.16,6.48,17.2,68.6,21.1,clay loam,kidneybeans,DAP and MOP
+33.48,45.2,96.93,6.71,25.0,16.8,30.0,laterite,mango,Urea and DAP
+26.93,59.26,91.52,6.22,82.0,52.9,46.6,alluvial,maize,Good NPK
+24.65,90.71,108.35,6.66,22.0,24.4,13.3,coastal,orange,Good NPK
+34.27,50.89,106.28,6.32,20.5,20.0,28.1,sandy,mango,Urea and DAP
+25.64,95.03,167.58,7.94,5.3,5.7,5.1,sandy,coconut,MOP
+21.07,82.46,196.79,5.74,72.1,37.4,36.0,silty clay,rice,Urea and DAP
+31.99,88.18,111.9,6.22,17.1,17.9,14.8,coastal,orange,Good NPK
+24.89,63.16,146.64,6.09,101.8,30.7,27.8,alluvial,coffee,Good NPK
+25.75,76.32,90.39,7.02,115.0,46.2,17.8,alluvial,cotton,Urea and MOP
+34.97,45.45,149.34,6.79,22.4,60.7,23.0,clay loam,pigeonpeas,Good NPK
+29.0,69.47,72.72,6.11,18.7,70.4,23.1,alluvial,blackgram,Good NPK
+29.01,89.24,29.05,6.31,95.5,11.2,54.9,coastal,muskmelon,Good NPK
+30.02,85.83,46.09,6.87,23.9,57.3,15.0,alluvial,mungbean,Urea and DAP
+23.06,56.33,164.56,6.42,103.2,28.5,29.4,laterite,coffee,Good NPK
+21.49,89.46,190.21,6.67,61.8,41.0,40.5,Clayey,rice,Urea and DAP
+29.93,93.92,28.95,6.03,104.3,14.9,50.2,coastal,muskmelon,Good NPK
+36.62,91.91,152.79,6.32,50.9,45.9,50.6,sandy,papaya,Urea and DAP
+36.6,90.11,151.21,6.56,49.5,50.8,53.0,Clayey,papaya,Urea and DAP
+32.44,89.19,51.84,6.64,17.6,64.3,17.3,alluvial,mungbean,Urea and DAP
+14.11,81.98,72.92,6.24,18.5,135.9,206.3,alluvial,grapes,DAP and MOP
+33.32,49.7,111.08,6.61,17.3,18.1,34.8,alluvial,mango,Urea and DAP
+32.01,87.65,49.1,7.39,24.4,60.5,18.3,alluvial,mungbean,Urea and DAP
+20.06,17.72,96.07,6.16,43.3,57.4,72.2,sandy,chickpea,DAP and MOP
+26.08,62.9,109.37,7.1,71.5,52.5,42.7,alluvial,maize,Good NPK
+25.41,48.79,92.55,5.57,21.3,23.5,33.0,laterite,mango,Urea and DAP
+22.24,91.49,103.36,6.12,15.9,74.0,41.2,laterite,pomegranate,Urea and MOP
+24.92,92.37,162.32,5.51,5.9,5.5,4.2,sandy,coconut,MOP
+31.01,50.46,113.37,6.68,15.3,22.7,31.2,alluvial,mango,Urea and DAP
+22.44,56.22,86.62,6.31,83.1,48.3,45.4,alluvial,maize,Good NPK
+24.32,90.89,166.99,5.07,4.3,4.1,5.8,sandy,coconut,DAP
+30.51,51.11,57.93,5.06,19.7,41.8,21.3,sandy,mothbeans,DAP and MOP
+27.57,75.31,100.85,5.83,92.7,69.4,53.5,clay loam,banana,Good NPK
+27.51,91.92,147.71,6.76,5.3,5.6,5.9,laterite,coconut,Urea
+21.73,86.96,193.33,6.57,68.1,35.6,37.5,Clayey,rice,Urea and DAP
+30.41,55.45,142.58,6.4,20.6,63.3,19.3,laterite,pigeonpeas,Good NPK
+25.23,56.23,151.41,6.02,100.2,30.8,27.4,clay loam,coffee,Good NPK
+15.59,28.38,99.97,7.3,48.1,59.7,77.1,clay loam,chickpea,DAP and MOP
+27.08,95.77,175.62,7.34,4.2,4.9,6.0,sandy,coconut,Urea
+29.51,47.75,153.24,6.71,19.9,61.7,22.9,clay loam,pigeonpeas,Good NPK
+37.74,94.77,152.11,6.99,52.5,39.4,47.2,Clayey,papaya,Urea and DAP
+35.18,93.97,23.29,6.9,102.2,14.8,50.5,alluvial,muskmelon,Good NPK
+27.2,85.15,60.04,6.15,16.6,56.3,18.2,clay loam,mungbean,Urea and DAP
+21.96,88.83,265.78,6.62,60.9,44.9,39.7,Clayey,rice,Urea and DAP
+25.96,57.94,152.37,6.07,102.7,28.4,31.3,laterite,coffee,Good NPK
+29.89,65.24,67.67,6.5,17.2,57.1,20.9,alluvial,blackgram,Good NPK
+23.87,90.79,105.46,6.23,16.1,64.9,36.6,alluvial,pomegranate,Urea and MOP
+22.31,94.84,121.6,6.93,21.9,127.2,207.7,laterite,apple,DAP and MOP
+24.28,80.04,51.26,6.65,96.6,13.7,45.0,alluvial,watermelon,Urea and MOP
+15.89,26.08,98.04,6.26,46.8,65.4,74.4,alluvial,chickpea,DAP and MOP
+25.07,81.03,51.54,6.05,105.4,13.6,54.4,alluvial,watermelon,Urea and MOP
+25.4,78.02,105.07,5.77,96.5,69.2,47.1,Clayey,banana,Good NPK
+25.62,56.14,158.88,6.07,112.0,30.3,28.2,clay loam,coffee,Good NPK
+27.28,63.95,159.51,6.32,99.8,32.6,30.6,alluvial,coffee,Good NPK
+19.08,26.28,117.21,6.65,20.8,72.3,24.8,alluvial,kidneybeans,DAP and MOP
+26.48,47.58,51.17,6.14,20.3,53.6,20.9,laterite,mothbeans,DAP and MOP
+25.22,84.42,59.68,6.06,101.1,15.9,47.7,alluvial,watermelon,Urea and MOP
+33.17,60.14,65.29,6.84,21.7,57.7,23.5,alluvial,blackgram,Good NPK
+25.95,85.92,114.66,5.99,92.6,67.6,46.0,Clayey,banana,Good NPK
+25.33,77.77,81.8,7.31,132.8,49.3,20.2,Clayey,cotton,Urea and MOP
+18.4,27.4,127.93,5.62,24.0,66.7,19.7,alluvial,kidneybeans,DAP and MOP
+22.79,69.43,106.83,5.72,70.1,52.0,40.5,sandy,maize,Good NPK
+35.07,91.72,26.71,6.2,105.2,11.5,48.8,alluvial,muskmelon,Good NPK
+30.5,93.45,107.58,7.39,15.5,15.6,15.5,coastal,orange,Good NPK
+20.13,92.58,110.32,5.96,15.7,56.8,39.3,clay loam,pomegranate,Urea and MOP
+22.26,55.87,105.57,5.65,73.3,52.7,47.1,alluvial,maize,Good NPK
+32.49,87.87,27.64,6.1,104.9,14.9,46.0,coastal,muskmelon,Good NPK
+15.89,82.98,68.01,5.52,17.5,137.4,201.1,clay loam,grapes,DAP and MOP
+33.0,92.33,152.95,6.49,48.0,40.7,48.9,alluvial,papaya,Urea and DAP
+29.29,91.97,20.26,6.51,104.9,8.4,54.5,coastal,muskmelon,DAP
+28.28,86.73,107.02,6.39,18.1,17.2,10.6,clay loam,orange,Good NPK
+33.87,93.89,20.54,6.94,100.8,9.0,53.6,alluvial,muskmelon,DAP
+23.65,87.45,176.76,6.32,82.7,53.1,39.6,Clayey,jute,Urea and DAP
+11.61,82.07,70.06,5.8,24.0,133.1,196.7,clay loam,grapes,DAP and MOP
+23.77,76.03,191.7,6.87,77.8,54.0,35.6,Clayey,jute,Urea and DAP
+24.55,75.52,196.78,6.4,75.0,43.6,40.8,Clayey,jute,Urea and DAP
+26.32,61.74,159.03,6.16,113.1,26.0,27.5,laterite,coffee,Good NPK
+26.82,77.18,85.57,7.08,132.6,52.3,23.2,clay loam,cotton,Urea and MOP
+18.79,93.83,114.21,6.9,16.8,71.3,40.4,clay loam,pomegranate,Urea and MOP
+29.11,80.25,90.75,6.04,118.7,55.3,19.1,Clayey,cotton,Urea and MOP
+19.58,20.09,111.09,6.05,24.6,65.0,19.3,sandy,kidneybeans,DAP and MOP
+24.77,89.76,105.83,6.71,19.4,20.5,12.5,clay loam,orange,Good NPK
+23.28,56.49,159.79,6.29,108.3,25.8,33.5,laterite,coffee,Good NPK
+23.28,24.97,113.85,6.57,20.1,62.4,24.3,alluvial,kidneybeans,DAP and MOP
+8.17,81.01,71.9,6.24,19.5,138.4,200.5,alluvial,grapes,DAP and MOP
+16.4,83.63,69.18,6.77,24.9,143.7,196.2,clay loam,grapes,DAP and MOP
+20.4,25.65,92.41,6.22,36.4,70.1,69.0,clay loam,chickpea,DAP and MOP
+33.45,50.25,112.08,6.88,21.6,19.3,33.9,alluvial,mango,Urea and DAP
+20.46,93.9,103.42,6.66,17.1,65.0,37.3,clay loam,pomegranate,Urea and MOP
+37.59,92.3,154.4,6.08,47.1,35.7,46.4,Clayey,papaya,Urea and DAP
+15.45,25.62,110.19,6.92,20.1,58.3,21.5,clay loam,kidneybeans,DAP and MOP
+27.37,60.81,161.33,6.26,102.6,28.3,33.6,alluvial,coffee,Good NPK
+22.41,90.28,110.54,6.83,16.5,66.1,40.3,laterite,pomegranate,Urea and MOP
+34.33,89.23,51.56,6.75,17.8,66.2,18.5,clay loam,mungbean,Urea and DAP
+34.26,91.87,152.51,6.8,48.9,41.1,49.6,Clayey,papaya,Urea and DAP
+24.9,27.55,115.38,6.24,15.0,73.0,16.5,sandy,kidneybeans,DAP and MOP
+32.52,58.58,43.94,6.01,16.3,43.8,19.6,laterite,mothbeans,DAP and MOP
+25.65,90.44,146.4,6.22,4.2,5.1,4.0,laterite,coconut,MOP
+25.08,68.6,49.26,6.15,18.1,56.7,21.9,clay loam,lentil,DAP and MOP
+18.89,92.28,100.55,6.24,17.7,62.7,43.4,alluvial,pomegranate,Urea and MOP
+26.38,52.76,103.45,7.1,16.1,15.2,33.0,sandy,mango,Urea and DAP
+24.51,73.67,54.2,7.79,18.8,71.9,21.4,clay loam,lentil,DAP and MOP
+27.16,68.14,70.42,5.83,21.7,68.8,18.4,clay loam,blackgram,Good NPK
+29.81,80.0,108.56,6.17,94.2,74.3,45.1,clay loam,banana,Good NPK
+27.33,87.42,50.52,6.22,105.5,9.7,50.2,sandy,watermelon,DAP
+30.04,85.63,104.87,5.87,99.5,57.1,52.2,clay loam,banana,Good NPK
+27.35,83.25,45.5,6.29,101.2,15.3,53.7,alluvial,watermelon,Urea and MOP
+23.12,90.73,105.5,7.17,24.7,16.4,8.8,alluvial,orange,MOP
+23.97,69.05,86.45,6.97,75.9,50.7,44.8,clay loam,maize,Good NPK
+22.33,73.0,49.26,7.48,16.1,59.4,19.6,alluvial,lentil,DAP and MOP
+34.28,75.82,110.61,6.13,94.4,57.2,50.7,Clayey,banana,Good NPK
+23.99,25.83,113.74,6.67,24.7,71.9,15.2,clay loam,kidneybeans,DAP and MOP
+36.31,94.24,146.75,6.75,46.2,37.9,51.6,Clayey,papaya,Urea and DAP
+29.19,87.01,55.09,6.62,16.5,67.0,21.6,clay loam,mungbean,Urea and DAP
+24.95,95.51,159.96,5.23,4.6,4.2,4.4,sandy,coconut,DAP
+29.23,79.37,94.2,6.15,126.6,49.3,19.2,clay loam,cotton,Urea and MOP
+22.22,94.73,109.93,6.11,22.8,60.1,43.3,laterite,pomegranate,Urea and MOP
+35.71,94.79,149.82,6.21,50.8,45.4,48.3,Clayey,papaya,Urea and DAP
+21.52,56.87,103.94,7.41,88.2,45.5,41.1,sandy,maize,Good NPK
+29.08,79.72,92.54,7.03,119.0,41.3,23.6,Clayey,cotton,Urea and MOP
+21.82,91.37,111.71,5.67,21.7,131.6,204.2,laterite,apple,DAP and MOP
+11.48,85.63,69.27,6.7,17.8,131.8,208.8,laterite,grapes,DAP and MOP
+23.54,64.32,159.69,6.23,100.6,32.1,30.6,alluvial,coffee,Good NPK
+27.16,59.21,147.36,6.45,100.8,29.5,31.9,laterite,coffee,Good NPK
+29.29,84.44,47.09,6.59,106.3,11.8,45.5,alluvial,watermelon,Urea and MOP
+26.44,78.8,166.62,6.63,62.8,47.3,36.9,alluvial,jute,Urea and DAP
+27.14,64.11,67.17,6.56,16.3,60.8,17.4,clay loam,blackgram,Good NPK
+26.44,54.75,108.37,6.71,23.1,15.2,33.3,alluvial,mango,Urea and DAP
+27.58,83.38,84.76,7.87,126.3,42.6,20.0,alluvial,cotton,Urea and MOP
+26.04,86.23,185.72,6.0,61.5,38.6,36.2,laterite,rice,Urea and DAP
+29.52,85.46,111.88,6.3,17.8,22.3,8.9,coastal,orange,MOP
+14.45,80.84,72.19,6.72,23.0,124.6,199.4,laterite,grapes,DAP and MOP
+27.7,68.2,67.11,7.0,16.1,55.3,24.1,clay loam,blackgram,Good NPK
+32.18,82.84,45.42,6.49,21.7,71.9,24.2,clay loam,mungbean,Urea and DAP
+26.09,84.87,59.48,6.98,97.2,13.2,48.1,clay loam,watermelon,Urea and MOP
+23.31,60.41,107.52,5.68,86.0,51.9,42.7,sandy,maize,Good NPK
+23.38,65.71,52.66,7.87,17.7,71.2,15.6,sandy,lentil,DAP and MOP
+22.46,23.49,120.42,5.59,18.5,64.2,15.4,alluvial,kidneybeans,DAP and MOP
+10.35,84.96,72.79,6.13,22.1,134.5,197.6,alluvial,grapes,DAP and MOP
+22.03,81.61,252.73,6.89,75.1,37.3,35.8,Clayey,rice,Urea and DAP
+22.06,85.3,111.44,6.85,22.3,24.5,8.7,alluvial,orange,MOP
+17.27,19.47,78.85,6.76,33.2,56.3,66.8,sandy,chickpea,DAP and MOP
+12.02,84.58,72.16,5.89,15.8,136.5,201.7,laterite,grapes,DAP and MOP
+30.97,92.91,28.23,6.1,104.8,15.1,53.5,sandy,muskmelon,Good NPK
+22.5,91.68,111.01,5.94,21.7,121.4,196.9,laterite,apple,DAP and MOP
+23.56,72.0,46.38,6.82,16.7,71.2,21.9,alluvial,lentil,DAP and MOP
+34.26,51.29,40.79,3.65,16.4,44.6,23.7,sandy,mothbeans,DAP and MOP
+28.13,51.16,59.53,4.13,17.4,55.2,22.6,laterite,mothbeans,DAP and MOP
+23.58,61.95,105.9,6.26,71.5,51.0,46.7,alluvial,maize,Good NPK
+23.05,14.29,94.07,7.93,35.8,73.2,76.3,clay loam,chickpea,DAP and MOP
+23.57,94.75,105.12,6.33,20.3,71.5,43.6,alluvial,pomegranate,Urea and MOP
+26.66,81.66,46.44,6.98,109.5,11.0,46.8,sandy,watermelon,Urea and MOP
+30.07,85.17,109.82,6.28,20.4,22.7,14.7,clay loam,orange,Good NPK
+25.86,45.86,51.71,3.82,19.8,51.7,20.4,laterite,mothbeans,DAP and MOP
+19.17,66.37,80.66,5.55,89.5,54.7,47.5,alluvial,maize,Good NPK
+29.59,51.17,145.77,6.44,19.1,55.3,18.0,clay loam,pigeonpeas,Good NPK
+18.12,94.86,112.08,5.83,24.2,65.4,35.1,clay loam,pomegranate,Urea and MOP
+31.47,48.4,147.02,6.34,21.7,70.3,15.5,clay loam,pigeonpeas,Good NPK
+12.68,87.88,69.9,5.84,15.6,124.7,208.6,laterite,grapes,DAP and MOP
+34.67,54.42,53.52,6.29,24.8,56.7,18.0,alluvial,mothbeans,DAP and MOP
+18.09,22.82,128.85,5.68,20.3,65.8,19.3,clay loam,kidneybeans,DAP and MOP
+31.78,53.2,58.45,4.93,16.0,43.6,23.0,laterite,mothbeans,DAP and MOP
+26.58,85.87,163.46,6.47,64.7,44.4,42.8,Clayey,jute,Urea and DAP
+21.22,94.18,111.06,5.76,23.5,125.3,204.4,laterite,apple,DAP and MOP
+28.47,78.64,87.69,7.47,127.1,47.8,16.2,Clayey,cotton,Urea and MOP
+21.03,72.45,52.18,7.93,16.0,65.7,15.9,clay loam,lentil,DAP and MOP
+26.89,60.54,151.54,6.32,102.9,25.6,29.3,clay loam,coffee,Good NPK
+34.22,81.39,108.31,6.98,91.8,74.1,47.2,Clayey,banana,Good NPK
+10.56,83.63,74.79,6.2,19.9,144.2,207.5,alluvial,grapes,DAP and MOP
+25.36,80.53,47.36,7.25,15.6,66.5,16.2,sandy,mungbean,Urea and DAP
+35.36,94.38,144.27,6.44,47.5,47.2,51.9,alluvial,papaya,Urea and DAP
+25.48,56.81,91.52,5.59,78.0,53.4,42.3,sandy,maize,Good NPK
+26.74,58.15,158.77,6.32,95.3,28.2,28.2,clay loam,coffee,Good NPK
+24.56,86.59,56.25,6.32,111.7,10.6,52.3,alluvial,watermelon,Urea and MOP
+27.42,50.31,143.34,5.21,15.2,58.3,23.9,alluvial,pigeonpeas,Good NPK
+28.76,67.56,65.77,6.31,18.0,58.0,17.8,laterite,blackgram,Good NPK
+31.61,87.46,61.91,6.47,17.8,55.9,24.3,alluvial,mungbean,Urea and DAP
+16.71,29.17,96.55,6.89,32.8,61.8,67.5,clay loam,chickpea,DAP and MOP
+31.1,49.69,148.97,5.54,17.5,68.5,22.1,alluvial,pigeonpeas,Good NPK
+25.72,82.58,240.18,5.76,68.0,44.7,43.7,Clayey,rice,Urea and DAP
+26.23,60.59,163.64,6.02,101.2,34.1,31.7,laterite,coffee,Good NPK
+26.42,64.63,156.03,6.11,110.5,29.0,32.2,laterite,coffee,Good NPK
+20.25,62.34,109.63,5.94,83.2,51.9,48.5,sandy,maize,Good NPK
+29.65,94.54,114.27,7.27,16.5,23.1,11.4,alluvial,orange,Good NPK
+30.97,90.85,29.69,6.42,99.6,10.0,45.3,alluvial,muskmelon,Good NPK
+23.47,94.62,122.31,6.46,20.2,135.1,201.6,clay loam,apple,DAP and MOP
+33.17,92.41,152.68,6.3,46.1,43.5,45.2,Clayey,papaya,Urea and DAP
+34.43,66.1,72.1,6.75,16.4,60.2,18.9,clay loam,blackgram,Good NPK
+25.52,84.22,59.61,6.79,110.8,11.4,53.0,alluvial,watermelon,Urea and MOP
+17.01,18.14,78.21,6.33,39.2,56.0,76.8,alluvial,chickpea,DAP and MOP
+27.0,92.93,109.9,6.23,18.4,16.1,9.5,alluvial,orange,MOP
+21.52,92.23,103.97,6.75,21.7,60.7,40.9,laterite,pomegranate,Urea and MOP
+33.51,90.66,143.46,6.68,49.5,53.7,53.5,Clayey,papaya,Urea and DAP
+21.3,91.64,112.35,5.7,22.5,129.3,197.6,clay loam,apple,DAP and MOP
+19.19,25.8,114.93,6.21,23.9,73.9,23.9,alluvial,kidneybeans,DAP and MOP
+21.32,23.77,100.18,6.55,15.2,61.1,20.5,sandy,kidneybeans,DAP and MOP
+25.51,84.15,54.1,6.08,114.2,13.9,52.5,alluvial,watermelon,Urea and MOP
+24.29,80.48,183.57,6.05,82.3,48.6,44.3,Clayey,jute,Urea and DAP
+29.44,46.75,97.02,5.9,18.1,17.0,34.5,laterite,mango,Urea and DAP
+18.23,90.97,114.02,6.3,22.5,71.6,42.7,alluvial,pomegranate,Urea and MOP
+32.42,60.32,71.33,5.68,19.1,74.6,21.5,laterite,blackgram,Good NPK
+26.91,79.46,87.27,6.14,125.5,42.6,19.7,Clayey,cotton,Urea and MOP
+21.27,27.26,114.31,5.53,23.8,64.0,20.1,alluvial,kidneybeans,DAP and MOP
+24.49,91.53,166.65,7.44,5.2,4.2,5.9,laterite,coconut,DAP
+23.46,85.23,182.29,6.14,75.2,40.6,42.7,Clayey,rice,Urea and DAP
+18.3,65.1,50.36,6.15,16.8,64.7,22.0,clay loam,lentil,DAP and MOP
+22.93,67.26,99.31,6.4,86.3,45.8,48.9,sandy,maize,Good NPK
+15.69,14.91,75.47,6.56,45.0,68.1,79.3,clay loam,chickpea,DAP and MOP
+36.75,93.59,27.02,6.4,110.4,9.8,45.8,alluvial,muskmelon,DAP
+28.25,89.24,103.2,6.83,16.0,24.5,8.6,clay loam,orange,MOP
+23.42,90.35,113.91,5.59,17.7,71.0,38.8,laterite,pomegranate,Urea and MOP
+19.58,21.73,68.22,6.27,46.8,58.7,77.0,clay loam,chickpea,DAP and MOP
+23.47,71.5,51.22,7.51,17.2,64.0,23.0,clay loam,lentil,DAP and MOP
+20.45,60.97,90.09,5.68,70.8,49.8,45.8,sandy,maize,Good NPK
+22.09,19.77,120.32,6.26,23.4,62.1,23.3,alluvial,kidneybeans,DAP and MOP
+24.18,91.93,163.12,6.71,5.0,4.0,5.8,coastal,coconut,DAP
+29.47,86.6,27.82,6.01,99.1,8.7,51.2,sandy,muskmelon,DAP
+25.59,85.72,52.13,6.89,103.9,14.0,52.5,alluvial,watermelon,Urea and MOP
+27.97,47.44,40.76,5.53,20.3,42.2,23.7,laterite,mothbeans,DAP and MOP
+20.67,67.79,97.67,6.93,84.6,45.0,44.7,sandy,maize,Good NPK
+21.61,63.39,85.46,5.81,79.1,50.2,44.4,sandy,maize,Good NPK
+33.47,49.86,51.88,5.53,16.3,59.6,21.7,alluvial,mothbeans,DAP and MOP
+16.21,18.85,92.69,6.2,49.7,59.8,67.1,sandy,chickpea,DAP and MOP
+31.26,60.75,65.49,5.67,21.5,72.4,23.3,clay loam,blackgram,Good NPK
+24.06,78.15,187.43,6.78,84.2,48.9,43.0,alluvial,jute,Urea and DAP
+34.74,91.65,143.68,6.57,47.8,48.5,54.3,sandy,papaya,Urea and DAP
+20.63,22.41,127.56,6.41,18.0,64.8,20.2,sandy,kidneybeans,DAP and MOP
+31.76,92.58,27.04,6.53,103.3,10.4,54.3,alluvial,muskmelon,Good NPK
+27.49,85.04,103.01,6.06,23.7,24.5,13.4,clay loam,orange,Good NPK
+29.09,63.29,72.66,6.54,15.6,69.0,15.1,clay loam,blackgram,Good NPK
+20.77,65.66,47.38,7.41,19.9,71.7,16.6,alluvial,lentil,DAP and MOP
+21.38,59.45,89.85,6.8,87.6,48.2,48.7,sandy,maize,Good NPK
+30.25,51.77,51.78,4.49,22.8,56.4,24.0,sandy,mothbeans,DAP and MOP
+23.89,94.92,111.79,6.89,21.3,62.9,37.5,clay loam,pomegranate,Urea and MOP
+31.48,48.47,58.8,5.54,22.7,40.9,21.9,sandy,mothbeans,DAP and MOP
+27.66,80.91,47.91,6.47,112.2,13.6,50.5,alluvial,watermelon,Urea and MOP
+29.44,89.01,58.53,6.98,111.9,10.4,48.5,alluvial,watermelon,Urea and MOP
+34.86,87.91,51.78,6.9,22.3,70.9,23.3,alluvial,mungbean,Urea and DAP
+23.6,85.92,234.68,5.57,69.1,42.9,37.0,Clayey,rice,Urea and DAP
+34.68,87.28,29.63,6.32,105.0,12.7,48.4,coastal,muskmelon,Good NPK
+29.83,57.57,152.9,5.72,19.9,69.8,19.9,laterite,pigeonpeas,Good NPK
+21.21,83.91,247.98,5.77,73.7,41.1,43.3,silty clay,rice,Urea and DAP
+25.53,63.9,151.22,6.22,95.3,29.2,31.7,alluvial,coffee,Good NPK
+34.95,46.39,53.47,5.84,17.6,56.1,19.3,sandy,mothbeans,DAP and MOP
+18.24,27.35,72.95,7.26,43.6,58.8,74.3,sandy,chickpea,DAP and MOP
+27.42,85.08,113.43,5.8,97.6,70.6,48.7,Clayey,banana,Good NPK
+30.54,47.22,56.31,3.78,23.9,40.3,18.2,sandy,mothbeans,DAP and MOP
+24.78,25.97,72.22,7.12,40.9,67.7,68.3,clay loam,chickpea,DAP and MOP
+21.58,66.49,49.61,7.02,24.4,73.6,17.1,sandy,lentil,DAP and MOP
+29.8,81.6,59.76,6.79,104.5,10.5,47.7,alluvial,watermelon,Urea and MOP
+33.32,54.8,90.24,6.49,18.1,16.0,27.7,alluvial,mango,Urea and DAP
+24.85,75.44,183.38,6.34,66.2,43.7,44.6,silty clay,jute,Urea and DAP
+34.33,90.47,140.55,6.35,48.4,40.9,47.1,alluvial,papaya,Urea and DAP
+24.85,74.82,53.83,7.38,15.6,69.4,17.3,sandy,lentil,DAP and MOP
+36.14,93.81,152.78,6.88,51.9,40.0,47.5,Clayey,papaya,Urea and DAP
+25.6,87.16,55.16,6.39,110.2,14.8,54.7,sandy,watermelon,Urea and MOP
+23.82,26.86,103.69,7.01,38.8,67.3,66.3,clay loam,chickpea,DAP and MOP
+33.52,80.41,57.47,6.07,23.4,72.2,18.2,clay loam,mungbean,Urea and DAP
+29.06,89.95,22.75,6.61,112.8,14.9,45.8,alluvial,muskmelon,Good NPK
+20.6,19.05,129.16,5.75,20.3,71.8,20.8,clay loam,kidneybeans,DAP and MOP
+30.62,81.12,56.37,6.91,24.4,64.1,17.9,sandy,mungbean,Urea and DAP
+37.5,94.63,149.23,6.8,52.4,50.2,55.0,Clayey,papaya,Urea and DAP
+25.22,59.18,147.44,6.39,18.3,65.9,20.8,alluvial,pigeonpeas,Good NPK
+30.57,55.61,56.15,5.49,17.9,45.3,18.3,laterite,mothbeans,DAP and MOP
+25.51,56.96,161.03,6.37,109.5,28.7,30.9,alluvial,coffee,Good NPK
+27.67,85.35,51.52,7.29,23.9,63.0,23.6,clay loam,mungbean,Urea and DAP
+26.83,85.54,49.83,6.53,111.5,11.3,54.9,sandy,watermelon,Urea and MOP
+12.19,86.9,67.07,6.83,24.1,132.8,200.4,alluvial,grapes,DAP and MOP
+19.16,21.7,75.39,6.04,44.7,70.4,65.2,alluvial,chickpea,DAP and MOP
+29.34,87.19,57.32,6.07,110.1,8.2,47.5,alluvial,watermelon,DAP
+30.57,51.62,108.41,6.68,20.2,19.5,25.1,laterite,mango,Urea and DAP
+22.49,93.87,103.78,6.84,17.7,21.5,15.9,coastal,orange,Good NPK
+22.49,86.04,101.37,6.19,20.8,22.0,13.2,alluvial,orange,Good NPK
+26.43,80.83,229.64,6.81,78.8,39.2,40.8,Clayey,rice,Urea and DAP
+26.88,85.17,269.66,5.89,73.9,37.3,36.7,silty clay,rice,Urea and DAP
+8.7,83.74,71.71,6.53,20.9,136.1,200.9,alluvial,grapes,DAP and MOP
+22.42,69.95,93.9,7.29,80.5,47.6,45.2,sandy,maize,Good NPK
+25.5,58.36,51.28,5.23,18.0,53.3,24.7,sandy,mothbeans,DAP and MOP
+19.9,68.67,51.28,6.21,16.5,71.0,22.1,clay loam,lentil,DAP and MOP
+26.8,81.37,86.51,7.04,131.4,58.3,17.0,clay loam,cotton,Urea and MOP
+26.3,86.08,224.84,5.87,71.3,38.8,38.4,silty clay,rice,Urea and DAP
+22.74,93.23,116.43,6.9,20.6,143.8,206.9,laterite,apple,DAP and MOP
+27.38,89.92,110.06,7.2,24.6,16.5,11.8,alluvial,orange,Good NPK
+12.33,84.99,67.72,5.82,23.6,126.4,198.4,laterite,grapes,DAP and MOP
+25.1,55.74,149.34,6.41,17.8,60.6,24.6,laterite,pigeonpeas,Good NPK
+24.53,91.72,167.16,6.48,5.7,5.3,5.1,sandy,coconut,MOP
+24.17,63.3,149.72,6.34,113.7,28.4,28.0,clay loam,coffee,Good NPK
+30.26,85.43,106.92,6.63,21.2,16.6,12.6,coastal,orange,Good NPK
+25.76,90.32,110.22,7.41,22.6,17.4,14.7,alluvial,orange,Good NPK
+20.47,19.8,116.83,6.19,21.2,73.6,22.6,clay loam,kidneybeans,DAP and MOP
+28.89,81.77,88.04,7.4,125.3,54.2,18.9,alluvial,cotton,Urea and MOP
+26.69,86.01,56.71,6.33,103.4,12.5,46.9,alluvial,watermelon,Urea and MOP
+31.0,86.65,104.93,6.62,100.8,74.7,48.0,alluvial,banana,Good NPK
+29.08,79.87,111.38,6.67,114.6,63.0,49.2,Clayey,banana,Good NPK
+31.02,90.12,28.19,6.62,106.4,13.9,52.8,sandy,muskmelon,Good NPK
+31.86,87.14,111.7,6.9,17.2,22.3,13.2,clay loam,orange,Good NPK
+10.41,88.42,73.39,5.97,20.8,123.3,201.9,clay loam,grapes,DAP and MOP
+29.22,80.4,56.55,6.67,19.4,71.9,17.6,clay loam,mungbean,Urea and DAP
+19.07,27.53,106.57,6.28,16.1,67.7,20.0,alluvial,kidneybeans,DAP and MOP
+13.29,80.62,66.42,6.94,16.8,120.6,195.6,alluvial,grapes,DAP and MOP
+21.21,81.92,195.2,5.56,77.9,39.7,41.7,silty clay,rice,Urea and DAP
+22.14,84.86,269.5,6.17,78.8,44.7,37.8,Clayey,rice,Urea and DAP
+35.65,94.41,141.51,6.94,48.8,45.1,47.7,alluvial,papaya,Urea and DAP
+26.41,53.18,40.91,3.82,21.5,57.5,22.9,laterite,mothbeans,DAP and MOP
+26.71,64.37,72.89,6.2,20.7,73.6,23.6,alluvial,blackgram,Good NPK
+23.09,88.88,190.54,6.03,69.9,35.6,40.5,Clayey,rice,Urea and DAP
+28.16,80.56,49.82,6.91,21.8,55.5,21.9,clay loam,mungbean,Urea and DAP
+18.95,22.22,127.23,6.12,24.9,57.6,17.7,alluvial,kidneybeans,DAP and MOP
+26.82,65.04,67.58,5.98,17.3,64.8,18.1,alluvial,blackgram,Good NPK
+27.24,83.63,64.55,6.66,16.8,63.6,15.6,clay loam,mungbean,Urea and DAP
+23.65,89.61,247.26,6.77,74.5,38.3,40.7,laterite,rice,Urea and DAP
+19.55,68.01,48.72,6.5,22.2,57.7,23.4,clay loam,lentil,DAP and MOP
+32.05,81.76,110.61,5.65,114.5,60.4,45.4,Clayey,banana,Good NPK
+17.26,24.4,118.1,6.97,24.1,61.4,19.8,alluvial,kidneybeans,DAP and MOP
+26.73,89.05,186.24,5.79,70.9,44.4,38.9,laterite,rice,Urea and DAP
+34.4,94.88,145.42,6.18,45.2,37.2,54.9,Clayey,papaya,Urea and DAP
+18.49,60.03,80.14,7.11,80.4,50.9,44.0,sandy,maize,Good NPK
+16.99,26.9,111.03,5.93,21.4,62.9,22.1,alluvial,kidneybeans,DAP and MOP
+26.34,88.29,102.45,6.47,91.6,71.3,49.9,Clayey,banana,Good NPK
+24.68,26.78,104.2,6.59,42.9,65.6,65.6,alluvial,chickpea,DAP and MOP
+18.83,15.92,65.8,7.95,36.0,74.6,72.1,sandy,chickpea,DAP and MOP
+30.38,54.08,102.26,7.19,15.7,15.3,27.6,laterite,mango,Urea and DAP
+29.48,92.66,28.26,6.07,95.4,13.7,51.4,sandy,muskmelon,Good NPK
+28.0,89.91,47.46,6.71,114.9,11.6,52.5,alluvial,watermelon,Urea and MOP
+26.84,64.98,72.31,5.91,21.7,61.6,17.8,alluvial,blackgram,Good NPK
+33.46,80.35,112.76,6.75,99.2,61.3,53.5,alluvial,banana,Good NPK
+23.55,85.07,181.28,6.98,71.3,41.2,41.7,silty clay,jute,Urea and DAP
+27.75,59.29,147.43,6.04,97.0,32.9,31.8,alluvial,coffee,Good NPK
+24.09,90.24,166.27,7.48,4.5,5.2,4.9,coastal,coconut,Urea
+28.14,78.3,87.13,6.25,134.4,53.6,18.2,clay loam,cotton,Urea and MOP
+26.71,57.41,46.75,5.25,18.5,48.2,16.3,alluvial,mothbeans,DAP and MOP
+22.81,27.2,80.45,6.99,35.6,73.6,68.8,alluvial,chickpea,DAP and MOP
+34.1,85.69,61.24,7.14,19.4,64.8,18.5,sandy,mungbean,Urea and DAP
+37.33,92.15,151.36,6.58,48.9,50.1,45.7,Clayey,papaya,Urea and DAP
+27.19,45.9,52.12,3.89,17.3,52.5,22.5,alluvial,mothbeans,DAP and MOP
+24.9,82.68,88.39,7.13,131.1,58.5,15.8,alluvial,cotton,Urea and MOP
+32.65,81.47,63.9,7.04,18.0,72.2,23.6,alluvial,mungbean,Urea and DAP
+37.29,86.54,24.34,6.18,101.0,9.3,51.5,sandy,muskmelon,DAP
+29.43,78.8,101.53,6.86,103.2,61.5,46.1,clay loam,banana,Good NPK
+23.88,94.79,119.67,6.16,19.7,123.0,207.7,laterite,apple,DAP and MOP
+26.74,83.75,258.17,5.93,73.0,42.5,40.8,silty clay,rice,Urea and DAP
+28.8,90.95,26.84,6.59,100.1,11.6,51.9,sandy,muskmelon,Good NPK
+20.82,84.73,251.49,6.41,61.8,36.4,35.0,laterite,rice,Urea and DAP
+33.85,82.31,64.87,6.61,21.5,62.0,21.2,clay loam,mungbean,Urea and DAP
+26.46,85.25,51.71,6.48,111.2,11.7,54.0,alluvial,watermelon,Urea and MOP
+27.37,77.69,81.86,6.57,122.8,56.9,23.1,Clayey,cotton,Urea and MOP
+18.35,16.78,98.04,7.42,37.2,64.9,77.4,alluvial,chickpea,DAP and MOP
+28.6,84.16,54.27,6.02,95.4,10.8,52.2,clay loam,watermelon,Urea and MOP
+16.64,24.43,128.42,6.71,24.8,65.5,24.1,clay loam,kidneybeans,DAP and MOP
+28.37,84.78,57.77,6.51,114.2,13.8,51.4,clay loam,watermelon,Urea and MOP
+25.59,90.82,179.75,7.06,4.1,4.1,4.9,laterite,coconut,Urea
+18.26,67.22,47.01,7.56,24.7,57.6,18.7,alluvial,lentil,DAP and MOP
+14.45,88.77,73.07,5.82,20.3,140.8,201.0,alluvial,grapes,DAP and MOP
+25.36,86.34,114.88,6.11,22.9,23.0,9.7,alluvial,orange,MOP
+20.7,59.65,92.8,6.29,87.2,50.4,41.8,clay loam,maize,Good NPK
+23.88,86.12,202.3,6.13,65.6,44.5,42.4,laterite,rice,Urea and DAP
+18.61,67.56,107.47,6.37,73.7,45.9,47.7,clay loam,maize,Good NPK
+19.24,24.68,89.95,6.19,45.6,60.5,77.3,sandy,chickpea,DAP and MOP
+22.73,82.98,184.81,5.65,67.6,40.3,40.0,Clayey,rice,Urea and DAP
+29.64,49.8,46.37,4.93,15.9,41.3,23.9,alluvial,mothbeans,DAP and MOP
+20.26,81.34,186.78,5.52,76.6,40.7,35.6,Clayey,rice,Urea and DAP
+26.16,88.13,56.69,6.61,114.1,15.4,45.5,alluvial,watermelon,Urea and MOP
+27.74,90.66,168.53,6.9,5.7,5.6,4.2,sandy,coconut,MOP
+23.97,62.12,104.17,7.19,73.4,45.4,47.4,clay loam,maize,Good NPK
+25.19,69.97,103.02,6.2,87.5,50.3,49.4,sandy,maize,Good NPK
+22.83,66.12,53.02,6.23,19.8,71.7,22.6,clay loam,lentil,DAP and MOP
+29.93,60.82,74.44,5.79,24.1,57.5,16.8,laterite,blackgram,Good NPK
+26.99,63.34,89.39,6.45,83.4,45.4,45.9,clay loam,maize,Good NPK
+21.29,82.09,223.61,6.06,65.5,43.1,42.5,silty clay,rice,Urea and DAP
+26.75,81.88,164.3,6.94,72.5,50.5,35.7,Clayey,jute,Urea and DAP
+26.2,94.15,174.46,7.05,4.8,4.2,5.7,coastal,coconut,DAP
+26.03,51.03,55.6,5.69,23.3,58.4,21.5,laterite,mothbeans,DAP and MOP
+27.62,93.51,176.12,5.64,6.0,4.7,4.6,sandy,coconut,MOP
+22.63,92.09,114.42,6.62,23.3,60.8,43.7,laterite,pomegranate,Urea and MOP
+22.32,64.0,100.85,6.08,70.2,45.7,43.9,sandy,maize,Good NPK
+15.11,25.99,92.14,7.52,47.0,71.8,77.5,clay loam,chickpea,DAP and MOP
+28.7,86.23,53.13,6.32,97.4,12.6,54.1,alluvial,watermelon,Urea and MOP
+28.12,45.24,153.75,5.03,19.1,55.3,15.8,alluvial,pigeonpeas,Good NPK
+27.55,86.33,48.65,6.05,106.1,9.5,46.3,clay loam,watermelon,DAP
+27.42,72.4,51.69,6.17,18.7,66.4,23.8,clay loam,lentil,DAP and MOP
+29.65,90.66,21.78,6.31,97.8,15.1,52.3,coastal,muskmelon,Good NPK
+24.37,81.17,236.49,6.91,67.7,40.4,44.1,silty clay,rice,Urea and DAP
+25.49,59.28,157.91,6.16,101.8,34.7,26.0,alluvial,coffee,Good NPK
+23.62,66.71,48.19,6.4,23.4,65.2,20.3,sandy,lentil,DAP and MOP
+27.84,66.94,72.59,5.96,21.9,72.9,21.9,clay loam,blackgram,Good NPK
+30.44,92.29,29.81,6.42,103.6,14.1,48.7,sandy,muskmelon,Good NPK
+21.81,59.32,107.36,6.73,89.2,48.4,42.3,alluvial,maize,Good NPK
+33.03,52.77,150.07,5.28,20.8,70.6,22.5,alluvial,pigeonpeas,Good NPK
+26.37,82.98,242.79,6.29,74.5,40.5,39.5,Clayey,rice,Urea and DAP
+30.5,59.45,49.81,3.84,24.9,40.8,24.7,sandy,mothbeans,DAP and MOP
+35.72,85.38,27.99,6.4,95.9,12.5,49.0,sandy,muskmelon,Good NPK
+35.82,94.68,20.37,6.32,108.1,8.2,46.3,alluvial,muskmelon,DAP
+14.44,81.71,67.38,5.66,22.3,125.7,195.0,clay loam,grapes,DAP and MOP
+21.03,90.09,101.17,6.9,23.6,60.3,40.9,clay loam,pomegranate,Urea and MOP
+26.82,84.4,51.16,6.45,112.2,12.3,51.9,alluvial,watermelon,Urea and MOP
+26.63,82.91,191.92,6.22,83.0,53.5,44.2,Clayey,jute,Urea and DAP
+29.92,83.92,91.77,6.83,134.2,59.6,22.9,alluvial,cotton,Urea and MOP
+28.33,84.54,92.44,6.74,130.8,43.4,18.5,clay loam,cotton,Urea and MOP
+28.45,61.73,73.82,6.43,21.4,60.5,19.5,clay loam,blackgram,Good NPK
+21.65,92.22,100.72,6.92,18.8,59.4,43.2,alluvial,pomegranate,Urea and MOP
+18.87,27.07,123.47,5.52,18.1,64.7,20.1,sandy,kidneybeans,DAP and MOP
+24.71,29.08,79.19,7.57,37.8,64.2,79.9,alluvial,chickpea,DAP and MOP
+36.16,90.43,144.38,6.95,45.4,50.3,46.7,sandy,papaya,Urea and DAP
+19.58,21.76,102.83,6.33,44.2,65.9,66.2,sandy,chickpea,DAP and MOP
+27.13,81.72,49.82,6.31,110.3,9.6,47.3,sandy,watermelon,DAP
+35.07,90.88,25.54,6.32,113.9,10.7,49.4,coastal,muskmelon,Good NPK
+25.89,64.64,107.32,6.91,84.7,53.5,41.2,sandy,maize,Good NPK
+23.88,57.53,163.82,6.45,106.9,33.6,27.2,clay loam,coffee,Good NPK
+34.44,89.96,50.05,6.68,18.7,59.2,22.0,alluvial,mungbean,Urea and DAP
+16.25,20.17,96.22,7.29,46.8,64.4,72.5,alluvial,chickpea,DAP and MOP
+35.14,94.1,153.94,6.78,47.6,40.9,52.7,alluvial,papaya,Urea and DAP
+24.55,62.41,163.06,6.01,106.9,25.9,27.0,alluvial,coffee,Good NPK
+25.47,88.28,251.96,6.63,78.5,42.2,35.5,laterite,rice,Urea and DAP
+33.79,94.02,24.99,6.01,96.0,15.7,45.7,alluvial,muskmelon,Good NPK
+24.87,85.7,235.35,5.65,63.4,40.6,44.4,silty clay,rice,Urea and DAP
+24.63,75.47,166.91,6.37,68.2,53.3,35.3,alluvial,jute,Urea and DAP
+29.28,84.66,89.77,6.72,129.2,54.8,20.0,Clayey,cotton,Urea and MOP
+32.33,55.14,148.68,5.28,18.9,56.4,21.4,clay loam,pigeonpeas,Good NPK
+26.56,67.52,67.75,6.35,21.6,67.2,24.2,clay loam,blackgram,Good NPK
+37.79,89.64,25.08,6.82,104.5,9.5,51.3,coastal,muskmelon,DAP
+26.73,94.35,171.62,7.69,4.0,4.9,4.5,sandy,coconut,Urea
+24.19,81.56,185.23,5.73,67.5,44.5,42.3,Clayey,rice,Urea and DAP
+28.49,85.82,102.34,6.2,17.6,17.8,15.3,alluvial,orange,Good NPK
+27.07,51.54,94.49,6.33,21.4,19.1,27.7,laterite,mango,Urea and DAP
+26.86,54.78,103.89,7.49,16.4,19.7,34.4,sandy,mango,Urea and DAP
+36.61,93.13,20.91,6.03,109.4,14.0,45.9,sandy,muskmelon,Good NPK
+23.13,85.33,204.23,5.86,70.2,40.3,36.1,Clayey,rice,Urea and DAP
+22.06,92.01,122.22,5.52,22.3,126.7,196.5,alluvial,apple,DAP and MOP
+26.87,84.45,61.26,6.73,21.2,57.4,24.8,sandy,mungbean,Urea and DAP
+33.34,92.11,154.8,6.39,53.7,53.6,48.4,Clayey,papaya,Urea and DAP
+29.98,87.63,106.16,6.7,105.4,64.1,53.9,Clayey,banana,Good NPK
+28.02,60.51,73.53,6.2,24.3,64.2,16.8,laterite,blackgram,Good NPK
+29.4,88.89,21.59,6.41,113.3,8.7,52.2,alluvial,muskmelon,DAP
+22.94,94.59,122.17,6.52,17.9,139.5,197.3,alluvial,apple,DAP and MOP
+27.23,94.26,165.55,7.03,5.8,4.4,6.0,coastal,coconut,DAP
+37.62,93.31,150.76,6.89,45.4,40.4,45.5,sandy,papaya,Urea and DAP
+26.89,55.09,141.53,6.95,24.6,63.0,23.4,laterite,pigeonpeas,Good NPK
+23.47,78.48,167.09,6.9,79.0,51.8,44.3,silty clay,jute,Urea and DAP
+21.11,90.81,110.91,6.84,20.9,127.8,209.9,laterite,apple,DAP and MOP
+22.85,90.5,116.78,6.38,17.3,120.9,207.1,alluvial,apple,DAP and MOP
+23.46,61.36,108.03,6.97,84.1,46.5,45.8,alluvial,maize,Good NPK
+28.76,88.21,54.13,6.01,17.0,55.2,15.8,alluvial,mungbean,Urea and DAP
+21.28,90.86,118.9,5.52,16.0,134.7,206.7,alluvial,apple,DAP and MOP
+22.14,72.62,51.65,7.8,19.2,56.9,16.3,sandy,lentil,DAP and MOP
+12.22,87.2,68.95,6.29,22.0,135.6,197.8,alluvial,grapes,DAP and MOP
+21.16,82.17,269.62,5.94,65.1,42.0,35.8,silty clay,rice,Urea and DAP
+24.08,80.07,46.51,6.24,113.6,10.7,50.0,alluvial,watermelon,Urea and MOP
+27.25,73.68,45.61,7.0,16.2,61.5,17.2,clay loam,lentil,DAP and MOP
+22.83,90.6,111.17,6.89,18.7,121.0,200.4,clay loam,apple,DAP and MOP
+8.19,89.62,69.13,6.19,22.2,121.9,208.7,clay loam,grapes,DAP and MOP
+19.6,14.93,67.31,7.99,33.0,56.2,76.7,clay loam,chickpea,DAP and MOP
+23.22,56.37,87.97,7.25,74.5,50.4,45.9,sandy,maize,Good NPK
+26.25,75.4,113.2,5.52,105.2,66.5,46.6,Clayey,banana,Good NPK
+15.36,19.75,108.47,6.8,20.1,59.4,15.4,alluvial,kidneybeans,DAP and MOP
+26.29,88.58,107.79,6.66,17.1,19.3,15.5,coastal,orange,Good NPK
+26.74,54.58,95.76,7.21,21.1,17.0,27.5,sandy,mango,Urea and DAP
+24.15,59.18,155.77,6.4,95.3,33.2,31.4,laterite,coffee,Good NPK
+33.14,94.54,154.59,6.82,49.1,53.1,46.6,sandy,papaya,Urea and DAP
+12.84,89.95,71.15,6.1,19.2,139.8,202.0,laterite,grapes,DAP and MOP
+16.47,88.65,66.41,6.25,24.1,132.6,209.5,alluvial,grapes,DAP and MOP
+26.91,91.86,161.42,6.12,5.8,5.9,4.0,laterite,coconut,MOP
+24.36,79.16,91.08,6.77,123.3,42.5,19.2,alluvial,cotton,Urea and MOP
+20.1,81.99,251.12,6.57,68.5,38.9,37.9,laterite,rice,Urea and DAP
+31.19,54.5,146.65,5.94,23.7,62.6,18.7,laterite,pigeonpeas,Good NPK
+33.5,63.81,65.08,6.24,22.9,63.1,15.0,laterite,blackgram,Good NPK
+16.78,24.97,94.89,7.98,33.5,67.8,72.4,clay loam,chickpea,DAP and MOP
+23.6,70.2,47.64,7.22,15.6,74.5,20.4,alluvial,lentil,DAP and MOP
+19.38,20.35,124.51,6.56,15.1,69.1,24.7,alluvial,kidneybeans,DAP and MOP
+23.92,93.41,120.53,6.13,21.9,123.0,196.0,laterite,apple,DAP and MOP
+19.79,90.63,105.43,6.76,19.0,74.1,41.4,alluvial,pomegranate,Urea and MOP
+19.86,90.43,113.85,5.64,15.2,68.1,41.2,laterite,pomegranate,Urea and MOP
+24.55,76.42,160.29,6.19,76.8,47.3,35.9,silty clay,jute,Urea and DAP
+28.24,93.98,24.67,6.52,101.4,11.3,51.3,sandy,muskmelon,Good NPK
+26.47,59.6,154.52,6.52,17.7,57.0,16.7,clay loam,pigeonpeas,Good NPK
+26.48,85.44,185.95,6.24,77.3,43.3,41.1,alluvial,jute,Urea and DAP
+25.19,77.54,174.76,6.82,81.7,40.3,41.8,silty clay,jute,Urea and DAP
+31.45,53.51,111.33,6.72,20.6,18.4,28.2,sandy,mango,Urea and DAP
+22.24,94.7,100.63,5.99,17.7,64.1,39.7,laterite,pomegranate,Urea and MOP
+31.02,59.06,45.0,4.44,21.8,41.5,19.2,laterite,mothbeans,DAP and MOP
+31.73,64.97,68.0,6.93,15.7,68.2,23.1,alluvial,blackgram,Good NPK
+25.21,82.51,187.28,5.78,60.8,39.0,39.3,laterite,rice,Urea and DAP
+25.29,70.6,53.08,6.72,20.2,58.0,15.7,alluvial,lentil,DAP and MOP
+30.98,68.7,69.49,6.84,16.3,68.1,15.4,clay loam,blackgram,Good NPK
+25.82,58.86,42.56,4.48,20.8,45.1,22.6,laterite,mothbeans,DAP and MOP
+8.58,84.02,68.29,5.54,20.8,142.7,209.1,clay loam,grapes,DAP and MOP
+27.74,88.3,51.46,6.36,96.8,15.4,49.8,alluvial,watermelon,Urea and MOP
+25.14,82.58,58.86,6.67,16.6,74.2,20.4,alluvial,mungbean,Urea and DAP
+28.33,79.85,81.87,6.4,130.5,56.8,18.7,clay loam,cotton,Urea and MOP
+34.27,92.47,140.98,6.62,53.0,48.0,45.0,Clayey,papaya,Urea and DAP
+27.21,86.79,51.48,6.87,105.9,13.9,52.1,alluvial,watermelon,Urea and MOP
+34.74,47.31,98.47,7.05,19.1,24.5,26.3,laterite,mango,Urea and DAP
+32.96,80.92,113.21,6.24,91.1,74.8,46.3,clay loam,banana,Good NPK
+19.16,26.47,126.32,6.85,24.9,62.7,20.7,sandy,kidneybeans,DAP and MOP
+32.01,82.85,54.11,6.95,24.7,72.3,21.0,sandy,mungbean,Urea and DAP
+29.31,90.71,28.01,6.25,103.0,13.5,54.1,coastal,muskmelon,Good NPK
+27.01,95.48,153.89,7.5,5.0,5.0,5.6,laterite,coconut,Urea
+20.31,24.51,116.84,6.47,20.8,74.8,17.4,clay loam,kidneybeans,DAP and MOP
+22.28,90.98,105.86,6.54,18.0,58.6,35.9,laterite,pomegranate,Urea and MOP
+30.18,60.73,67.53,6.44,21.1,58.1,24.6,clay loam,blackgram,Good NPK
+33.4,60.17,70.73,5.57,16.8,56.1,20.9,laterite,blackgram,Good NPK
+25.53,88.62,47.91,6.89,110.5,14.3,52.1,alluvial,watermelon,Urea and MOP
+30.85,80.39,105.45,6.21,96.6,57.4,50.1,clay loam,banana,Good NPK
+20.7,93.77,111.58,6.93,15.4,73.2,42.8,clay loam,pomegranate,Urea and MOP
+25.94,58.11,159.98,6.5,113.0,32.2,28.5,clay loam,coffee,Good NPK
+34.41,92.74,153.73,6.08,50.6,52.2,53.3,alluvial,papaya,Urea and DAP
+26.19,80.72,171.42,6.29,68.8,49.4,43.9,Clayey,jute,Urea and DAP
+24.52,92.74,157.32,5.82,4.8,4.4,4.7,laterite,coconut,DAP
+28.78,94.02,111.69,6.58,20.9,22.8,10.0,clay loam,orange,Good NPK
+24.52,94.19,163.59,6.37,4.6,4.3,4.9,laterite,coconut,DAP
+28.08,80.86,56.15,6.46,98.8,8.2,50.2,sandy,watermelon,DAP
+22.53,90.41,110.14,6.43,21.7,123.3,208.2,laterite,apple,DAP and MOP
+33.45,92.57,145.35,6.06,49.0,38.8,52.6,Clayey,papaya,Urea and DAP
+28.2,91.22,23.11,6.66,113.1,9.6,45.3,alluvial,muskmelon,DAP
+33.29,93.76,22.79,6.46,107.6,9.5,50.1,coastal,muskmelon,DAP
+26.37,83.96,84.97,6.38,120.6,51.3,15.7,Clayey,cotton,Urea and MOP
+9.85,87.37,67.46,6.55,22.7,140.3,202.4,clay loam,grapes,DAP and MOP
+24.95,78.25,179.96,6.12,65.8,46.0,42.9,Clayey,jute,Urea and DAP
+23.13,84.85,188.33,6.61,65.2,45.9,36.1,alluvial,jute,Urea and DAP
+8.74,80.03,70.03,6.15,15.1,138.8,196.6,clay loam,grapes,DAP and MOP
+23.51,73.26,48.98,6.61,24.4,71.1,23.5,alluvial,lentil,DAP and MOP
+24.81,85.12,213.96,5.74,66.4,35.9,39.8,Clayey,rice,Urea and DAP
+30.88,47.52,98.51,5.91,18.8,24.4,33.2,sandy,mango,Urea and DAP
+22.15,66.69,45.11,6.38,17.2,69.6,20.0,clay loam,lentil,DAP and MOP
+23.36,91.61,123.77,5.56,17.1,144.2,195.4,laterite,apple,DAP and MOP
+33.8,86.49,57.47,7.35,20.8,70.3,19.1,alluvial,mungbean,Urea and DAP
+25.89,94.48,170.78,7.41,4.3,5.2,5.8,laterite,coconut,Urea
+24.07,88.63,201.3,6.82,62.9,40.1,37.3,laterite,rice,Urea and DAP
+26.74,69.16,105.86,6.45,83.9,48.0,49.2,clay loam,maize,Good NPK
+25.9,50.91,100.47,6.7,24.8,18.9,25.8,laterite,mango,Urea and DAP
+19.89,92.9,106.16,6.59,23.2,65.4,39.6,laterite,pomegranate,Urea and MOP
+28.82,78.18,94.75,7.27,116.3,59.3,18.5,alluvial,cotton,Urea and MOP
+20.69,67.78,52.24,7.87,18.6,65.5,21.7,alluvial,lentil,DAP and MOP
+36.7,88.59,26.99,6.93,107.3,14.8,49.8,coastal,muskmelon,Good NPK
+30.64,91.93,100.22,6.94,16.7,24.4,14.9,clay loam,orange,Good NPK
+12.44,87.86,68.56,6.92,20.6,142.6,204.0,alluvial,grapes,DAP and MOP
+29.44,56.25,50.76,5.09,19.4,58.0,24.6,sandy,mothbeans,DAP and MOP
+26.1,62.49,157.37,6.26,95.6,32.6,33.4,alluvial,coffee,Good NPK
+23.5,20.12,114.17,6.49,22.7,63.3,23.2,clay loam,kidneybeans,DAP and MOP
+18.45,18.31,104.27,5.58,16.2,57.5,23.5,clay loam,kidneybeans,DAP and MOP
+29.96,81.32,103.47,6.12,107.4,70.8,48.0,alluvial,banana,Good NPK
+27.69,89.03,54.8,6.96,98.5,10.9,47.9,alluvial,watermelon,Urea and MOP
+25.35,74.92,48.7,7.26,21.0,57.1,20.1,clay loam,lentil,DAP and MOP
+18.1,66.49,49.47,7.55,17.7,75.0,16.8,clay loam,lentil,DAP and MOP
+26.31,61.96,158.65,6.35,111.1,27.6,28.0,clay loam,coffee,Good NPK
+34.08,52.02,151.41,5.93,17.9,59.2,17.4,clay loam,pigeonpeas,Good NPK
+36.14,92.94,151.79,6.54,51.5,49.8,45.0,alluvial,papaya,Urea and DAP
+35.35,92.65,149.64,6.26,49.3,36.7,46.0,alluvial,papaya,Urea and DAP
+30.83,86.67,101.92,6.33,21.6,22.2,9.2,coastal,orange,MOP
+33.42,86.14,48.83,6.49,20.0,58.6,16.1,sandy,mungbean,Urea and DAP
+23.34,64.75,98.47,6.46,73.3,49.4,47.2,clay loam,maize,Good NPK
+30.97,85.59,28.38,6.14,104.5,14.4,52.4,coastal,muskmelon,Good NPK
+32.68,45.41,95.08,5.75,21.9,23.4,29.1,sandy,mango,Urea and DAP
+23.66,87.7,236.06,5.82,76.5,38.6,36.3,silty clay,rice,Urea and DAP
+33.58,68.45,71.87,6.04,17.7,65.1,22.8,alluvial,blackgram,Good NPK
+25.37,80.87,263.88,6.26,74.7,40.3,42.1,Clayey,rice,Urea and DAP
+24.74,57.19,97.13,5.71,89.1,54.1,47.2,clay loam,maize,Good NPK
+12.43,89.15,69.5,6.23,22.0,137.5,205.6,laterite,grapes,DAP and MOP
+20.32,72.09,53.57,7.65,21.6,73.1,16.0,alluvial,lentil,DAP and MOP
+24.89,75.44,168.88,6.97,82.6,40.1,35.0,Clayey,jute,Urea and DAP
+29.97,76.78,81.8,7.09,119.6,43.1,21.2,clay loam,cotton,Urea and MOP
+25.69,63.46,160.66,6.2,112.8,27.5,25.6,alluvial,coffee,Good NPK
+28.41,79.86,101.0,6.38,96.9,65.0,46.6,alluvial,banana,Good NPK
+31.9,49.82,95.36,5.75,24.2,19.7,25.3,sandy,mango,Urea and DAP
+26.85,83.92,46.88,6.92,111.7,12.4,51.2,clay loam,watermelon,Urea and MOP
+27.47,94.55,105.9,6.75,24.2,24.1,9.8,clay loam,orange,MOP
+27.8,88.8,59.36,6.89,110.7,11.0,46.0,sandy,watermelon,Urea and MOP
+30.59,57.43,53.93,5.64,24.0,44.3,23.8,laterite,mothbeans,DAP and MOP
+25.85,52.0,152.61,5.96,23.1,61.6,17.1,laterite,pigeonpeas,Good NPK
+23.99,83.27,87.46,7.52,132.5,46.0,16.6,alluvial,cotton,Urea and MOP
+23.3,79.63,91.69,6.84,117.8,44.4,19.8,alluvial,cotton,Urea and MOP
+23.29,92.15,112.53,5.58,18.8,132.5,209.3,laterite,apple,DAP and MOP
+22.14,26.23,116.58,6.71,15.7,68.7,17.4,sandy,kidneybeans,DAP and MOP
+26.58,77.66,86.87,7.87,133.1,58.4,20.4,Clayey,cotton,Urea and MOP
+33.03,47.39,105.6,5.58,19.9,17.7,32.0,laterite,mango,Urea and DAP
+22.57,87.44,207.73,6.58,60.4,39.9,36.8,laterite,rice,Urea and DAP
+23.45,91.11,121.6,6.01,22.6,130.9,203.4,clay loam,apple,DAP and MOP
+14.26,83.44,73.84,6.54,22.2,124.4,203.9,laterite,grapes,DAP and MOP
+23.37,90.58,122.32,6.89,16.3,142.6,202.9,alluvial,apple,DAP and MOP
+32.76,63.39,67.05,6.35,22.1,55.4,19.2,laterite,blackgram,Good NPK
+22.87,94.27,103.98,6.87,21.7,72.3,36.6,alluvial,pomegranate,Urea and MOP
+35.02,92.77,150.86,6.94,51.6,49.7,48.7,alluvial,papaya,Urea and DAP
+18.94,64.55,80.95,6.91,86.0,47.0,41.7,alluvial,maize,Good NPK
+25.32,91.92,167.06,6.15,5.2,4.0,5.6,coastal,coconut,DAP
+26.14,51.76,108.02,6.9,15.1,19.3,29.1,sandy,mango,Urea and DAP
+23.36,92.31,122.59,7.0,17.4,141.9,198.0,alluvial,apple,DAP and MOP
+14.19,89.39,66.9,6.58,16.0,144.6,207.9,laterite,grapes,DAP and MOP
+28.96,86.18,102.1,6.38,17.3,24.9,12.5,clay loam,orange,Good NPK
+23.57,92.9,113.67,6.5,17.4,59.8,35.8,laterite,pomegranate,Urea and MOP
+31.82,59.25,151.01,5.27,16.7,64.7,16.2,alluvial,pigeonpeas,Good NPK
+23.8,92.63,105.44,5.95,18.0,70.8,35.3,alluvial,pomegranate,Urea and MOP
+29.48,89.71,106.78,6.03,96.0,65.2,48.8,clay loam,banana,Good NPK
+31.09,86.53,107.09,6.17,108.3,63.6,51.8,alluvial,banana,Good NPK
+29.19,53.99,45.76,5.04,19.9,42.7,17.6,alluvial,mothbeans,DAP and MOP
+28.83,66.31,69.38,6.15,16.1,70.6,24.1,clay loam,blackgram,Good NPK
+34.7,87.28,60.24,7.38,16.7,62.6,21.2,clay loam,mungbean,Urea and DAP
+21.59,26.83,66.42,6.21,31.0,55.8,76.2,sandy,chickpea,DAP and MOP
+30.01,65.73,74.38,5.71,19.9,72.4,22.4,alluvial,blackgram,Good NPK
+25.76,64.45,161.64,6.26,111.7,28.4,26.7,laterite,coffee,Good NPK
+24.32,80.41,94.61,6.45,124.1,54.3,19.0,clay loam,cotton,Urea and MOP
+27.39,53.36,110.6,7.07,21.1,16.0,29.5,sandy,mango,Urea and DAP
+34.91,91.78,144.77,6.37,53.7,40.9,47.6,alluvial,papaya,Urea and DAP
+23.14,93.68,109.49,6.19,24.7,23.8,15.6,clay loam,orange,Good NPK
+25.36,81.56,83.72,7.85,118.8,42.1,19.3,clay loam,cotton,Urea and MOP
+23.16,92.29,103.63,5.89,22.0,69.2,35.5,laterite,pomegranate,Urea and MOP
+15.29,89.77,67.78,6.47,22.6,125.6,196.1,alluvial,grapes,DAP and MOP
+25.2,87.09,114.8,5.66,108.0,73.8,45.9,alluvial,banana,Good NPK
+23.2,57.48,89.34,5.57,70.7,54.1,42.5,sandy,maize,Good NPK
+26.9,94.8,177.61,7.94,4.1,4.0,5.9,coastal,coconut,DAP
+33.66,47.47,40.29,4.75,19.5,40.3,17.5,sandy,mothbeans,DAP and MOP
+27.46,50.77,110.6,6.05,23.6,22.8,34.3,laterite,mango,Urea and DAP
+31.3,48.41,104.46,6.1,20.3,22.2,29.4,sandy,mango,Urea and DAP
+22.01,90.61,110.7,5.63,19.9,127.9,200.0,laterite,apple,DAP and MOP
+32.15,85.18,21.74,6.86,104.7,14.7,54.0,coastal,muskmelon,Good NPK
+23.18,66.24,47.9,7.92,22.5,59.7,15.6,clay loam,lentil,DAP and MOP
+22.84,90.4,105.79,5.79,16.9,68.4,35.0,alluvial,pomegranate,Urea and MOP
+32.77,79.04,108.0,6.72,109.8,72.5,53.5,Clayey,banana,Good NPK
+22.9,91.21,121.11,6.16,24.6,127.5,209.9,clay loam,apple,DAP and MOP
+24.44,93.33,113.7,6.92,19.8,18.3,9.5,alluvial,orange,MOP
+34.86,93.36,152.25,6.92,50.4,45.2,46.6,alluvial,papaya,Urea and DAP
+23.52,70.99,49.0,6.55,20.9,57.8,19.3,sandy,lentil,DAP and MOP
+28.5,76.69,91.24,6.22,115.9,43.9,20.8,clay loam,cotton,Urea and MOP
+25.67,63.16,145.01,6.31,113.9,28.4,31.4,clay loam,coffee,Good NPK
+26.48,91.72,172.33,7.75,4.6,5.7,4.7,laterite,coconut,Urea
+25.37,71.27,54.6,6.94,22.5,59.2,20.4,sandy,lentil,DAP and MOP
+22.82,92.42,114.17,5.66,21.6,137.0,195.6,alluvial,apple,DAP and MOP
+31.51,93.37,29.42,6.07,102.0,14.1,46.0,coastal,muskmelon,Good NPK
+30.83,66.84,72.27,6.63,21.1,67.6,20.3,alluvial,blackgram,Good NPK
+26.74,65.47,69.45,6.57,17.6,65.4,22.2,clay loam,blackgram,Good NPK
+34.54,58.22,152.51,6.17,21.9,73.2,21.4,laterite,pigeonpeas,Good NPK
+24.81,18.1,72.92,7.31,38.4,60.2,76.0,sandy,chickpea,DAP and MOP
+21.81,84.59,224.34,6.97,62.9,44.3,39.9,Clayey,rice,Urea and DAP
+23.46,79.69,91.49,7.33,115.2,43.8,21.9,Clayey,cotton,Urea and MOP
+34.03,59.0,150.11,6.6,22.1,74.3,23.3,clay loam,pigeonpeas,Good NPK
+18.81,27.82,122.0,6.68,21.8,56.4,17.1,sandy,kidneybeans,DAP and MOP
+23.21,61.58,94.6,6.95,89.8,45.4,48.7,alluvial,maize,Good NPK
+31.55,78.43,104.72,5.91,101.3,70.8,53.4,alluvial,banana,Good NPK
+26.67,85.0,191.17,6.47,70.7,46.1,42.1,alluvial,jute,Urea and DAP
+28.98,94.26,112.43,7.22,15.8,24.0,15.3,clay loam,orange,Good NPK
+35.79,91.25,142.04,6.21,51.3,37.0,54.3,Clayey,papaya,Urea and DAP
+25.57,92.52,169.31,7.91,4.0,5.1,5.9,sandy,coconut,Urea
+32.2,49.31,40.98,6.14,21.8,58.6,25.0,alluvial,mothbeans,DAP and MOP
+23.89,83.23,263.22,5.57,68.7,43.0,44.8,Clayey,rice,Urea and DAP
+10.43,85.11,70.12,6.16,17.9,126.3,200.0,alluvial,grapes,DAP and MOP
+20.08,72.99,49.15,7.61,19.0,60.9,21.8,clay loam,lentil,DAP and MOP
+33.56,93.52,153.45,6.73,54.4,53.0,48.5,sandy,papaya,Urea and DAP
+19.47,23.61,101.78,7.03,41.1,61.1,71.0,clay loam,chickpea,DAP and MOP
+23.23,17.36,103.94,6.76,43.7,56.9,65.4,sandy,chickpea,DAP and MOP
+21.82,90.69,120.5,5.68,17.4,123.9,208.3,clay loam,apple,DAP and MOP
+25.79,84.56,56.98,6.07,99.9,13.9,49.4,alluvial,watermelon,Urea and MOP
+20.36,88.87,232.1,5.54,63.9,35.7,39.0,laterite,rice,Urea and DAP
+34.94,92.66,143.85,6.89,49.9,35.5,52.1,alluvial,papaya,Urea and DAP
+30.18,86.14,54.67,6.35,19.9,56.7,24.7,sandy,mungbean,Urea and DAP
+25.48,88.23,182.11,6.35,68.1,43.3,35.8,Clayey,jute,Urea and DAP
+33.14,91.32,150.17,6.71,53.5,42.5,50.7,sandy,papaya,Urea and DAP
+19.28,93.02,113.01,6.26,21.9,58.4,37.7,laterite,pomegranate,Urea and MOP
+22.53,92.02,113.39,6.11,20.2,142.5,205.9,laterite,apple,DAP and MOP
+23.61,83.2,199.67,6.92,71.4,43.1,37.1,Clayey,jute,Urea and DAP
+26.06,68.13,71.18,6.37,24.6,67.6,16.8,laterite,blackgram,Good NPK
+20.86,68.0,102.57,7.49,77.0,46.6,46.0,sandy,maize,Good NPK
+20.92,94.39,113.95,6.29,22.3,55.4,37.1,clay loam,pomegranate,Urea and MOP
+31.91,53.95,154.64,6.0,24.2,67.3,17.5,clay loam,pigeonpeas,Good NPK
+33.44,86.0,23.75,6.93,113.2,10.4,49.5,sandy,muskmelon,Good NPK
+28.02,80.37,53.06,6.76,18.2,55.2,18.8,clay loam,mungbean,Urea and DAP
+31.35,68.59,68.9,6.02,20.8,61.0,15.3,alluvial,blackgram,Good NPK
+23.5,77.16,199.52,6.89,70.4,53.6,38.6,silty clay,jute,Urea and DAP
+27.31,92.71,179.39,6.57,4.7,4.8,4.7,coastal,coconut,Urea
+33.26,67.01,65.55,6.19,19.4,55.8,18.6,laterite,blackgram,Good NPK
+29.36,78.86,89.78,7.85,120.0,50.7,20.8,Clayey,cotton,Urea and MOP
+26.95,83.94,45.67,6.61,104.6,14.3,46.5,sandy,watermelon,Urea and MOP
+31.49,59.04,152.37,5.13,22.1,63.6,19.4,laterite,pigeonpeas,Good NPK
+32.61,77.25,103.8,6.36,91.2,70.5,50.7,clay loam,banana,Good NPK
+23.79,94.55,123.27,6.57,19.9,128.6,201.3,clay loam,apple,DAP and MOP
+22.71,93.86,113.92,6.89,18.3,136.3,199.2,laterite,apple,DAP and MOP
+26.71,67.37,48.86,7.96,21.7,61.3,21.8,sandy,lentil,DAP and MOP
+33.99,93.72,148.69,6.89,50.7,37.3,54.1,Clayey,papaya,Urea and DAP
+27.04,84.19,45.0,6.33,24.2,61.9,15.5,clay loam,mungbean,Urea and DAP
+20.28,57.94,97.85,6.51,87.3,49.1,45.5,sandy,maize,Good NPK
+30.06,59.12,141.54,6.75,24.5,61.5,18.5,alluvial,pigeonpeas,Good NPK
+25.2,61.25,162.45,6.25,99.3,26.2,33.8,alluvial,coffee,Good NPK
+26.54,87.12,112.89,6.3,18.5,18.3,14.1,alluvial,orange,Good NPK
+18.14,94.48,103.41,5.82,19.6,58.9,37.1,laterite,pomegranate,Urea and MOP
+27.31,82.44,46.27,6.46,18.3,56.1,21.7,sandy,mungbean,Urea and DAP
+26.79,60.46,155.33,6.33,111.3,25.3,29.5,laterite,coffee,Good NPK
+25.87,82.05,243.99,6.95,74.4,40.4,39.8,Clayey,rice,Urea and DAP
+24.58,67.87,47.79,7.12,24.8,71.8,15.4,sandy,lentil,DAP and MOP
+25.02,91.55,167.84,6.47,4.6,4.3,5.2,sandy,coconut,DAP
+25.89,55.17,154.44,6.49,107.7,33.1,33.4,clay loam,coffee,Good NPK
+33.98,69.35,73.69,6.97,18.0,64.2,16.0,laterite,blackgram,Good NPK
+33.98,56.18,153.44,5.15,20.7,57.8,21.9,laterite,pigeonpeas,Good NPK
+8.13,82.65,70.73,6.27,15.2,126.3,202.8,laterite,grapes,DAP and MOP
+27.11,81.4,48.64,6.51,101.9,12.0,49.6,clay loam,watermelon,Urea and MOP
+24.51,85.8,105.61,6.6,24.4,17.2,11.7,alluvial,orange,Good NPK
+21.92,85.61,267.45,6.07,73.4,41.7,40.9,laterite,rice,Urea and DAP
+16.01,20.78,112.96,5.91,17.0,63.4,22.5,alluvial,kidneybeans,DAP and MOP
+18.6,15.1,81.33,7.53,36.8,72.3,68.2,alluvial,chickpea,DAP and MOP
+24.77,62.25,145.02,6.15,112.8,29.8,34.3,alluvial,coffee,Good NPK
+27.98,84.57,103.54,5.93,110.4,71.1,49.9,Clayey,banana,Good NPK
+32.96,49.75,99.0,7.09,21.8,17.5,30.9,laterite,mango,Urea and DAP
+33.95,89.49,22.53,6.42,105.8,14.9,46.3,alluvial,muskmelon,Good NPK
+30.85,93.16,114.17,6.93,24.6,15.4,8.6,coastal,orange,MOP
+24.07,76.76,164.28,6.02,82.7,52.6,41.7,Clayey,jute,Urea and DAP
+23.35,81.25,186.62,6.62,80.9,46.4,37.2,silty clay,jute,Urea and DAP
+35.76,87.88,26.79,6.32,103.0,11.6,53.5,alluvial,muskmelon,Good NPK
+25.22,87.74,54.35,6.2,17.8,58.7,15.4,alluvial,mungbean,Urea and DAP
+29.56,84.6,89.38,7.94,131.6,53.2,22.4,alluvial,cotton,Urea and MOP
+21.09,94.79,110.73,5.83,22.0,126.3,209.4,laterite,apple,DAP and MOP
+25.94,58.63,162.56,6.31,96.5,30.0,29.9,clay loam,coffee,Good NPK
+32.1,89.84,46.93,6.08,16.8,72.8,19.6,alluvial,mungbean,Urea and DAP
+26.35,68.65,50.55,7.68,15.7,75.0,15.2,clay loam,lentil,DAP and MOP
+35.99,86.37,29.65,6.35,109.5,13.5,54.7,coastal,muskmelon,Good NPK
+18.28,65.97,105.72,7.32,72.6,53.7,49.6,alluvial,maize,Good NPK
+20.01,72.15,48.06,6.63,23.7,71.3,17.3,alluvial,lentil,DAP and MOP
+26.13,94.17,146.5,7.32,4.4,4.1,4.5,sandy,coconut,DAP
+22.83,14.9,74.02,7.71,41.7,69.0,78.9,sandy,chickpea,DAP and MOP
+23.63,22.01,104.57,5.94,22.1,68.3,17.1,sandy,kidneybeans,DAP and MOP
+24.26,58.09,148.45,6.31,108.4,28.5,25.2,laterite,coffee,Good NPK
+31.04,89.04,101.27,5.85,93.2,55.5,51.9,alluvial,banana,Good NPK
+25.77,48.52,58.97,5.99,15.5,43.2,18.4,laterite,mothbeans,DAP and MOP
+29.43,84.35,58.91,6.49,106.3,9.1,52.0,alluvial,watermelon,DAP
+29.0,87.79,110.18,6.25,106.0,60.7,47.9,Clayey,banana,Good NPK
+31.19,60.82,67.5,5.83,15.0,66.9,22.2,laterite,blackgram,Good NPK
+26.04,58.82,159.1,6.49,114.6,31.5,30.2,laterite,coffee,Good NPK
+28.68,51.49,143.89,5.06,16.9,56.8,22.0,laterite,pigeonpeas,Good NPK
+23.7,89.81,192.82,6.36,61.3,50.9,35.2,alluvial,jute,Urea and DAP
+31.3,64.17,65.94,5.72,23.9,63.2,21.0,laterite,blackgram,Good NPK
+14.22,85.34,68.4,6.07,20.9,140.8,196.1,laterite,grapes,DAP and MOP
+12.04,82.56,65.99,5.68,19.5,132.5,202.8,clay loam,grapes,DAP and MOP
+35.7,90.99,147.53,6.43,51.8,46.3,49.4,Clayey,papaya,Urea and DAP
+31.4,53.77,112.78,6.34,19.1,21.9,27.5,alluvial,mango,Urea and DAP
+33.71,56.39,49.69,5.68,17.8,46.6,21.6,laterite,mothbeans,DAP and MOP
+24.98,88.1,188.66,6.02,77.2,38.3,37.2,Clayey,rice,Urea and DAP
+24.37,24.03,101.79,6.21,16.5,73.0,22.1,clay loam,kidneybeans,DAP and MOP
+10.13,87.76,69.66,6.96,24.3,128.2,197.0,laterite,grapes,DAP and MOP
+29.4,88.18,47.88,6.99,99.9,15.0,52.4,alluvial,watermelon,Urea and MOP
+28.8,91.43,107.3,7.29,17.6,16.0,12.8,alluvial,orange,Good NPK
+24.08,78.57,84.43,6.35,119.7,55.6,21.2,Clayey,cotton,Urea and MOP
+15.0,23.11,108.29,5.57,15.5,70.0,18.2,clay loam,kidneybeans,DAP and MOP
+25.43,51.7,150.94,5.14,24.9,59.6,24.4,clay loam,pigeonpeas,Good NPK
+25.01,58.06,149.41,6.59,23.7,60.0,17.6,alluvial,pigeonpeas,Good NPK
+20.01,20.35,90.12,7.08,41.5,66.3,70.9,alluvial,chickpea,DAP and MOP
+18.24,94.02,112.82,6.05,18.3,64.5,43.8,laterite,pomegranate,Urea and MOP
+13.77,87.7,73.34,5.71,15.6,127.6,208.4,clay loam,grapes,DAP and MOP
+26.77,90.47,149.88,7.42,4.1,5.1,5.0,laterite,coconut,Urea
+30.65,85.05,109.04,6.94,110.4,72.8,50.2,clay loam,banana,Good NPK
+21.05,94.15,106.37,6.02,17.0,74.2,36.4,clay loam,pomegranate,Urea and MOP
+20.87,87.31,196.31,6.91,78.6,43.3,44.7,laterite,rice,Urea and DAP
+25.01,87.15,109.51,5.63,103.6,65.5,46.4,alluvial,banana,Good NPK
+29.06,86.57,114.2,6.15,90.1,73.6,46.1,alluvial,banana,Good NPK
+28.97,86.15,105.82,6.37,92.8,58.1,49.4,clay loam,banana,Good NPK
+26.86,76.15,84.36,7.89,120.8,50.9,17.8,Clayey,cotton,Urea and MOP
+28.62,88.67,59.9,6.52,114.2,9.7,48.1,sandy,watermelon,DAP
+32.94,86.25,58.59,7.41,18.9,60.2,18.5,clay loam,mungbean,Urea and DAP
+31.09,54.27,107.27,6.83,15.2,23.7,30.5,laterite,mango,Urea and DAP
+18.28,91.78,111.34,5.82,20.6,72.9,44.7,laterite,pomegranate,Urea and MOP
+36.34,88.52,26.23,6.06,113.4,13.5,52.4,alluvial,muskmelon,Good NPK
+25.4,88.11,111.75,7.43,19.9,16.1,8.7,coastal,orange,MOP
+19.16,59.25,92.97,5.54,77.5,45.1,48.2,alluvial,maize,Good NPK
+26.17,89.79,101.95,5.96,90.3,57.6,48.1,Clayey,banana,Good NPK
+25.63,83.56,199.22,7.0,71.9,54.8,42.2,silty clay,jute,Urea and DAP
+24.56,57.69,152.58,6.22,111.5,27.8,29.5,laterite,coffee,Good NPK
+30.84,67.97,73.05,6.01,18.6,62.2,20.3,laterite,blackgram,Good NPK
+34.78,47.71,46.68,5.9,17.2,48.0,19.1,laterite,mothbeans,DAP and MOP
+34.94,93.93,22.22,6.63,110.3,8.6,46.5,alluvial,muskmelon,DAP
+27.44,64.5,71.6,6.89,22.1,68.1,23.7,laterite,blackgram,Good NPK
+8.89,82.65,73.47,6.24,23.8,140.0,209.2,laterite,grapes,DAP and MOP
+8.74,88.24,66.99,6.52,18.9,139.7,204.3,laterite,grapes,DAP and MOP
+29.05,76.1,82.64,6.64,120.2,58.4,19.2,Clayey,cotton,Urea and MOP
+11.53,85.78,71.86,6.27,15.6,130.3,203.7,clay loam,grapes,DAP and MOP
+30.02,48.7,149.93,5.94,16.5,74.4,19.5,laterite,pigeonpeas,Good NPK
+31.9,92.78,103.67,6.44,17.9,16.7,14.1,clay loam,orange,Good NPK
+28.64,46.48,45.09,3.85,22.0,44.3,15.4,alluvial,mothbeans,DAP and MOP
+31.17,52.61,113.29,6.46,17.3,22.3,25.3,sandy,mango,Urea and DAP
+23.79,87.29,192.52,6.91,61.4,49.2,41.9,silty clay,jute,Urea and DAP
+28.45,45.62,109.21,6.04,15.7,21.8,26.7,alluvial,mango,Urea and DAP
+19.68,70.12,51.25,6.97,16.1,72.5,22.8,sandy,lentil,DAP and MOP
+31.04,54.89,42.41,5.56,17.7,59.8,15.3,sandy,mothbeans,DAP and MOP
+29.78,87.68,57.67,6.94,20.1,67.4,19.8,alluvial,mungbean,Urea and DAP
+34.14,94.44,148.64,6.39,52.5,53.3,52.5,Clayey,papaya,Urea and DAP
+27.87,91.13,105.14,7.23,18.1,16.6,14.6,alluvial,orange,Good NPK
+28.92,85.7,109.37,6.49,94.9,67.3,45.9,clay loam,banana,Good NPK
+25.68,94.89,153.57,7.66,4.0,4.1,4.2,laterite,coconut,Urea
+32.09,50.86,104.43,6.21,23.5,18.5,31.5,sandy,mango,Urea and DAP
+28.33,64.92,67.38,6.36,23.5,71.6,19.0,clay loam,blackgram,Good NPK
+19.84,59.4,80.39,7.29,86.6,49.0,46.7,clay loam,maize,Good NPK
+32.03,88.43,27.61,6.4,106.2,12.6,46.7,sandy,muskmelon,Good NPK
+30.8,61.67,66.76,6.57,18.1,74.2,15.3,laterite,blackgram,Good NPK
+23.02,81.02,184.98,6.19,60.3,52.9,39.5,Clayey,jute,Urea and DAP
+25.75,82.66,110.4,6.95,111.2,63.8,45.2,alluvial,banana,Good NPK
+22.25,90.7,112.6,6.76,18.8,15.2,11.7,alluvial,orange,Good NPK
+24.32,70.04,54.16,6.12,21.3,60.1,23.0,alluvial,lentil,DAP and MOP
+26.77,66.7,96.97,5.73,77.3,53.6,42.2,clay loam,maize,Good NPK
+26.21,83.03,56.29,6.8,17.6,56.1,22.3,clay loam,mungbean,Urea and DAP
+25.84,81.77,90.24,7.46,127.9,44.6,24.2,alluvial,cotton,Urea and MOP
+25.05,79.24,82.72,7.02,121.0,57.2,15.2,Clayey,cotton,Urea and MOP
+23.31,64.06,163.49,6.27,104.4,33.0,29.6,laterite,coffee,Good NPK
+33.25,86.89,49.84,6.83,21.7,73.5,21.2,alluvial,mungbean,Urea and DAP
+15.95,22.29,114.43,5.54,18.2,72.0,22.3,alluvial,kidneybeans,DAP and MOP
+21.51,22.73,85.5,6.12,43.4,64.2,71.2,clay loam,chickpea,DAP and MOP
+29.35,89.53,63.6,7.08,20.6,72.2,21.7,sandy,mungbean,Urea and DAP
+20.14,90.5,109.79,6.94,23.2,61.9,43.1,alluvial,pomegranate,Urea and MOP
+22.43,68.76,50.26,6.73,19.9,70.6,18.8,sandy,lentil,DAP and MOP
+26.95,67.68,53.99,6.82,22.6,70.9,19.9,clay loam,lentil,DAP and MOP
+25.61,86.77,191.57,6.36,78.9,43.7,41.4,Clayey,rice,Urea and DAP
+26.01,80.03,53.88,6.96,103.0,10.4,53.0,alluvial,watermelon,Urea and MOP
+24.07,89.77,197.21,6.85,79.8,43.4,38.9,alluvial,jute,Urea and DAP
+19.92,93.35,109.37,5.78,16.8,66.6,44.0,alluvial,pomegranate,Urea and MOP
+22.69,70.91,53.89,7.77,16.5,69.1,17.4,clay loam,lentil,DAP and MOP
+25.79,63.31,74.88,5.87,21.7,67.3,23.9,clay loam,blackgram,Good NPK
+8.7,87.88,66.63,6.75,18.5,141.9,198.0,alluvial,grapes,DAP and MOP
+27.21,45.35,97.23,6.32,17.8,21.9,31.7,sandy,mango,Urea and DAP
+23.94,83.85,200.78,5.52,69.0,35.1,44.4,laterite,rice,Urea and DAP
+26.4,80.29,198.26,6.24,68.1,41.0,41.2,alluvial,jute,Urea and DAP
+26.27,81.93,113.46,6.77,93.5,72.6,50.8,alluvial,banana,Good NPK
+28.74,82.11,90.67,7.96,115.5,45.5,17.7,alluvial,cotton,Urea and MOP
+26.93,78.67,172.04,6.38,78.2,43.8,39.0,silty clay,jute,Urea and DAP
+20.48,16.05,80.74,7.76,31.7,59.7,76.0,alluvial,chickpea,DAP and MOP
+27.56,92.58,178.44,6.6,4.4,5.0,4.9,sandy,coconut,Urea
+30.28,81.72,54.25,6.25,17.2,56.1,17.6,sandy,mungbean,Urea and DAP
+34.96,57.38,143.74,6.69,23.9,61.5,24.0,laterite,pigeonpeas,Good NPK
+28.12,79.59,101.09,6.76,92.3,70.4,52.5,alluvial,banana,Good NPK
+26.3,79.91,107.47,5.82,114.9,57.1,46.8,Clayey,banana,Good NPK
+26.87,66.37,50.87,6.67,22.4,70.9,17.7,alluvial,lentil,DAP and MOP
+26.18,89.54,56.54,7.3,17.9,62.4,21.6,clay loam,mungbean,Urea and DAP
+33.5,91.59,145.94,6.05,50.4,46.9,50.4,sandy,papaya,Urea and DAP
+21.04,24.87,111.52,5.67,15.5,60.2,15.6,sandy,kidneybeans,DAP and MOP
+28.28,84.35,45.75,6.29,112.1,14.4,46.3,clay loam,watermelon,Urea and MOP
+26.55,93.96,149.93,5.87,5.1,4.9,5.0,laterite,coconut,DAP
+15.72,22.1,120.31,5.97,21.5,67.7,18.4,alluvial,kidneybeans,DAP and MOP
+25.81,58.68,84.81,5.81,87.3,52.3,45.2,sandy,maize,Good NPK
+32.64,49.93,93.67,6.18,20.0,19.8,26.6,laterite,mango,Urea and DAP
+15.93,83.97,68.48,5.9,16.8,139.1,202.4,clay loam,grapes,DAP and MOP
+26.23,52.78,47.16,4.24,15.8,43.4,16.3,laterite,mothbeans,DAP and MOP
+33.74,94.28,142.55,6.68,54.2,47.6,53.4,alluvial,papaya,Urea and DAP
+23.2,92.26,108.01,6.85,18.1,19.4,9.0,coastal,orange,MOP
+23.98,85.76,191.49,6.6,79.4,40.5,39.2,Clayey,rice,Urea and DAP
+25.74,92.44,173.94,6.11,5.1,5.4,5.9,coastal,coconut,Urea
+32.25,68.36,74.76,6.96,24.3,55.5,22.0,clay loam,blackgram,Good NPK
+22.27,71.49,51.34,7.45,24.9,60.3,23.3,alluvial,lentil,DAP and MOP
+27.26,83.92,48.77,6.31,105.4,16.0,50.2,alluvial,watermelon,Urea and MOP
+33.46,46.16,113.99,7.44,18.4,23.2,33.0,sandy,mango,Urea and DAP
+34.64,46.15,110.25,6.13,21.9,18.7,32.6,alluvial,mango,Urea and DAP
+27.79,48.28,152.39,5.37,16.4,66.4,16.9,laterite,pigeonpeas,Good NPK
+18.7,92.68,104.02,6.16,20.6,60.1,41.5,clay loam,pomegranate,Urea and MOP
+32.77,88.48,53.61,6.27,18.4,72.4,15.9,clay loam,mungbean,Urea and DAP
+21.04,18.77,128.54,5.61,17.9,68.1,24.7,sandy,kidneybeans,DAP and MOP
+31.71,57.08,48.0,6.34,19.0,54.6,18.5,laterite,mothbeans,DAP and MOP
+25.61,92.75,171.55,7.55,4.9,5.1,4.2,coastal,coconut,MOP
+20.8,19.39,118.79,6.17,24.7,66.2,18.5,sandy,kidneybeans,DAP and MOP
+20.23,83.45,241.26,6.45,65.3,44.8,39.1,Clayey,rice,Urea and DAP
+32.98,88.64,54.5,6.69,24.1,69.3,20.8,clay loam,mungbean,Urea and DAP
+26.07,89.13,225.14,6.27,65.9,43.1,43.1,Clayey,rice,Urea and DAP
+23.47,93.08,114.02,6.12,17.9,58.5,38.8,clay loam,pomegranate,Urea and MOP
+24.35,76.68,168.41,6.28,77.6,51.1,41.9,Clayey,jute,Urea and DAP
+22.18,65.73,54.8,6.55,21.5,68.0,23.2,alluvial,lentil,DAP and MOP
+33.86,58.44,44.6,4.39,16.9,52.8,17.6,laterite,mothbeans,DAP and MOP
+25.14,48.73,144.06,5.43,17.0,72.5,22.4,laterite,pigeonpeas,Good NPK
+20.73,92.78,106.9,6.11,17.7,64.3,43.9,clay loam,pomegranate,Urea and MOP
+28.41,58.76,42.87,4.72,15.7,41.8,21.0,sandy,mothbeans,DAP and MOP
+32.27,67.87,68.06,5.87,15.2,57.9,21.6,alluvial,blackgram,Good NPK
+34.71,94.84,146.02,6.69,52.0,39.5,45.0,Clayey,papaya,Urea and DAP
+26.25,61.73,154.85,6.09,101.2,30.8,34.5,alluvial,coffee,Good NPK
+31.45,80.61,100.33,6.93,97.2,57.4,52.0,Clayey,banana,Good NPK
+34.6,51.79,113.64,6.64,23.4,15.9,32.4,sandy,mango,Urea and DAP
+23.73,24.18,71.4,7.52,36.0,66.3,75.3,alluvial,chickpea,DAP and MOP
+31.69,85.66,25.85,6.62,95.8,14.0,50.3,alluvial,muskmelon,Good NPK
+33.87,48.58,100.45,6.26,20.6,24.5,30.0,alluvial,mango,Urea and DAP
+27.07,67.35,70.21,6.8,16.2,67.4,24.3,laterite,blackgram,Good NPK
+33.77,93.9,22.02,6.7,97.4,14.7,52.1,alluvial,muskmelon,Good NPK
+29.02,58.27,153.64,6.79,17.1,68.3,19.1,clay loam,pigeonpeas,Good NPK
+18.92,69.06,82.04,6.88,76.8,51.3,49.3,clay loam,maize,Good NPK
+29.93,91.71,110.01,7.0,23.3,23.0,13.8,clay loam,orange,Good NPK
+21.63,90.6,107.91,5.62,21.7,67.7,36.0,laterite,pomegranate,Urea and MOP
+31.01,92.05,110.23,7.2,21.2,15.6,12.2,coastal,orange,Good NPK
+27.67,67.69,45.86,6.99,21.1,58.8,23.0,sandy,lentil,DAP and MOP
+24.23,85.83,47.22,6.23,105.5,10.5,47.6,sandy,watermelon,Urea and MOP
+34.53,80.6,50.96,6.45,19.9,61.6,16.1,clay loam,mungbean,Urea and DAP
+25.37,94.48,159.55,6.88,5.9,4.4,4.2,laterite,coconut,MOP
+33.63,84.81,55.99,6.1,24.7,68.9,15.8,sandy,mungbean,Urea and DAP
+24.51,92.98,169.79,6.38,5.9,5.7,4.0,sandy,coconut,MOP
+31.04,56.46,44.54,5.07,20.7,43.7,15.6,laterite,mothbeans,DAP and MOP
+26.32,51.6,47.62,5.43,15.9,56.3,17.8,alluvial,mothbeans,DAP and MOP
+35.19,94.28,143.98,6.17,50.3,48.7,47.4,alluvial,papaya,Urea and DAP
+26.37,92.15,147.46,7.68,4.1,4.1,5.7,coastal,coconut,Urea
+22.36,89.43,226.69,5.98,68.3,37.2,36.2,Clayey,rice,Urea and DAP
+22.47,63.95,103.13,6.17,75.2,51.0,40.5,sandy,maize,Good NPK
+29.23,87.12,46.34,6.58,103.3,9.9,49.9,alluvial,watermelon,DAP
+15.9,87.65,70.02,5.53,15.3,122.1,199.4,alluvial,grapes,DAP and MOP
+27.5,58.2,149.59,6.23,105.1,28.8,32.0,laterite,coffee,Good NPK
+20.45,90.96,113.62,6.28,19.2,69.4,44.2,clay loam,pomegranate,Urea and MOP
+22.49,93.92,110.82,5.99,19.9,61.8,40.5,alluvial,pomegranate,Urea and MOP
+15.23,19.15,70.96,7.27,39.7,67.0,74.0,sandy,chickpea,DAP and MOP
+19.94,64.88,99.54,6.29,88.6,51.9,46.8,alluvial,maize,Good NPK
+26.76,52.43,101.35,6.0,17.1,18.6,27.8,alluvial,mango,Urea and DAP
+23.33,94.2,100.59,6.21,23.1,67.1,38.0,laterite,pomegranate,Urea and MOP
+27.27,85.44,55.3,7.04,23.5,65.0,21.0,alluvial,mungbean,Urea and DAP
+29.08,79.15,80.3,7.07,131.1,47.7,19.7,alluvial,cotton,Urea and MOP
+32.42,86.78,62.46,6.38,23.6,57.6,22.1,clay loam,mungbean,Urea and DAP
+21.52,69.54,99.7,6.02,77.2,50.9,41.6,clay loam,maize,Good NPK
+23.8,23.75,120.26,5.54,17.8,71.4,20.3,clay loam,kidneybeans,DAP and MOP
+27.46,51.35,140.48,6.59,22.9,70.0,20.6,laterite,pigeonpeas,Good NPK
+25.75,78.24,197.4,6.71,72.1,45.3,38.2,Clayey,jute,Urea and DAP
+27.42,64.11,160.47,6.48,109.6,27.4,30.9,alluvial,coffee,Good NPK
+25.4,75.77,90.05,6.79,133.6,50.5,15.4,Clayey,cotton,Urea and MOP
+25.05,89.01,180.01,6.04,65.1,50.3,38.5,Clayey,jute,Urea and DAP
+24.06,77.9,93.85,6.47,119.3,47.8,18.2,alluvial,cotton,Urea and MOP
+34.47,56.72,44.96,4.44,15.1,57.2,22.3,alluvial,mothbeans,DAP and MOP
+25.71,81.95,48.63,6.01,110.2,15.8,45.4,alluvial,watermelon,Urea and MOP
+31.77,79.34,100.99,6.37,95.2,62.6,48.2,clay loam,banana,Good NPK
+35.0,56.54,152.41,5.8,19.9,63.6,21.0,alluvial,pigeonpeas,Good NPK
+18.01,57.38,108.33,6.44,77.4,53.2,42.5,clay loam,maize,Good NPK
+8.64,80.69,67.9,5.82,21.0,136.8,204.0,alluvial,grapes,DAP and MOP
+26.72,47.71,96.77,6.07,24.6,23.2,33.5,alluvial,mango,Urea and DAP
+22.99,88.18,180.63,6.79,66.4,36.1,37.3,laterite,rice,Urea and DAP
+21.92,90.64,122.87,6.32,17.4,125.5,209.8,laterite,apple,DAP and MOP
+32.33,88.07,101.46,5.79,104.1,61.3,48.0,Clayey,banana,Good NPK
+23.56,62.95,161.16,6.09,99.4,30.2,33.4,clay loam,coffee,Good NPK
+26.33,54.49,51.57,3.88,21.7,53.6,18.2,sandy,mothbeans,DAP and MOP
+21.16,90.15,124.48,5.66,24.9,122.9,205.9,laterite,apple,DAP and MOP
+25.25,82.49,50.59,6.61,16.8,61.6,19.9,alluvial,mungbean,Urea and DAP
+27.89,76.53,88.02,6.22,122.4,52.2,17.7,Clayey,cotton,Urea and MOP
+25.03,91.6,169.56,6.21,6.0,4.5,4.7,coastal,coconut,DAP
+27.53,89.11,108.5,6.86,100.8,59.6,50.2,clay loam,banana,Good NPK
+24.48,80.55,86.71,6.25,132.3,49.5,24.3,clay loam,cotton,Urea and MOP
+22.78,93.54,111.82,6.75,23.5,142.7,202.6,alluvial,apple,DAP and MOP
+23.67,90.99,110.57,6.81,16.7,70.2,44.8,laterite,pomegranate,Urea and MOP
+23.78,62.38,145.84,6.46,97.1,25.0,29.5,alluvial,coffee,Good NPK
+23.56,17.63,76.17,7.67,43.7,56.4,67.6,clay loam,chickpea,DAP and MOP
+26.04,85.16,100.19,6.89,15.5,23.4,13.2,clay loam,orange,Good NPK
+26.27,69.15,69.54,6.24,22.3,61.4,15.3,laterite,blackgram,Good NPK
+27.74,80.41,80.93,6.04,134.4,42.5,16.6,clay loam,cotton,Urea and MOP
+21.15,18.9,86.08,7.25,40.2,74.9,77.2,clay loam,chickpea,DAP and MOP
+21.13,88.99,180.83,6.41,75.6,41.4,35.8,silty clay,rice,Urea and DAP
+23.89,77.94,197.36,6.13,68.1,43.5,37.6,Clayey,jute,Urea and DAP
+35.97,94.25,140.55,6.01,47.6,49.9,54.8,Clayey,papaya,Urea and DAP
+31.0,57.92,150.87,6.74,18.9,66.8,16.9,clay loam,pigeonpeas,Good NPK
+25.56,60.65,149.31,6.0,102.9,34.4,33.7,clay loam,coffee,Good NPK
+27.6,81.81,49.12,6.54,101.4,15.2,50.0,sandy,watermelon,Urea and MOP
+20.48,21.27,68.92,7.69,49.2,64.8,66.6,alluvial,chickpea,DAP and MOP
+26.87,88.39,202.52,6.79,73.4,38.3,36.6,silty clay,rice,Urea and DAP
+31.21,94.35,100.51,6.23,20.4,23.3,8.9,alluvial,orange,MOP
+34.8,69.86,67.44,6.53,16.6,68.8,21.7,laterite,blackgram,Good NPK
+28.99,82.83,104.51,6.1,91.4,68.5,53.4,clay loam,banana,Good NPK
+29.11,87.57,50.46,6.61,98.5,13.1,48.6,clay loam,watermelon,Urea and MOP
+31.45,48.45,145.58,6.11,20.7,66.6,19.9,clay loam,pigeonpeas,Good NPK
+29.29,78.13,90.19,7.18,115.4,59.5,15.7,alluvial,cotton,Urea and MOP
+26.3,79.37,196.81,6.81,71.7,53.5,36.5,alluvial,jute,Urea and DAP
+27.61,56.83,154.53,6.4,102.1,27.3,31.3,alluvial,coffee,Good NPK
+26.93,81.29,60.6,6.45,19.7,72.2,18.0,alluvial,mungbean,Urea and DAP
+29.09,86.22,103.71,5.67,93.4,61.4,54.1,clay loam,banana,Good NPK
+30.44,82.32,52.95,7.27,17.0,65.9,17.1,clay loam,mungbean,Urea and DAP
+23.74,89.32,189.38,6.74,83.2,48.9,36.2,silty clay,jute,Urea and DAP
+14.77,88.64,73.56,6.48,22.6,121.5,210.0,clay loam,grapes,DAP and MOP
+26.54,52.93,94.24,7.33,16.0,24.2,30.6,laterite,mango,Urea and DAP
+29.16,91.73,28.17,6.43,106.1,11.3,49.6,alluvial,muskmelon,Good NPK
+21.62,92.01,120.43,5.61,16.2,137.2,201.1,clay loam,apple,DAP and MOP
+25.75,83.94,83.62,7.69,134.5,46.9,21.5,alluvial,cotton,Urea and MOP
+28.98,89.51,50.31,6.63,103.9,9.5,49.9,clay loam,watermelon,DAP
+25.79,60.66,156.69,6.15,102.1,33.9,34.8,clay loam,coffee,Good NPK
+19.12,73.49,49.71,7.07,21.2,67.8,22.0,clay loam,lentil,DAP and MOP
+31.54,87.06,104.62,6.47,22.0,20.0,11.4,coastal,orange,Good NPK
+20.89,65.87,86.01,6.99,85.2,49.4,43.1,sandy,maize,Good NPK
+37.2,94.72,142.54,6.27,51.3,51.3,51.5,Clayey,papaya,Urea and DAP
+18.34,90.4,111.75,6.99,20.8,66.1,36.9,clay loam,pomegranate,Urea and MOP
+37.5,94.85,151.46,6.63,51.2,44.2,50.7,Clayey,papaya,Urea and DAP
+27.89,45.86,99.45,7.37,22.0,20.1,33.7,laterite,mango,Urea and DAP
+18.83,72.25,52.83,6.62,23.7,72.6,18.5,sandy,lentil,DAP and MOP
+36.21,94.85,146.28,6.14,50.4,54.7,49.3,sandy,papaya,Urea and DAP
+23.56,75.01,85.43,7.22,118.7,52.3,17.3,Clayey,cotton,Urea and MOP
+21.37,65.9,53.07,7.92,19.3,66.9,15.9,clay loam,lentil,DAP and MOP
+29.26,76.9,89.2,6.69,125.7,42.7,24.3,Clayey,cotton,Urea and MOP
+20.35,91.84,105.81,6.54,23.2,59.7,41.6,clay loam,pomegranate,Urea and MOP
+26.55,91.03,163.62,7.58,4.3,4.3,5.0,coastal,coconut,Urea
+20.58,64.25,98.95,7.46,86.6,50.1,40.1,clay loam,maize,Good NPK
+23.73,88.94,193.65,6.68,62.8,42.9,41.2,Clayey,rice,Urea and DAP
+26.93,75.63,161.91,6.99,73.8,44.4,37.9,silty clay,jute,Urea and DAP
+27.51,57.66,50.28,4.95,19.3,47.6,24.2,sandy,mothbeans,DAP and MOP
+29.59,48.5,109.61,6.76,15.6,24.1,29.2,alluvial,mango,Urea and DAP
+11.57,82.63,69.98,6.06,20.1,123.2,206.1,alluvial,grapes,DAP and MOP
+29.95,84.59,80.72,6.01,123.1,57.3,24.4,Clayey,cotton,Urea and MOP
+24.83,92.04,177.37,6.79,4.4,5.3,5.1,laterite,coconut,Urea
+23.34,56.53,103.7,7.34,72.0,47.6,47.3,sandy,maize,Good NPK
+28.4,88.32,23.15,6.47,107.9,15.6,52.9,alluvial,muskmelon,Good NPK
+30.74,86.31,29.96,6.82,101.0,12.2,49.1,sandy,muskmelon,Good NPK
+22.85,87.45,108.74,7.28,15.5,17.4,13.5,alluvial,orange,Good NPK
+28.31,56.17,43.92,4.74,19.7,40.9,22.0,sandy,mothbeans,DAP and MOP
+25.78,89.55,62.19,6.37,16.9,71.4,20.4,sandy,mungbean,Urea and DAP
+23.96,76.61,83.08,6.15,118.2,40.2,19.2,Clayey,cotton,Urea and MOP
+31.6,87.76,108.45,6.37,15.4,18.2,14.1,coastal,orange,Good NPK
+31.71,50.23,94.11,7.3,17.1,19.9,25.2,laterite,mango,Urea and DAP
+26.65,89.51,236.87,6.36,78.1,35.9,38.2,Clayey,rice,Urea and DAP
+25.38,58.43,80.03,7.32,79.3,53.8,40.1,alluvial,maize,Good NPK
+31.27,50.78,148.13,6.87,21.3,62.5,15.5,clay loam,pigeonpeas,Good NPK
+26.85,50.12,106.32,7.48,15.1,15.8,26.3,laterite,mango,Urea and DAP
+19.43,21.13,65.63,7.45,35.5,66.9,75.1,alluvial,chickpea,DAP and MOP
+27.37,58.27,146.37,6.06,101.2,25.7,30.0,alluvial,coffee,Good NPK
+28.69,88.26,104.39,6.86,24.0,22.9,12.7,clay loam,orange,Good NPK
+29.97,52.53,111.98,7.15,18.7,19.0,25.0,alluvial,mango,Urea and DAP
+15.23,87.92,71.68,5.79,23.0,143.0,204.0,alluvial,grapes,DAP and MOP
+23.8,81.41,186.71,6.7,76.6,38.6,37.8,laterite,rice,Urea and DAP
+32.5,81.56,109.49,6.9,95.7,70.0,51.3,alluvial,banana,Good NPK
+25.64,84.79,170.23,6.16,74.3,40.1,41.5,Clayey,jute,Urea and DAP
+27.62,87.58,107.8,5.55,90.7,61.8,46.1,clay loam,banana,Good NPK
+30.99,47.69,146.83,6.41,17.8,58.1,21.4,clay loam,pigeonpeas,Good NPK
+30.0,91.25,103.26,6.7,20.3,18.3,9.7,clay loam,orange,MOP
+23.25,22.32,69.9,6.75,44.9,74.6,68.1,sandy,chickpea,DAP and MOP
+26.97,88.49,47.56,6.87,102.8,11.0,51.4,sandy,watermelon,Urea and MOP
+24.2,68.4,49.35,7.71,24.6,65.1,15.8,clay loam,lentil,DAP and MOP
+25.4,83.56,190.03,6.04,69.0,45.8,39.7,Clayey,jute,Urea and DAP
+20.87,70.58,45.86,6.61,15.7,74.9,19.1,sandy,lentil,DAP and MOP
+22.0,94.96,110.79,5.65,24.7,139.3,208.5,alluvial,apple,DAP and MOP
+26.35,57.58,159.29,6.12,107.2,32.3,28.4,clay loam,coffee,Good NPK
+33.28,80.01,49.82,6.46,17.3,71.4,18.4,sandy,mungbean,Urea and DAP
+19.75,24.34,103.14,7.0,21.8,73.9,17.7,clay loam,kidneybeans,DAP and MOP
+25.03,76.24,181.86,6.74,79.4,49.2,35.7,silty clay,jute,Urea and DAP
+36.98,92.06,151.78,6.15,50.6,39.9,54.8,alluvial,papaya,Urea and DAP
+24.06,16.23,81.44,7.06,39.8,55.7,65.9,clay loam,chickpea,DAP and MOP
+22.49,93.89,109.25,7.0,16.9,20.4,14.8,clay loam,orange,Good NPK
+27.32,80.32,58.87,6.47,97.4,13.2,50.7,sandy,watermelon,Urea and MOP
+35.75,90.74,29.24,6.7,107.2,10.0,54.2,sandy,muskmelon,Good NPK
+23.57,66.29,106.43,5.82,86.7,52.0,46.8,alluvial,maize,Good NPK
+23.4,76.86,92.99,7.12,128.4,40.5,19.7,clay loam,cotton,Urea and MOP
+28.38,59.83,143.79,5.05,18.4,69.6,20.7,alluvial,pigeonpeas,Good NPK
+26.53,81.81,89.01,6.49,132.0,59.1,17.1,alluvial,cotton,Urea and MOP
+27.77,91.27,163.81,5.18,5.7,4.8,5.3,sandy,coconut,DAP
+30.7,85.82,49.8,7.07,23.1,61.9,16.1,clay loam,mungbean,Urea and DAP
+20.33,73.64,51.94,6.62,20.6,65.6,21.6,clay loam,lentil,DAP and MOP
+26.04,58.73,158.01,6.25,98.0,27.5,27.9,clay loam,coffee,Good NPK
+34.33,52.85,47.98,4.32,15.7,41.0,18.0,alluvial,mothbeans,DAP and MOP
+26.09,89.22,173.39,6.12,65.9,50.2,39.9,alluvial,jute,Urea and DAP
+28.41,76.0,84.56,7.76,120.4,56.6,15.8,Clayey,cotton,Urea and MOP
+23.44,90.61,113.19,6.3,15.7,68.9,40.7,alluvial,pomegranate,Urea and MOP
+27.94,46.72,151.76,6.88,21.5,60.5,16.8,clay loam,pigeonpeas,Good NPK
+25.03,90.92,170.62,7.66,4.2,4.7,4.3,coastal,coconut,Urea
+37.66,92.56,146.89,6.31,51.3,45.8,54.3,alluvial,papaya,Urea and DAP
+24.98,80.86,194.11,6.47,69.8,53.2,44.8,alluvial,jute,Urea and DAP
+32.6,52.74,105.3,6.41,21.9,18.7,27.6,sandy,mango,Urea and DAP
+25.29,64.83,82.61,6.6,87.8,54.6,48.6,clay loam,maize,Good NPK
+25.75,82.48,182.11,6.19,81.3,41.2,38.4,Clayey,jute,Urea and DAP
+24.31,81.2,86.96,7.83,122.0,56.6,23.9,Clayey,cotton,Urea and MOP
+28.6,87.19,54.59,6.88,96.3,12.3,45.6,clay loam,watermelon,Urea and MOP
+31.12,48.2,140.1,6.88,16.7,57.3,19.5,laterite,pigeonpeas,Good NPK
+25.77,64.42,162.68,6.46,103.1,34.6,30.2,laterite,coffee,Good NPK
+18.72,91.6,103.49,6.8,21.7,74.5,41.1,alluvial,pomegranate,Urea and MOP
+23.67,60.23,156.07,6.37,103.6,26.2,29.6,clay loam,coffee,Good NPK
+32.74,83.86,62.12,6.76,22.3,71.3,17.6,clay loam,mungbean,Urea and DAP
+33.28,94.89,147.35,6.79,49.6,35.3,49.8,alluvial,papaya,Urea and DAP
+29.35,80.31,56.38,6.75,110.3,12.7,45.7,clay loam,watermelon,Urea and MOP
+31.17,47.34,151.71,5.96,16.0,71.6,22.1,laterite,pigeonpeas,Good NPK
+25.71,87.65,49.76,6.47,104.8,12.3,47.0,sandy,watermelon,Urea and MOP
+20.91,69.6,87.63,6.66,79.6,51.9,40.2,clay loam,maize,Good NPK
+25.58,46.41,100.93,6.93,15.9,21.7,34.0,laterite,mango,Urea and DAP
+14.54,83.78,65.09,5.51,24.5,145.0,198.5,laterite,grapes,DAP and MOP
+30.11,86.04,61.57,6.69,20.5,58.8,22.2,sandy,mungbean,Urea and DAP
+18.52,69.54,107.83,7.27,73.7,52.8,43.5,alluvial,maize,Good NPK
+34.4,69.53,71.24,5.86,20.7,57.0,19.5,laterite,blackgram,Good NPK
+23.68,94.78,121.98,6.27,19.5,136.6,205.6,alluvial,apple,DAP and MOP
+27.32,82.79,83.45,7.13,133.2,44.5,16.9,alluvial,cotton,Urea and MOP
+21.68,92.93,109.61,6.32,20.6,69.6,38.5,clay loam,pomegranate,Urea and MOP
+24.44,62.82,92.93,7.14,77.9,50.5,47.5,clay loam,maize,Good NPK
+31.55,88.33,106.06,6.85,18.2,17.4,10.6,alluvial,orange,Good NPK
+22.3,67.87,49.53,7.47,23.7,67.7,16.6,clay loam,lentil,DAP and MOP
+24.67,95.01,160.93,6.08,5.1,5.4,4.5,coastal,coconut,MOP
+22.6,29.81,91.07,7.8,35.9,73.4,66.7,sandy,chickpea,DAP and MOP
+19.88,25.8,66.31,7.05,43.2,60.0,68.3,clay loam,chickpea,DAP and MOP
+30.41,60.53,65.56,6.55,21.0,69.8,15.3,laterite,blackgram,Good NPK
+25.92,53.3,150.56,6.28,19.3,68.9,19.6,laterite,pigeonpeas,Good NPK
+20.47,63.31,104.89,6.8,88.3,46.2,45.8,clay loam,maize,Good NPK
+9.17,84.54,71.87,6.26,17.4,124.2,206.6,clay loam,grapes,DAP and MOP
+24.51,23.63,100.37,7.64,41.0,55.9,74.5,sandy,chickpea,DAP and MOP
+32.01,92.65,24.13,6.92,103.6,11.5,45.7,alluvial,muskmelon,Good NPK
+24.6,70.23,49.14,6.05,23.0,66.7,24.6,alluvial,lentil,DAP and MOP
+23.81,18.45,100.19,6.39,41.2,71.2,76.1,alluvial,chickpea,DAP and MOP
+31.86,89.06,20.23,6.17,102.4,13.7,45.4,sandy,muskmelon,Good NPK
+36.24,93.39,143.52,6.88,53.4,41.3,50.7,Clayey,papaya,Urea and DAP
+23.81,90.66,111.09,6.96,24.8,24.7,9.3,alluvial,orange,MOP
+27.75,63.98,68.38,6.9,19.6,70.7,24.5,alluvial,blackgram,Good NPK
+34.0,93.87,149.52,6.71,49.6,39.1,48.0,sandy,papaya,Urea and DAP
+27.54,59.11,159.02,6.19,97.5,34.7,27.8,alluvial,coffee,Good NPK
+34.2,45.49,111.34,6.65,15.4,20.0,30.8,laterite,mango,Urea and DAP
+29.5,86.76,100.42,6.56,23.9,17.5,8.7,coastal,orange,MOP
+31.52,94.06,23.5,6.98,113.2,15.6,53.3,alluvial,muskmelon,Good NPK
+21.32,19.3,123.42,6.34,19.8,62.2,24.5,sandy,kidneybeans,DAP and MOP
+8.46,82.21,70.48,5.91,18.4,137.9,206.1,laterite,grapes,DAP and MOP
+36.92,94.07,150.54,6.93,53.7,35.7,49.0,sandy,papaya,Urea and DAP
+25.5,68.17,47.95,6.97,21.7,59.8,22.4,sandy,lentil,DAP and MOP
+23.82,92.94,116.75,5.97,19.3,134.8,198.5,clay loam,apple,DAP and MOP
+26.95,81.66,51.56,7.37,23.8,66.1,20.3,alluvial,mungbean,Urea and DAP
+26.79,88.32,196.36,5.82,72.0,42.1,35.2,Clayey,rice,Urea and DAP
+27.37,88.83,46.11,6.15,17.1,72.3,24.6,alluvial,mungbean,Urea and DAP
+25.02,91.35,111.78,6.87,20.3,16.1,15.9,coastal,orange,Good NPK
+16.19,86.31,68.7,6.37,24.3,128.6,209.5,clay loam,grapes,DAP and MOP
+25.58,89.19,183.81,6.28,80.9,48.6,43.7,Clayey,jute,Urea and DAP
+24.0,93.15,121.73,6.69,18.7,127.5,207.9,alluvial,apple,DAP and MOP
+27.49,92.33,147.82,5.36,4.1,5.9,4.6,sandy,coconut,Urea
+30.03,45.68,110.15,6.95,17.6,20.0,32.4,laterite,mango,Urea and DAP
+24.57,60.06,151.44,6.33,110.9,33.6,33.5,alluvial,coffee,Good NPK
+26.33,89.68,106.38,7.48,16.6,20.2,14.3,alluvial,orange,Good NPK
+24.49,83.85,80.3,7.96,124.7,53.4,18.7,Clayey,cotton,Urea and MOP
+33.46,81.14,61.56,6.38,22.8,70.0,19.6,clay loam,mungbean,Urea and DAP
+30.08,87.5,55.29,6.47,24.3,57.6,23.0,sandy,mungbean,Urea and DAP
+15.04,85.31,67.01,6.38,16.3,129.4,205.1,clay loam,grapes,DAP and MOP
+20.45,18.88,104.55,6.41,19.7,63.9,24.9,alluvial,kidneybeans,DAP and MOP
+28.96,86.13,50.99,7.21,18.8,57.1,20.3,clay loam,mungbean,Urea and DAP
+31.57,90.13,29.6,6.68,107.8,15.0,51.8,coastal,muskmelon,Good NPK
+36.63,88.93,22.74,6.0,113.9,9.2,46.8,coastal,muskmelon,DAP
+33.42,60.3,69.6,6.77,21.0,69.8,17.1,clay loam,blackgram,Good NPK
+10.2,87.3,73.59,6.72,16.2,120.4,208.4,alluvial,grapes,DAP and MOP
+37.77,91.15,154.1,6.25,48.2,44.7,53.1,Clayey,papaya,Urea and DAP
+20.43,91.13,107.19,5.89,23.7,75.0,41.1,alluvial,pomegranate,Urea and MOP
+27.55,80.12,55.54,6.03,107.1,14.0,54.4,sandy,watermelon,Urea and MOP
+29.75,90.15,27.23,6.26,108.1,8.1,53.3,alluvial,muskmelon,DAP
+31.01,90.39,23.21,6.78,108.2,8.5,46.7,sandy,muskmelon,DAP
+35.84,90.75,24.18,6.12,99.5,11.3,54.9,coastal,muskmelon,Good NPK
+26.5,88.26,177.13,6.11,71.6,44.9,41.1,alluvial,jute,Urea and DAP
+21.31,93.55,114.6,5.81,16.9,138.6,196.9,clay loam,apple,DAP and MOP
+26.2,91.13,108.19,7.14,18.3,16.5,13.0,alluvial,orange,Good NPK
+25.48,84.97,52.06,6.81,97.9,10.5,50.7,alluvial,watermelon,Urea and MOP
+24.23,61.74,161.76,6.02,114.8,31.7,32.5,laterite,coffee,Good NPK
+27.48,62.44,164.64,6.05,101.0,28.2,26.8,alluvial,coffee,Good NPK
+31.36,92.77,102.61,6.23,18.9,20.3,12.8,clay loam,orange,Good NPK
+28.28,87.9,106.5,5.68,99.0,58.7,51.4,Clayey,banana,Good NPK
+31.83,61.84,69.29,6.73,20.8,64.3,23.2,clay loam,blackgram,Good NPK
+22.61,93.99,114.72,6.39,21.7,139.5,206.6,alluvial,apple,DAP and MOP
+24.35,90.7,147.62,7.15,4.4,5.7,5.4,coastal,coconut,Urea
+34.05,91.0,151.42,6.94,51.3,36.6,49.9,alluvial,papaya,Urea and DAP
+31.6,53.36,103.08,6.94,17.7,20.1,26.1,sandy,mango,Urea and DAP
+30.3,79.35,101.77,6.44,108.3,59.8,46.7,alluvial,banana,Good NPK
+31.65,53.35,42.69,4.53,15.2,54.6,18.2,sandy,mothbeans,DAP and MOP
+25.03,87.96,113.0,6.75,20.5,24.1,13.0,coastal,orange,Good NPK
+37.91,94.33,141.67,6.58,46.9,50.9,45.3,Clayey,papaya,Urea and DAP
+23.74,84.91,82.98,6.49,123.7,49.1,20.5,alluvial,cotton,Urea and MOP
+23.66,83.59,215.32,6.82,63.3,43.1,41.7,laterite,rice,Urea and DAP
+29.52,87.85,105.04,6.92,99.5,63.2,52.3,alluvial,banana,Good NPK
+32.22,45.6,50.33,4.72,23.8,59.4,16.8,laterite,mothbeans,DAP and MOP
+19.13,69.06,50.41,6.97,18.7,65.0,22.3,clay loam,lentil,DAP and MOP
+33.98,89.36,23.56,6.98,109.5,10.8,48.1,sandy,muskmelon,Good NPK
+26.19,90.53,176.41,7.99,5.5,5.4,4.1,sandy,coconut,MOP
+32.63,83.8,114.73,5.89,112.0,75.0,47.4,alluvial,banana,Good NPK
+17.32,20.25,84.87,7.19,42.8,67.1,73.2,alluvial,chickpea,DAP and MOP
+21.25,23.72,127.18,6.75,21.7,70.9,17.5,clay loam,kidneybeans,DAP and MOP
+26.31,70.71,50.23,7.21,21.5,72.5,15.4,clay loam,lentil,DAP and MOP
+16.03,23.48,116.66,6.97,15.1,64.0,24.8,clay loam,kidneybeans,DAP and MOP
+24.8,58.25,145.91,6.26,114.6,33.0,33.6,laterite,coffee,Good NPK
+29.94,85.98,114.17,6.08,92.3,65.3,50.6,alluvial,banana,Good NPK
+35.88,87.54,26.88,6.76,98.4,13.2,51.1,sandy,muskmelon,Good NPK
+22.39,90.77,107.72,6.78,21.5,62.8,36.9,clay loam,pomegranate,Urea and MOP
+23.98,93.39,111.62,5.85,15.2,135.3,206.0,alluvial,apple,DAP and MOP
+26.45,91.44,156.45,7.6,5.0,5.5,4.3,laterite,coconut,MOP
+24.5,68.03,47.79,6.92,19.5,59.1,20.7,alluvial,lentil,DAP and MOP
+35.46,91.48,145.91,6.77,49.2,39.0,48.9,Clayey,papaya,Urea and DAP
+32.15,46.03,42.33,4.75,21.6,59.4,20.6,laterite,mothbeans,DAP and MOP
+25.5,61.5,70.76,6.31,23.5,60.8,24.5,laterite,blackgram,Good NPK
+24.98,94.61,152.6,5.04,4.1,5.7,5.6,coastal,coconut,Urea
+16.22,16.9,72.26,7.36,44.3,60.5,71.2,sandy,chickpea,DAP and MOP
+26.43,84.12,171.67,6.67,62.0,51.9,38.2,Clayey,jute,Urea and DAP
+35.84,93.95,154.93,6.7,53.8,53.8,49.1,Clayey,papaya,Urea and DAP
+15.45,20.9,111.75,6.9,23.2,65.3,19.6,alluvial,kidneybeans,DAP and MOP
+30.22,56.92,145.17,6.77,15.8,71.6,18.5,clay loam,pigeonpeas,Good NPK
+26.76,87.99,103.91,6.48,16.1,21.8,10.1,coastal,orange,Good NPK
+23.65,19.57,108.7,5.96,20.5,62.9,16.3,clay loam,kidneybeans,DAP and MOP
+21.93,93.08,113.27,6.3,24.1,120.9,198.3,alluvial,apple,DAP and MOP
+31.29,50.54,108.31,7.47,21.1,21.3,31.4,laterite,mango,Urea and DAP
+28.59,87.15,24.33,7.0,108.7,9.7,53.6,sandy,muskmelon,DAP
+25.98,86.19,185.75,6.67,70.4,44.5,35.5,silty clay,jute,Urea and DAP
+25.62,51.55,109.5,5.52,20.3,23.4,30.8,alluvial,mango,Urea and DAP
+24.85,80.26,54.0,6.8,111.7,14.5,50.3,clay loam,watermelon,Urea and MOP
+22.47,85.84,267.7,5.62,65.5,36.9,39.6,laterite,rice,Urea and DAP
+24.38,84.96,189.06,6.9,67.8,48.7,42.3,silty clay,jute,Urea and DAP
+33.19,50.47,97.88,5.58,20.7,24.5,30.2,sandy,mango,Urea and DAP
+34.02,50.16,149.88,6.47,16.6,57.3,20.5,laterite,pigeonpeas,Good NPK
+20.23,18.55,106.78,6.96,22.7,55.0,19.2,clay loam,kidneybeans,DAP and MOP
+29.07,67.62,65.09,5.72,24.6,72.0,23.6,laterite,blackgram,Good NPK
+34.78,67.73,72.78,5.66,21.0,65.6,20.6,alluvial,blackgram,Good NPK
+32.91,87.05,103.06,6.57,106.7,55.8,48.9,alluvial,banana,Good NPK
+24.64,72.09,53.89,6.36,15.1,63.3,16.6,clay loam,lentil,DAP and MOP
+22.2,26.67,124.64,6.18,19.2,70.2,16.9,clay loam,kidneybeans,DAP and MOP
+31.52,85.91,114.05,5.5,103.7,59.4,49.3,Clayey,banana,Good NPK
+8.47,80.96,71.47,6.49,24.1,121.0,201.5,laterite,grapes,DAP and MOP
+28.55,45.78,146.35,5.06,24.2,66.7,20.9,laterite,pigeonpeas,Good NPK
+21.37,65.18,50.5,6.8,15.9,64.3,16.7,sandy,lentil,DAP and MOP
+22.0,90.22,109.35,5.99,21.0,61.5,44.8,clay loam,pomegranate,Urea and MOP
+26.92,78.23,91.77,7.65,129.4,40.9,17.0,clay loam,cotton,Urea and MOP
+16.85,28.68,68.48,6.85,33.7,60.9,76.9,alluvial,chickpea,DAP and MOP
+22.26,69.52,106.06,5.87,83.0,48.7,48.6,sandy,maize,Good NPK
+22.04,93.76,122.56,6.14,22.1,142.4,198.5,alluvial,apple,DAP and MOP
+26.85,61.82,73.45,6.27,22.5,59.7,16.4,clay loam,blackgram,Good NPK
+22.47,92.51,110.05,6.43,18.6,122.7,209.2,alluvial,apple,DAP and MOP
+29.41,49.79,99.87,7.29,24.6,20.0,26.1,laterite,mango,Urea and DAP
+33.14,75.54,109.93,6.29,99.8,63.1,46.3,Clayey,banana,Good NPK
+22.88,92.74,115.16,5.85,18.9,123.8,200.7,clay loam,apple,DAP and MOP
+24.39,80.47,88.49,7.99,126.7,49.6,20.5,Clayey,cotton,Urea and MOP
+22.26,88.49,243.8,5.7,67.2,37.5,38.0,laterite,rice,Urea and DAP
+28.42,63.39,71.8,5.51,15.2,72.6,24.7,clay loam,blackgram,Good NPK
+33.1,92.19,24.93,6.8,109.9,15.3,53.5,coastal,muskmelon,Good NPK
+29.45,82.15,47.72,6.2,99.9,13.6,46.0,clay loam,watermelon,Urea and MOP
+27.48,57.39,154.92,6.1,103.6,29.5,33.8,alluvial,coffee,Good NPK
+27.14,85.05,59.61,6.53,100.0,11.0,45.2,clay loam,watermelon,Urea and MOP
+24.61,75.56,193.48,6.77,75.1,49.6,37.7,silty clay,jute,Urea and DAP
+24.92,24.74,100.17,6.63,43.5,64.9,65.2,sandy,chickpea,DAP and MOP
+24.74,76.68,192.84,6.14,66.9,48.5,39.5,alluvial,jute,Urea and DAP
+28.98,80.07,63.43,6.79,17.1,61.3,21.4,alluvial,mungbean,Urea and DAP
+11.99,83.18,73.02,6.58,20.3,128.8,207.0,laterite,grapes,DAP and MOP
+24.83,75.36,163.38,6.49,65.8,44.4,43.5,Clayey,jute,Urea and DAP
+25.63,83.87,54.28,6.88,22.4,63.9,15.2,clay loam,mungbean,Urea and DAP
+23.28,90.3,124.61,5.53,22.7,124.1,206.3,clay loam,apple,DAP and MOP
+14.43,87.36,74.66,5.71,22.2,139.3,201.9,laterite,grapes,DAP and MOP
+27.94,95.34,159.4,7.31,5.7,4.9,4.3,coastal,coconut,MOP
+28.6,49.6,53.57,4.09,18.2,55.8,24.2,laterite,mothbeans,DAP and MOP
+22.47,64.27,97.12,7.24,86.8,54.4,46.8,clay loam,maize,Good NPK
+25.65,93.61,152.37,5.48,5.8,5.6,4.4,sandy,coconut,MOP
+18.57,90.27,101.22,6.59,16.4,65.9,35.1,laterite,pomegranate,Urea and MOP
+25.35,84.08,181.95,6.12,66.7,49.8,37.9,alluvial,jute,Urea and DAP
+34.56,85.47,100.3,5.81,103.0,71.7,53.3,clay loam,banana,Good NPK
+27.0,49.41,154.23,5.47,17.3,60.3,20.5,clay loam,pigeonpeas,Good NPK
+26.65,61.25,67.29,6.05,20.4,56.7,17.4,clay loam,blackgram,Good NPK
+20.63,88.35,196.79,5.98,72.6,41.3,40.4,Clayey,rice,Urea and DAP
+28.86,46.07,143.44,5.42,23.5,73.8,15.9,laterite,pigeonpeas,Good NPK
+29.7,48.31,98.23,7.01,22.2,17.0,28.4,alluvial,mango,Urea and DAP
+19.16,91.07,102.84,6.61,19.8,69.1,35.7,alluvial,pomegranate,Urea and MOP
+12.16,80.74,73.44,6.97,21.2,132.5,209.8,alluvial,grapes,DAP and MOP
+23.37,93.01,116.88,6.36,17.9,140.5,196.1,alluvial,apple,DAP and MOP
+31.32,65.43,68.76,5.69,18.4,74.0,20.3,laterite,blackgram,Good NPK
+29.91,90.53,104.29,6.11,18.2,20.6,15.1,coastal,orange,Good NPK
+18.78,69.37,99.17,7.02,85.8,51.9,45.2,sandy,maize,Good NPK
+24.01,56.55,155.59,6.24,103.3,29.2,25.9,laterite,coffee,Good NPK
+28.65,89.34,22.73,6.14,97.8,9.8,50.8,alluvial,muskmelon,DAP
+24.98,24.77,108.84,6.74,17.1,74.1,15.1,sandy,kidneybeans,DAP and MOP
+14.62,85.57,68.78,6.89,24.6,125.4,202.7,alluvial,grapes,DAP and MOP
+30.63,56.48,140.24,6.88,17.0,55.9,16.3,alluvial,pigeonpeas,Good NPK
+23.11,64.54,160.78,6.21,104.0,27.3,28.6,laterite,coffee,Good NPK
+28.6,90.48,104.66,6.74,17.9,24.0,9.0,coastal,orange,MOP
+25.65,83.66,104.13,6.04,114.2,69.9,46.8,Clayey,banana,Good NPK
+25.36,49.98,103.97,6.61,23.8,19.3,29.1,laterite,mango,Urea and DAP
+15.41,81.03,65.03,5.84,25.0,140.9,208.4,clay loam,grapes,DAP and MOP
+19.18,67.52,50.82,7.84,23.5,70.0,17.7,alluvial,lentil,DAP and MOP
