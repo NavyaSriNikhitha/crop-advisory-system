@@ -1,15 +1,16 @@
 # ============================================================
-# app.py — complete file with all 4 tabs
+# app.py — complete file with all 5 tabs
 # Tab 1 — Predict & Explain     (crop recommendation)
 # Tab 2 — Insights Dashboard    (EDA charts)
 # Tab 3 — Model Comparison      (5 crop models)
 # Tab 4 — Fertiliser            (fertilizer recommendation)
+# Tab 5 — Yield Prediction      (regression — tonnes/hectare)
 #
 # Run with: streamlit run app.py
 # ============================================================
 
 import matplotlib
-matplotlib.use("Agg")                # fixes threading issue on Windows Python 3.13
+matplotlib.use("Agg")
 
 import streamlit as st
 import pandas as pd
@@ -33,25 +34,41 @@ st.set_page_config(
 # ── Load all model files ──────────────────────────────────────
 @st.cache_resource
 def load_models():
-    # ── Crop model (Phase 1) ──
+    # Crop model (Phase 1)
     model   = joblib.load("models/crop_model.pkl")
     scaler  = joblib.load("models/scaler.pkl")
     encoder = joblib.load("models/label_encoder.pkl")
     results = joblib.load("models/model_results.pkl")
-    # ── Fertilizer model (Phase 2) ──
+    # Fertilizer model (Phase 2)
     fert_model    = joblib.load("models/fertilizer_model.pkl")
     fert_scaler   = joblib.load("models/fertilizer_scaler.pkl")
     fert_encoder  = joblib.load("models/fertilizer_label_encoder.pkl")
     fert_soil_enc = joblib.load("models/fertilizer_soil_encoder.pkl")
     fert_crop_enc = joblib.load("models/fertilizer_crop_encoder.pkl")
     fert_results  = joblib.load("models/fertilizer_model_results.pkl")
+    # Yield model (Phase 3)
+    yield_model      = joblib.load("models/yield_model.pkl")
+    yield_scaler     = joblib.load("models/yield_scaler.pkl")
+    yield_crop_enc   = joblib.load("models/yield_crop_encoder.pkl")
+    yield_season_enc = joblib.load("models/yield_season_encoder.pkl")
+    yield_state_enc  = joblib.load("models/yield_state_encoder.pkl")
+    yield_results    = joblib.load("models/yield_model_results.pkl")
+    yield_crops      = joblib.load("models/yield_crops.pkl")
+    yield_seasons    = joblib.load("models/yield_seasons.pkl")
+    yield_states     = joblib.load("models/yield_states.pkl")
     return (model, scaler, encoder, results,
             fert_model, fert_scaler, fert_encoder,
-            fert_soil_enc, fert_crop_enc, fert_results)
+            fert_soil_enc, fert_crop_enc, fert_results,
+            yield_model, yield_scaler, yield_crop_enc,
+            yield_season_enc, yield_state_enc, yield_results,
+            yield_crops, yield_seasons, yield_states)
 
 (model, scaler, le, model_results,
  fert_model, fert_scaler, fert_le,
- fert_soil_le, fert_crop_le, fert_results) = load_models()
+ fert_soil_le, fert_crop_le, fert_results,
+ yield_model, yield_scaler, yield_crop_le,
+ yield_season_le, yield_state_le, yield_results,
+ yield_crops, yield_seasons, yield_states) = load_models()
 
 
 # ── Load dataset ──────────────────────────────────────────────
@@ -60,7 +77,6 @@ def load_data():
     return pd.read_csv("data/crop_recommendation.csv")
 
 df = load_data()
-
 FEATURES = ["N", "P", "K", "temperature", "humidity", "ph", "rainfall"]
 
 
@@ -73,12 +89,13 @@ st.markdown(
 st.divider()
 
 
-# ── 4 Tabs ────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4 = st.tabs([
+# ── 5 Tabs ────────────────────────────────────────────────────
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "🌱 Predict & Explain",
     "📊 Insights Dashboard",
     "🏆 Model Comparison",
-    "🧪 Fertiliser Recommendation"
+    "🧪 Fertiliser Recommendation",
+    "📈 Yield Prediction"
 ])
 
 
@@ -92,28 +109,24 @@ with tab1:
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        N = st.slider("Nitrogen (N)", min_value=0, max_value=140, value=50,
+        N = st.slider("Nitrogen (N)", 0, 140, 50,
                       help="Nitrogen content in soil (kg/ha)")
     with col2:
-        P = st.slider("Phosphorus (P)", min_value=5, max_value=145, value=50,
+        P = st.slider("Phosphorus (P)", 5, 145, 50,
                       help="Phosphorus content in soil (kg/ha)")
     with col3:
-        K = st.slider("Potassium (K)", min_value=5, max_value=205, value=50,
+        K = st.slider("Potassium (K)", 5, 205, 50,
                       help="Potassium content in soil (kg/ha)")
     with col4:
-        temperature = st.slider("Temperature (°C)", min_value=8.0, max_value=44.0,
-                                value=25.0, step=0.5)
+        temperature = st.slider("Temperature (°C)", 8.0, 44.0, 25.0, 0.5)
 
     col5, col6, col7, col8 = st.columns(4)
     with col5:
-        humidity = st.slider("Humidity (%)", min_value=14.0, max_value=100.0,
-                             value=70.0, step=0.5)
+        humidity = st.slider("Humidity (%)", 14.0, 100.0, 70.0, 0.5)
     with col6:
-        ph = st.slider("Soil pH", min_value=3.5, max_value=10.0,
-                       value=6.5, step=0.1)
+        ph = st.slider("Soil pH", 3.5, 10.0, 6.5, 0.1)
     with col7:
-        rainfall = st.slider("Rainfall (mm)", min_value=20.0, max_value=300.0,
-                             value=100.0, step=1.0)
+        rainfall = st.slider("Rainfall (mm)", 20.0, 300.0, 100.0, 1.0)
     with col8:
         st.write("")
 
@@ -122,7 +135,6 @@ with tab1:
                             use_container_width=True, key="crop_btn")
 
     if predict_btn:
-
         input_data         = np.array([[N, P, K, temperature, humidity, ph, rainfall]])
         input_scaled       = scaler.transform(input_data)
         prediction_encoded = model.predict(input_scaled)[0]
@@ -144,12 +156,8 @@ with tab1:
                 st.markdown(f"- {crop.capitalize()}: {prob:.1f}%")
 
         st.divider()
-
-        # SHAP explanation
         st.subheader("🔎 Why was this crop recommended?")
-        st.markdown(
-            "Red = pushed **towards** this crop. Blue = pushed **against** it."
-        )
+        st.markdown("Red = pushed **towards** this crop. Blue = pushed **against** it.")
 
         with st.spinner("Calculating explanation..."):
             explainer     = shap.TreeExplainer(model)
@@ -166,7 +174,7 @@ with tab1:
             colors  = ["#E74C3C" if v > 0 else "#3498DB" for v in shap_df["SHAP"]]
             bars    = ax.barh(shap_df["Feature"], shap_df["SHAP"], color=colors)
             ax.axvline(x=0, color="black", linewidth=0.8)
-            ax.set_xlabel("SHAP Value (impact on prediction)")
+            ax.set_xlabel("SHAP Value")
             ax.set_title(f"Why {predicted_crop.capitalize()}? — Feature Contributions")
             for bar, val in zip(bars, shap_df["SHAP"]):
                 ax.text(val + (0.001 if val >= 0 else -0.001),
@@ -177,7 +185,6 @@ with tab1:
             st.pyplot(fig)
             plt.close()
 
-        # Plain English summary
         st.subheader("📝 Plain English Summary")
         top_pos = shap_df[shap_df["SHAP"] > 0].head(3)
         top_neg = shap_df[shap_df["SHAP"] < 0].head(2)
@@ -188,22 +195,17 @@ with tab1:
                 f"is the strongest reason {predicted_crop.capitalize()} is recommended."
             )
         for _, row in top_pos.iloc[1:].iterrows():
-            st.markdown(
-                f"✅ **{row['Feature']}** (value: {row['Value']}) also supports "
-                f"{predicted_crop.capitalize()}."
-            )
+            st.markdown(f"✅ **{row['Feature']}** also supports {predicted_crop.capitalize()}.")
         for _, row in top_neg.iterrows():
             st.markdown(
-                f"⚠️ **{row['Feature']}** (value: {row['Value']}) slightly works "
-                f"against {predicted_crop.capitalize()} but other factors outweigh it."
+                f"⚠️ **{row['Feature']}** slightly works against "
+                f"{predicted_crop.capitalize()} but other factors outweigh it."
             )
-
         st.divider()
         st.info(
-            f"**About {predicted_crop.capitalize()}:** Based on your inputs — "
-            f"N:{N}, P:{P}, K:{K}, Temp:{temperature}°C, Humidity:{humidity}%, "
-            f"pH:{ph}, Rainfall:{rainfall}mm — {predicted_crop.capitalize()} is "
-            f"the most suitable crop with {confidence:.1f}% model confidence."
+            f"**About {predicted_crop.capitalize()}:** Based on N:{N}, P:{P}, K:{K}, "
+            f"Temp:{temperature}°C, Humidity:{humidity}%, pH:{ph}, Rainfall:{rainfall}mm — "
+            f"{predicted_crop.capitalize()} is recommended with {confidence:.1f}% confidence."
         )
 
 
@@ -215,7 +217,6 @@ with tab2:
     st.subheader("📊 Data Insights")
     st.markdown("Explore patterns in the crop dataset used to train the model.")
 
-    # Rainfall per crop
     st.markdown("### 🌧️ Average Rainfall Required Per Crop")
     rainfall_by_crop = (df.groupby("label")["rainfall"].mean()
                         .sort_values(ascending=False).reset_index())
@@ -231,8 +232,8 @@ with tab2:
     plt.close()
 
     st.divider()
-
     ins_col1, ins_col2 = st.columns(2)
+
     with ins_col1:
         st.markdown("### 🧪 Avg Soil Nutrients Per Crop (N, P, K)")
         npk_df = (df.groupby("label")[["N", "P", "K"]].mean()
@@ -258,7 +259,6 @@ with tab2:
         plt.close()
 
     st.divider()
-
     st.markdown("### 🔗 Feature Correlation Heatmap")
     fig4, ax4 = plt.subplots(figsize=(9, 6))
     sns.heatmap(df.drop("label", axis=1).corr(), annot=True, fmt=".2f",
@@ -269,8 +269,7 @@ with tab2:
     plt.close()
 
     st.divider()
-
-    st.markdown("### 🎯 Feature Importance — What affects prediction most?")
+    st.markdown("### 🎯 Feature Importance")
     importance_df = pd.DataFrame({
         "Feature":    FEATURES,
         "Importance": model.feature_importances_
@@ -287,14 +286,10 @@ with tab2:
 
     top_feat  = importance_df.iloc[-1]["Feature"]
     top_score = importance_df.iloc[-1]["Importance"]
-    st.success(
-        f"🏆 **Most important feature: {top_feat}** (score: {top_score:.3f}) — "
-        f"This single feature has the most influence on which crop is recommended."
-    )
+    st.success(f"🏆 **Most important: {top_feat}** (score: {top_score:.3f})")
 
     st.divider()
-
-    st.markdown("### 🌿 Dataset — Samples Per Crop")
+    st.markdown("### 🌿 Samples Per Crop")
     crop_counts = df["label"].value_counts().sort_values(ascending=True)
     fig6, ax6   = plt.subplots(figsize=(8, 7))
     ax6.barh(crop_counts.index, crop_counts.values,
@@ -312,11 +307,6 @@ with tab2:
 with tab3:
 
     st.subheader("🏆 Model Comparison — All 5 Algorithms")
-    st.markdown(
-        "We trained 5 different ML algorithms on the same dataset "
-        "and compared their accuracy."
-    )
-
     results_df = pd.DataFrame({
         "Model":    list(model_results.keys()),
         "Accuracy": [f"{v}%" for v in model_results.values()]
@@ -325,8 +315,6 @@ with tab3:
     st.dataframe(results_df, use_container_width=True)
 
     st.divider()
-    st.markdown("### 📊 Accuracy Chart")
-
     names  = list(model_results.keys())
     scores = list(model_results.values())
     colors = ["#2ECC71" if s == max(scores) else "#85C1E9" for s in scores]
@@ -338,63 +326,38 @@ with tab3:
     ax7.set_ylim([min(scores) - 5, 103])
     for bar, score in zip(bars, scores):
         ax7.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.3,
-                 f"{score}%", ha="center", va="bottom",
-                 fontsize=10, fontweight="bold")
+                 f"{score}%", ha="center", va="bottom", fontsize=10, fontweight="bold")
     plt.tight_layout()
     st.pyplot(fig7)
     plt.close()
 
     st.divider()
-
     st.markdown("### 🤔 Why is Random Forest the saved model?")
     best_model = max(model_results, key=model_results.get)
-    best_score = model_results[best_model]
     rf_score   = model_results.get("Random Forest", 0)
-
     mc1, mc2, mc3 = st.columns(3)
     with mc1:
-        st.metric("Best Accuracy", f"{best_score}%", delta=f"{best_model}")
+        st.metric("Best Accuracy", f"{model_results[best_model]}%", delta=best_model)
     with mc2:
-        st.metric("Random Forest Accuracy", f"{rf_score}%")
+        st.metric("Random Forest", f"{rf_score}%")
     with mc3:
-        diff = round(best_score - rf_score, 2)
+        diff = round(model_results[best_model] - rf_score, 2)
         st.metric("Difference", f"{diff}%",
                   delta="within margin" if diff < 1 else "notable gap")
 
     st.info(
-        "**Why Random Forest is saved even if another model scores higher:** \n\n"
-        "Random Forest provides **feature_importances_** — a built-in way to see "
-        "which features drove each prediction. This powers the 'Why this crop?' "
-        "explanation in Tab 1. SVM and XGBoost don't provide this natively. "
-        "The accuracy difference between top models is typically under 1%, but "
-        "the explainability benefit is significant for farmers who need to "
-        "understand and trust the recommendation."
+        "Random Forest provides **feature_importances_** natively — powering the "
+        "'Why this crop?' SHAP explanation. SVM and XGBoost don't provide this. "
+        "Accuracy difference is under 1% but explainability benefit is significant."
     )
 
     st.divider()
-    st.markdown("### 📚 What each algorithm does — in plain English")
-
     algo_data = {
-        "Ridge Regression": (
-            "A linear model used as a **baseline**. "
-            "Low accuracy confirms crop patterns are non-linear."
-        ),
-        "Random Forest": (
-            "100 decision trees voting together. Handles non-linear patterns, "
-            "gives feature importance. **Primary model.**"
-        ),
-        "CatBoost": (
-            "Gradient boosting designed for categorical variables. "
-            "Builds trees sequentially, each fixing previous mistakes."
-        ),
-        "XGBoost": (
-            "Gradient boosting with L1/L2 regularisation. "
-            "Widely used in industry and ML competitions."
-        ),
-        "SVM (RBF)": (
-            "Finds the best boundary separating each crop class. "
-            "RBF kernel handles non-linear boundaries."
-        ),
+        "Ridge Regression": "Linear baseline. 8.64% confirms non-linear patterns.",
+        "Random Forest":    "100 trees voting. Feature importance. **Primary model.**",
+        "CatBoost":         "Gradient boosting for categorical variables.",
+        "XGBoost":          "Gradient boosting with L1/L2 regularisation.",
+        "SVM (RBF)":        "Finds best class boundary. RBF = non-linear kernel.",
     }
     for algo, desc in algo_data.items():
         score = model_results.get(algo, "N/A")
@@ -413,24 +376,15 @@ with tab4:
         "to get the most suitable **fertiliser recommendation**."
     )
 
-    # ── Soil and crop dropdowns ───────────────────────────────
-    # selectbox = dropdown — used for categorical options
-    # The options come directly from the saved encoder classes
-    # so they always match exactly what the model was trained on
     f_col1, f_col2 = st.columns(2)
-
     with f_col1:
-        selected_soil = st.selectbox(
-            "Soil Type",
-            options=list(fert_soil_le.classes_),
-            help="Select the type of soil in your field"
-        )
+        selected_soil = st.selectbox("Soil Type",
+                                     options=list(fert_soil_le.classes_),
+                                     help="Select the type of soil in your field")
     with f_col2:
-        selected_crop = st.selectbox(
-            "Crop Type",
-            options=list(fert_crop_le.classes_),
-            help="Select the crop you are growing or planning to grow"
-        )
+        selected_crop = st.selectbox("Crop Type",
+                                     options=list(fert_crop_le.classes_),
+                                     help="Select the crop you are growing")
 
     st.markdown("---")
     st.markdown("**Enter soil and weather measurements:**")
@@ -456,41 +410,20 @@ with tab4:
         st.write("")
 
     st.divider()
-
-    fert_btn = st.button(
-        "🧪 Recommend Fertiliser",
-        type="primary",
-        use_container_width=True,
-        key="fert_btn"
-    )
+    fert_btn = st.button("🧪 Recommend Fertiliser", type="primary",
+                         use_container_width=True, key="fert_btn")
 
     if fert_btn:
-
-        # 1. Encode categorical inputs using saved encoders
-        soil_encoded = fert_soil_le.transform([selected_soil])[0]
-        crop_encoded = fert_crop_le.transform([selected_crop])[0]
-
-        # 2. Build input array — MUST match training column order:
-        #    Temperature, Humidity, Rainfall, pH, N, P, K,
-        #    Soil_encoded, Crop_encoded
-        fert_input = np.array([[
-            f_temp, f_humidity, f_rainfall, f_ph,
-            f_N, f_P, f_K,
-            soil_encoded, crop_encoded
-        ]])
-
-        # 3. Scale using fertilizer scaler (NOT the crop scaler)
+        soil_encoded      = fert_soil_le.transform([selected_soil])[0]
+        crop_encoded      = fert_crop_le.transform([selected_crop])[0]
+        fert_input        = np.array([[f_temp, f_humidity, f_rainfall, f_ph,
+                                       f_N, f_P, f_K, soil_encoded, crop_encoded]])
         fert_input_scaled = fert_scaler.transform(fert_input)
-
-        # 4. Predict
         fert_pred_encoded = fert_model.predict(fert_input_scaled)[0]
         fert_name         = fert_le.inverse_transform([fert_pred_encoded])[0]
+        fert_probs        = fert_model.predict_proba(fert_input_scaled)[0]
+        fert_confidence   = fert_probs[fert_pred_encoded] * 100
 
-        # 5. Confidence scores
-        fert_probs      = fert_model.predict_proba(fert_input_scaled)[0]
-        fert_confidence = fert_probs[fert_pred_encoded] * 100
-
-        # ── Show result ───────────────────────────────────────
         st.success(f"### 🧪 Recommended Fertiliser: **{fert_name.upper()}**")
 
         r1, r2 = st.columns(2)
@@ -505,17 +438,10 @@ with tab4:
                 st.markdown(f"- {fname}: {fprob:.1f}%")
 
         st.divider()
-
-        # ── Feature importance chart ──────────────────────────
         st.subheader("🔎 Why this fertiliser?")
-        st.markdown(
-            "Higher bar = that factor had more influence on this recommendation."
-        )
-
-        feat_names  = ["Temperature", "Humidity", "Rainfall",
-                       "pH", "N", "P", "K", "Soil Type", "Crop Type"]
+        feat_names  = ["Temperature","Humidity","Rainfall","pH",
+                       "N","P","K","Soil Type","Crop Type"]
         importances = fert_model.feature_importances_
-
         imp_df = pd.DataFrame({
             "Feature":    feat_names,
             "Importance": importances
@@ -530,49 +456,256 @@ with tab4:
         st.pyplot(fig_f)
         plt.close()
 
-        # ── Plain English explanation ─────────────────────────
         st.subheader("📝 Plain English Summary")
-
         top_feat = imp_df.iloc[-1]["Feature"]
         st.markdown(
             f"✅ **{top_feat}** is the most influential factor in recommending "
             f"**{fert_name}** for your field."
         )
 
-        # Nutrient deficiency check
         deficient = []
-        if f_N < 5:
-            deficient.append("Nitrogen (N)")
-        if f_P < 5:
-            deficient.append("Phosphorus (P)")
-        if f_K < 5:
-            deficient.append("Potassium (K)")
+        if f_N < 5: deficient.append("Nitrogen (N)")
+        if f_P < 5: deficient.append("Phosphorus (P)")
+        if f_K < 5: deficient.append("Potassium (K)")
 
         if deficient:
-            st.markdown(
-                f"⚠️ Your soil shows **low levels** of: {', '.join(deficient)}. "
-                f"**{fert_name}** helps address this deficiency."
-            )
+            st.markdown(f"⚠️ Low levels of: {', '.join(deficient)}. "
+                        f"**{fert_name}** addresses this deficiency.")
         else:
-            st.markdown(
-                f"✅ Your soil nutrient levels (N:{f_N}, P:{f_P}, K:{f_K}) "
-                f"are adequate. **{fert_name}** will maintain and optimise growth."
-            )
+            st.markdown(f"✅ Nutrient levels adequate. "
+                        f"**{fert_name}** will maintain and optimise growth.")
 
         st.info(
-            f"**Summary:** For **{selected_crop}** grown in **{selected_soil}** soil "
-            f"with temperature {f_temp}°C, humidity {f_humidity}%, "
-            f"rainfall {f_rainfall}mm, and pH {f_ph} — "
-            f"**{fert_name}** is recommended with {fert_confidence:.1f}% confidence."
+            f"**Summary:** For **{selected_crop}** in **{selected_soil}** soil — "
+            f"**{fert_name}** recommended with {fert_confidence:.1f}% confidence."
         )
 
         st.divider()
-
-        # ── Fertilizer model comparison ───────────────────────
-        st.subheader("📊 Fertiliser Model Accuracy Comparison")
+        st.subheader("📊 Fertiliser Model Accuracy")
         fres_df = pd.DataFrame({
             "Model":    list(fert_results.keys()),
             "Accuracy": [f"{v}%" for v in fert_results.values()]
         }).sort_values("Accuracy", ascending=False).reset_index(drop=True)
         fres_df.index = fres_df.index + 1
         st.dataframe(fres_df, use_container_width=True)
+
+
+# ════════════════════════════════════════════════════════════
+# TAB 5 — YIELD PREDICTION
+# KEY DIFFERENCE: This is REGRESSION not classification.
+# We predict a number (tonnes/hectare) not a category.
+# ════════════════════════════════════════════════════════════
+with tab5:
+
+    st.subheader("📈 Crop Yield Prediction")
+    st.markdown(
+        "Select your crop, state and season, then enter field conditions "
+        "to predict **expected yield in tonnes per hectare**."
+    )
+
+    # ── Info box explaining regression ───────────────────────
+    st.info(
+        "**What is yield prediction?** Unlike crop recommendation (which predicts "
+        "a category), yield prediction is a **regression** problem — it predicts "
+        "a continuous number. The model was trained on 50,000 real Indian government "
+        "records covering 75 crops across 7 states."
+    )
+
+    # ── Dropdowns ─────────────────────────────────────────────
+    y_col1, y_col2, y_col3 = st.columns(3)
+
+    with y_col1:
+        # Strip whitespace from season names for display
+        season_display = [s.strip() for s in yield_seasons]
+        selected_season = st.selectbox(
+            "Season",
+            options=yield_seasons,
+            format_func=lambda x: x.strip(),
+            help="Kharif = June-Nov, Rabi = Nov-Apr, Zaid = Apr-Jun"
+        )
+
+    with y_col2:
+        selected_state = st.selectbox(
+            "State",
+            options=yield_states,
+            help="Select your state"
+        )
+
+    with y_col3:
+        selected_crop_yield = st.selectbox(
+            "Crop",
+            options=yield_crops,
+            help="Select the crop you want to grow"
+        )
+
+    st.markdown("---")
+    st.markdown("**Enter field conditions:**")
+
+    yc1, yc2, yc3, yc4 = st.columns(4)
+
+    with yc1:
+        y_temp = st.slider("Temperature (°C)", 10.0, 45.0, 28.0, 0.5, key="y_temp")
+    with yc2:
+        y_humidity = st.slider("Humidity (%)", 10.0, 100.0, 70.0, 0.5, key="y_hum")
+    with yc3:
+        y_moisture = st.slider("Soil Moisture (%)", 10.0, 90.0, 40.0, 0.5, key="y_moist")
+    with yc4:
+        y_area = st.number_input(
+            "Area (hectares)",
+            min_value=0.1,
+            max_value=10000.0,
+            value=1.0,
+            step=0.5,
+            help="Total field area in hectares"
+        )
+
+    yc5, yc6 = st.columns(2)
+    with yc5:
+        y_year = st.slider("Crop Year", 2000, 2030, 2024, 1, key="y_year")
+    with yc6:
+        st.write("")
+
+    st.divider()
+
+    yield_btn = st.button(
+        "📈 Predict Yield",
+        type="primary",
+        use_container_width=True,
+        key="yield_btn"
+    )
+
+    if yield_btn:
+
+        # 1. Encode categorical inputs
+        crop_enc   = yield_crop_le.transform([selected_crop_yield])[0]
+        season_enc = yield_season_le.transform([selected_season])[0]
+        state_enc  = yield_state_le.transform([selected_state])[0]
+
+        # 2. Build input array — MUST match training order:
+        #    Crop, Season, State_Name, Temperature, Humidity,
+        #    Soil_Moisture, Area, Crop_Year
+        yield_input = np.array([[
+            crop_enc, season_enc, state_enc,
+            y_temp, y_humidity, y_moisture,
+            y_area, y_year
+        ]])
+
+        # 3. Scale
+        yield_input_scaled = yield_scaler.transform(yield_input)
+
+        # 4. Predict yield per hectare
+        yield_pred = yield_model.predict(yield_input_scaled)[0]
+        yield_pred = max(0, yield_pred)   # can't have negative yield
+
+        # 5. Calculate total production
+        total_production = yield_pred * y_area
+
+        # ── Show results ──────────────────────────────────────
+        st.success(
+            f"### 📈 Predicted Yield: **{yield_pred:.2f} tonnes/hectare**"
+        )
+
+        m1, m2, m3 = st.columns(3)
+        with m1:
+            st.metric(
+                "Yield per Hectare",
+                f"{yield_pred:.2f} t/ha",
+                help="Predicted tonnes of crop per hectare of land"
+            )
+        with m2:
+            st.metric(
+                "Total Production",
+                f"{total_production:.2f} tonnes",
+                help=f"For your {y_area} hectare field"
+            )
+        with m3:
+            # Convert to kg for smaller yields
+            yield_kg = yield_pred * 1000
+            st.metric(
+                "In kg/hectare",
+                f"{yield_kg:.0f} kg/ha",
+                help="Same value expressed in kilograms"
+            )
+
+        st.divider()
+
+        # ── Feature importance chart ──────────────────────────
+        st.subheader("🔎 What factors influenced this prediction?")
+
+        feat_names_yield = ["Crop", "Season", "State",
+                            "Temperature", "Humidity",
+                            "Soil Moisture", "Area", "Year"]
+        imp_yield = yield_model.feature_importances_
+
+        imp_yield_df = pd.DataFrame({
+            "Feature":    feat_names_yield,
+            "Importance": imp_yield
+        }).sort_values("Importance", ascending=True)
+
+        fig_y, ax_y = plt.subplots(figsize=(8, 4))
+        ax_y.barh(imp_yield_df["Feature"], imp_yield_df["Importance"],
+                  color=sns.color_palette("viridis", len(imp_yield_df)))
+        ax_y.set_xlabel("Feature Importance Score")
+        ax_y.set_title("What drives yield prediction most?")
+        plt.tight_layout()
+        st.pyplot(fig_y)
+        plt.close()
+
+        # ── Plain English summary ─────────────────────────────
+        st.subheader("📝 Plain English Summary")
+
+        top_yield_feat = imp_yield_df.iloc[-1]["Feature"]
+        st.markdown(
+            f"✅ **{top_yield_feat}** has the most influence on predicted yield "
+            f"for {selected_crop_yield} in {selected_state}."
+        )
+
+        # Season insight
+        season_clean = selected_season.strip()
+        season_tips = {
+            "Kharif":     "Kharif crops depend heavily on monsoon rainfall (June–November).",
+            "Rabi":       "Rabi crops grow in winter (November–April) with irrigation.",
+            "Summer":     "Summer crops need irrigation and heat-tolerant varieties.",
+            "Whole Year": "Year-round crops need consistent soil moisture management.",
+            "Autumn":     "Autumn crops benefit from post-monsoon soil moisture.",
+            "Winter":     "Winter crops need cold tolerance and frost protection."
+        }
+        tip = season_tips.get(season_clean, "")
+        if tip:
+            st.markdown(f"🌦️ **Season note:** {tip}")
+
+        st.info(
+            f"**Summary:** **{selected_crop_yield}** grown in **{selected_state}** "
+            f"during **{season_clean}** season on **{y_area} hectares** — "
+            f"predicted yield is **{yield_pred:.2f} t/ha** "
+            f"({total_production:.2f} tonnes total)."
+        )
+
+        st.divider()
+
+        # ── Regression model comparison ───────────────────────
+        st.subheader("📊 Yield Model Comparison — Regression Metrics")
+        st.markdown(
+            "Unlike classification (accuracy %), regression uses **R²**, **RMSE** and **MAE**."
+        )
+
+        comp_rows = []
+        for mname, metrics in yield_results.items():
+            comp_rows.append({
+                "Model": mname,
+                "R² Score": metrics["R2"],
+                "RMSE (t/ha)": metrics["RMSE"],
+                "MAE (t/ha)": metrics["MAE"]
+            })
+        comp_df = pd.DataFrame(comp_rows).sort_values(
+            "R² Score", ascending=False).reset_index(drop=True)
+        comp_df.index = comp_df.index + 1
+        st.dataframe(comp_df, use_container_width=True)
+
+        st.markdown(
+            "**How to read these metrics:**\n\n"
+            "- **R²**: How much yield variation the model explains. "
+            "0.9089 = explains 90.89% of variation — very strong.\n\n"
+            "- **RMSE**: Average prediction error in tonnes/hectare. Lower = better.\n\n"
+            "- **MAE**: Average absolute error. More interpretable than RMSE."
+        )
