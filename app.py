@@ -90,6 +90,15 @@ def load_models():
     yield_seasons    = joblib.load("models/yield_seasons.pkl")
     yield_states     = joblib.load("models/yield_states.pkl")
 
+# Handle case where pkl saved a LabelEncoder instead of a list
+    from sklearn.preprocessing import LabelEncoder as LE
+    if isinstance(yield_crops, LE):
+        yield_crops = list(yield_crops.classes_)
+    if isinstance(yield_seasons, LE):
+        yield_seasons = list(yield_seasons.classes_)
+    if isinstance(yield_states, LE):
+        yield_states = list(yield_states.classes_)
+
     return (
         model, scaler, encoder, results,
         fert_model, fert_scaler, fert_encoder, fert_soil_enc, fert_crop_enc, fert_results,
