@@ -41,3 +41,4 @@ Thumbs.db
 
 # CatBoost info
 catboost_info/
+models/
