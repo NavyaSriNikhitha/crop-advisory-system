@@ -15,6 +15,15 @@
 import matplotlib
 matplotlib.use("Agg")                # fixes threading issue on Windows Python 3.13
 
+# ── Auto-download models on Streamlit Cloud ───────────────────
+import os
+if not os.path.exists("models/crop_model.pkl"):
+    try:
+        from setup import download_models
+        download_models()
+    except Exception as e:
+        pass  # local dev — models already present
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -1133,6 +1142,7 @@ with tab6:
     # System prompt injected into every message for old SDK compatibility
     # Old SDK versions (v1beta) don't support system_instruction parameter
     FARMING_SYSTEM_PROMPT = """You are an expert AI agricultural advisor for Indian farmers.
+    Always respond in English only.
 You have deep knowledge of:
 - Indian crops: rice, wheat, maize, cotton, sugarcane, pulses, oilseeds, vegetables, fruits
 - Soil types: alluvial, black, red laterite, sandy, clayey, silty

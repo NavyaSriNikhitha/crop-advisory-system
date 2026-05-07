@@ -11,3 +11,4 @@ xgboost
 google-genai
 chromadb
 sentence-transformers
+gdown
