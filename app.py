@@ -18,7 +18,7 @@ matplotlib.use("Agg")                # fixes threading issue on Windows Python 3
 # ── Auto-download models on Streamlit Cloud ───────────────────
 import os
 
-# Handle double-folder issue from gdown download
+# Fix double folder issue from gdown download
 if os.path.exists("models/models/crop_model.pkl"):
     import shutil
     for f in os.listdir("models/models"):
@@ -29,12 +29,19 @@ if not os.path.exists("models/crop_model.pkl"):
     try:
         from setup import download_models
         download_models()
-        # Fix double folder if it happened
         if os.path.exists("models/models/crop_model.pkl"):
             import shutil
             for f in os.listdir("models/models"):
                 shutil.move(f"models/models/{f}", f"models/{f}")
             os.rmdir("models/models")
+    except Exception as e:
+        pass
+
+# ── Auto-build knowledge base on Streamlit Cloud ─────────────
+if not os.path.exists("vector_db"):
+    try:
+        from setup import build_knowledge_base
+        build_knowledge_base()
     except Exception as e:
         pass
 
@@ -1165,6 +1172,9 @@ with tab6:
     # System prompt injected into every message for old SDK compatibility
     # Old SDK versions (v1beta) don't support system_instruction parameter
     FARMING_SYSTEM_PROMPT = """You are an expert AI agricultural advisor for Indian farmers.
+
+IMPORTANT: You MUST always respond in ENGLISH ONLY. Never use Hindi, Telugu, or any other language. only if the user writes in another language, respond in that language.
+
 You have deep knowledge of:
 - Indian crops: rice, wheat, maize, cotton, sugarcane, pulses, oilseeds, vegetables, fruits
 - Soil types: alluvial, black, red laterite, sandy, clayey, silty
