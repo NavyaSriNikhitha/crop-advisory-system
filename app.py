@@ -17,12 +17,26 @@ matplotlib.use("Agg")                # fixes threading issue on Windows Python 3
 
 # ── Auto-download models on Streamlit Cloud ───────────────────
 import os
+
+# Handle double-folder issue from gdown download
+if os.path.exists("models/models/crop_model.pkl"):
+    import shutil
+    for f in os.listdir("models/models"):
+        shutil.move(f"models/models/{f}", f"models/{f}")
+    os.rmdir("models/models")
+
 if not os.path.exists("models/crop_model.pkl"):
     try:
         from setup import download_models
         download_models()
+        # Fix double folder if it happened
+        if os.path.exists("models/models/crop_model.pkl"):
+            import shutil
+            for f in os.listdir("models/models"):
+                shutil.move(f"models/models/{f}", f"models/{f}")
+            os.rmdir("models/models")
     except Exception as e:
-        pass  # local dev — models already present
+        pass
 
 import streamlit as st
 import pandas as pd
@@ -90,7 +104,7 @@ def load_models():
     yield_seasons    = joblib.load("models/yield_seasons.pkl")
     yield_states     = joblib.load("models/yield_states.pkl")
 
-# Handle case where pkl saved a LabelEncoder instead of a list
+    # Handle case where pkl saved a LabelEncoder instead of a list
     from sklearn.preprocessing import LabelEncoder as LE
     if isinstance(yield_crops, LE):
         yield_crops = list(yield_crops.classes_)
@@ -1151,7 +1165,6 @@ with tab6:
     # System prompt injected into every message for old SDK compatibility
     # Old SDK versions (v1beta) don't support system_instruction parameter
     FARMING_SYSTEM_PROMPT = """You are an expert AI agricultural advisor for Indian farmers.
-    Always respond in English only.
 You have deep knowledge of:
 - Indian crops: rice, wheat, maize, cotton, sugarcane, pulses, oilseeds, vegetables, fruits
 - Soil types: alluvial, black, red laterite, sandy, clayey, silty
@@ -1358,6 +1371,29 @@ Now answer the following farmer's question:
             return f"[Yield model error: {e}. Answering from general knowledge.]"
 
     # ── Helper: get Gemini response ───────────────────────────
+    def call_gemini(prompt: str) -> str:
+        """
+        Calls Gemini with automatic retry for 503 (server overload) errors.
+        Retries up to 3 times with increasing wait time.
+        """
+        import time
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                response = gemini_client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt
+                )
+                return response.text
+            except Exception as e:
+                error_str = str(e)
+                # 503 = server overload — retry after waiting
+                if "503" in error_str and attempt < max_retries - 1:
+                    wait = (attempt + 1) * 3   # 3s, 6s, 9s
+                    time.sleep(wait)
+                    continue
+                raise e  # re-raise if not 503 or out of retries
+
     def get_gemini_response(user_message: str, model_context: str = "") -> tuple:
         """
         RAG-powered Gemini response with 3-tier priority:
@@ -1381,10 +1417,7 @@ Now answer the following farmer's question:
                 f"Based on the ML model prediction above, answer this farmer's question:\n"
                 f"{user_message}\n\nGive detailed farming advice referencing the prediction."
             )
-            response = gemini_client.models.generate_content(
-                model="gemini-2.5-flash", contents=full_prompt
-            )
-            return response.text, "ml_model"
+            return call_gemini(full_prompt), "ml_model"
 
         # ── Priority 2: RAG knowledge base search ─────────────
         if rag_loaded and rag_collection is not None:
@@ -1395,10 +1428,7 @@ Now answer the following farmer's question:
                     context=rag_result["context"],
                     system_prompt=FARMING_SYSTEM_PROMPT
                 )
-                response = gemini_client.models.generate_content(
-                    model="gemini-2.5-flash", contents=full_prompt
-                )
-                return response.text, "rag"
+                return call_gemini(full_prompt), "rag"
 
         # ── Priority 3: General Gemini fallback ───────────────
         full_prompt = build_general_prompt(
@@ -1406,10 +1436,7 @@ Now answer the following farmer's question:
             system_prompt=FARMING_SYSTEM_PROMPT,
             history_text=history_text
         )
-        response = gemini_client.models.generate_content(
-            model="gemini-2.5-flash", contents=full_prompt
-        )
-        return response.text, "general"
+        return call_gemini(full_prompt), "general"
 
     # ── Chat UI ───────────────────────────────────────────────
     # Display conversation history
