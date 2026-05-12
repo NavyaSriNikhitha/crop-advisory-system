@@ -1173,7 +1173,7 @@ with tab6:
     # Old SDK versions (v1beta) don't support system_instruction parameter
     FARMING_SYSTEM_PROMPT = """You are an expert AI agricultural advisor for Indian farmers.
 
-IMPORTANT: You MUST always respond in ENGLISH ONLY. Never use Hindi, Telugu, or any other language. only if the user writes in another language, respond in that language.
+IMPORTANT: You MUST always respond in ENGLISH ONLY. Never use Hindi, Telugu, or any other language. only if the user writes in another language, then respond in that language only.
 
 You have deep knowledge of:
 - Indian crops: rice, wheat, maize, cotton, sugarcane, pulses, oilseeds, vegetables, fruits
@@ -1448,9 +1448,35 @@ Now answer the following farmer's question:
         )
         return call_gemini(full_prompt), "general"
 
+    # ── Helper: split response into summary + detail ──────────
+    def split_response(text: str) -> tuple:
+        """
+        Splits full response into:
+        - summary: first 2-3 sentences (shown directly)
+        - detail: rest of the response (shown in expander)
+        """
+        # Split by sentences
+        import re
+        sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+
+        if len(sentences) <= 3:
+            # Short response — show all, no expander needed
+            return text, None
+
+        # First 2 sentences = summary
+        summary = " ".join(sentences[:2])
+        detail  = " ".join(sentences[2:])
+        return summary, detail
+
     # ── Chat UI ───────────────────────────────────────────────
     # Display conversation history
     chat_container = st.container()
+
+    # Session state for edit mode
+    if "edit_index" not in st.session_state:
+        st.session_state.edit_index = None
+    if "edit_text" not in st.session_state:
+        st.session_state.edit_text = ""
 
     with chat_container:
         if not st.session_state.chat_history:
@@ -1460,14 +1486,79 @@ Now answer the following farmer's question:
                 "I can also run the prediction models for you!"
             )
         else:
-            for msg in st.session_state.chat_history:
+            for idx, msg in enumerate(st.session_state.chat_history):
                 if msg["role"] == "user":
                     with st.chat_message("user", avatar="👨‍🌾"):
-                        st.markdown(msg["content"])
+
+                        # ── Edit mode ─────────────────────────────────
+                        if st.session_state.edit_index == idx:
+                            edited = st.text_area(
+                                "Edit your question:",
+                                value=st.session_state.edit_text,
+                                key=f"edit_area_{idx}"
+                            )
+                            col_save, col_cancel = st.columns(2)
+                            with col_save:
+                                if st.button("✅ Send edited query", key=f"save_{idx}"):
+                                    # Remove this message and everything after it
+                                    st.session_state.chat_history = \
+                                        st.session_state.chat_history[:idx]
+                                    st.session_state.edit_index = None
+                                    # Re-process edited query
+                                    intent       = detect_intent(edited)
+                                    model_result = ""
+                                    used_model   = None
+                                    if intent == "crop":
+                                        model_result = run_crop_model(edited)
+                                        used_model   = "Crop Recommendation (Random Forest)"
+                                    elif intent == "fertilizer":
+                                        model_result = run_fertilizer_model(edited)
+                                        used_model   = "Fertilizer Recommendation (Random Forest)"
+                                    elif intent == "yield":
+                                        model_result = run_yield_model(edited)
+                                        used_model   = "Yield Prediction (Random Forest Regressor)"
+                                    try:
+                                        ai_response, response_mode = get_gemini_response(
+                                            edited, model_result
+                                        )
+                                    except Exception as e:
+                                        ai_response   = f"⚠️ Error: {e}"
+                                        response_mode = "error"
+                                    st.session_state.chat_history.append({
+                                        "role": "user", "content": edited
+                                    })
+                                    st.session_state.chat_history.append({
+                                        "role":          "assistant",
+                                        "content":       ai_response,
+                                        "used_model":    used_model,
+                                        "response_mode": response_mode
+                                    })
+                                    st.rerun()
+                            with col_cancel:
+                                if st.button("❌ Cancel", key=f"cancel_{idx}"):
+                                    st.session_state.edit_index = None
+                                    st.rerun()
+                        else:
+                            # ── Normal display with edit button ───────
+                            st.markdown(msg["content"])
+                            if st.button("✏️ Edit", key=f"edit_{idx}",
+                                         help="Edit this question and get a new answer"):
+                                st.session_state.edit_index = idx
+                                st.session_state.edit_text  = msg["content"]
+                                st.rerun()
+
                 else:
                     with st.chat_message("assistant", avatar="🌾"):
-                        st.markdown(msg["content"])
-                        # Show badge indicating which mode was used
+
+                        # ── Short answer + expandable detail ──────────
+                        summary, detail = split_response(msg["content"])
+                        st.markdown(summary)
+
+                        if detail:
+                            with st.expander("📖 Show detailed explanation"):
+                                st.markdown(detail)
+
+                        # ── Mode badge ────────────────────────────────
                         mode = msg.get("response_mode", "")
                         if mode == "rag":
                             st.caption("📚 **Answer from Knowledge Base** (RAG)")
